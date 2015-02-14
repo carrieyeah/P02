@@ -171,7 +171,6 @@ nav ul li a {
 	text-decoration : none;
 }
 nav li{
-
 	display: inline-block;
     /*position: relative;*/
      -webkit-transition: background-color 0.2s;
@@ -301,11 +300,13 @@ nav li{
 	width: 100%;
 	margin:0px;
 	text-align: left;
+
 }
 
 .type-box8 h1{
 	font-family: 'Bubblegum Sans', cursive;
 	font-weight: 700;
+	color: #EF4564;
 	padding:0px;
 	margin:0px;
 
@@ -314,7 +315,6 @@ nav li{
 .type-box8 ul li{
 	position: relative;
 	display: block;
-	font-weight: 500;
 	text-align: left;
 	padding:0px;
 	margin-left:-2.5rem;
@@ -334,6 +334,7 @@ nav li{
 .type-box5 h2{
 	font-family: 'Bubblegum Sans', cursive;
 	display: block;
+	color: #47B484;
 	text-align: left;
 	padding:0px;
 	margin:0px;
@@ -354,7 +355,6 @@ nav li{
 	display:inline-block;
 	width: 100%;
 	text-align: left;
-
 	margin:0px;
 }
 .type-box6 a {
@@ -465,7 +465,7 @@ nav li{
 	height: 100px;
 	margin: 0;
 	padding: 1rem;
-	background-color: #e54724;
+	background-color: #EF4564;
 
 }
 .color-swatch4 {
@@ -554,6 +554,7 @@ nav li{
 }
 .booking-buttons a{
 	text-decoration: none;
+	border-radius: 1rem;
 	padding-left: 6rem;
 	padding-right: 6rem;
 	padding-top: 1rem;
@@ -581,9 +582,9 @@ nav li{
 	padding-right: 4rem;
 	margin-bottom: 2rem;
 	text-align: center;
-	color:#6cc4a2;
+	color:#b52185;
 	font-size: .8rem;
-	border: 1px solid #6cc4a2;
+	border: 1px solid #b52185;
 	border-radius: 2rem;
 	display:inline;
 	width:50%;
@@ -601,23 +602,22 @@ nav li{
 .more a, .less a{
 
 	text-decoration: none;
-	width: 25px;
-	height: 25px;
-	color:#fed60e;
-	border: 1px solid #fed60e;
-	border-radius: 10%;
-	display:inline;
-    position: relative;
-    margin: 0;
-	padding-top: 1rem;
-	padding-bottom: 1rem;
+	width: 50px;
+	height: 50px;
+	color:#b52185;
+	border: 1px solid #b52185;
+	border-radius: 50%;
+	padding: 1rem;
+	display:block;
+    position: absolute;
+    text-align: center;
      -webkit-transition: background-color 0.2s;
 	transition: background-color 0.2s;
     
 }
 
 .confirm a:hover{
-	background-color: #6cc4a2;
+	background-color: #b52185;
 	color: white;
 }
 
@@ -627,7 +627,7 @@ nav li{
 }
 
 .more a:hover,.less a:hover{
-	background-color: #fed60e;
+	background-color: #b52185;
 	color: white;
 	font-weight: 700;
 }
@@ -757,6 +757,7 @@ form{
 	img: 300%;
 }
 .nav-template{
+	width: 100%;
 	padding: 2rem;
 	padding-bottom: 2rem;
 	margin-bottom: 1rem;
@@ -780,7 +781,7 @@ form{
 
 }
 .navbar-template nav li{
-	display: block;
+	display: inline-block;
 	/*background-color: white;*/
 	/*border: 1px dotted #e54724;*/
 }
