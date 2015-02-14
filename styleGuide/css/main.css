@@ -1,0 +1,811 @@
+
+/*CODE DESCRIPTION*/
+
+.code-discription p,.code-discription h3,.code-discription code{
+	/*text-align:center;*/
+	line-height: 1.5rem;
+	margin: 2px;
+	margin-left: 2.5rem;
+	padding: 0px;
+	display: block;
+	position: relative;
+	text-align: left;
+}
+.code-discription {
+	margin-bottom: 1rem;
+	border: 1px dotted #b52185;
+	position: relative; 
+	display: block;
+}
+.font-combination .code-discription {
+	/*margin-left: -2.5rem;*/
+	border: 0;
+	position: relative; 
+	border: 1px dotted #b52185;
+	display: block;
+	
+}
+
+.font-combination .code-discription p,.font-combination .code-discription h3,.font-combination .code-discription code{
+
+	line-height: 1.5rem;
+	margin: 2px;
+	padding: 0px;
+
+}
+
+
+
+.input .code-discription{
+	display: inline-block;
+	position: relative;
+}
+
+.calendar-template .code-discription p{
+	line-height: 1.5rem;
+	margin-top: 4rem;
+	margin: 2px;
+	margin-left: 2.5rem;
+	padding: 0px;
+	display: block;
+	position: relative;
+	text-align: left;
+
+
+}
+
+.navbar-template .code-discription{
+
+	display: inline-block;
+	position: relative;
+
+}
+
+/*NORMAL ELEMENTS*/
+.empty {
+		display:inline-block;
+		float:left;
+		margin: 0; 
+		text-align: center;
+}
+
+
+li{
+	font-family: "Open Sans";
+	font-size : 0.9rem;
+	font-weight: 300;
+	text-align: left;
+}
+p{
+	font-family: "Open Sans";
+	font-size : 0.9rem;
+	font-weight: 300;
+	margin: 2rem;
+	padding: 2rem;
+}
+
+h1{
+ 	position: relative;
+ 	display: inline-block;
+	font-weight: 700;
+	font-family: "Oswald";
+	font-size : 3rem;
+	padding: 1rem;
+
+}
+
+ h2{
+	font-weight: 700;
+	font-size : 2rem;
+}
+ a{
+	font-family: "Open Sans";
+	font-size : 1rem;
+	font-weight: 400;
+	margin: 2rem;
+	padding: 2rem;
+}
+
+
+
+body{
+
+	font-family: "Open Sans",'Oswald', sans-serif;
+	color:black;
+	font-size:0.8rem;
+	margin:0;
+}
+
+img{
+	height: 80px;
+	width: auto;
+}
+
+ul{
+	display: block;
+	text-decoration: none;
+}
+
+li{
+	display: block;
+	text-decoration: none;
+	text-align: center;
+}
+
+/*HEADER*/
+.headerimg img{
+	/*position: fixed;*/
+	width: 100%;
+	height: auto;
+}
+
+header{
+
+}
+nav{
+
+	background-color: #b52185;
+
+}
+nav a {
+
+	color: white;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+nav ul:hover li:hover a:hover {
+	color: #b52185;
+}
+nav li:hover{
+	
+	color: #fed60e;
+	
+	background-color: #fed60e;
+}
+
+
+nav ul li a {
+	display: inline-block;
+	color: #fed60e;
+	text-decoration : none;
+}
+nav li{
+
+	display: inline-block;
+    /*position: relative;*/
+     -webkit-transition: background-color 0.2s;
+	transition: background-color 0.2s;
+}
+
+
+
+/*HEADER DONE*/
+
+
+
+
+/*TYPOGRAPHY*/
+.typography{
+	font-family: "Open Sans";
+	width: 100%;
+	position:relative;
+	margin: 1rem;
+	padding: 2rem;
+	line-height: 2rem;
+
+
+}
+.typography h3{
+	/*margin-left: 4rem;*/
+}
+.typography p{
+/*	margin-left: 2rem;
+	margin-right:0;
+	margin-top:0;
+	margin-bottom:2rem;*/
+
+}
+
+.type-box1 {
+	position: relative;
+	display: inline-block;
+	width: 100%;
+	margin: 0;
+	padding-top: 2rem;
+	text-align: left;
+}
+.type-box1 h3{
+	font-weight: 300;
+	margin-left: 2.5rem;
+	display: inline-block;
+
+}
+.type-box1 ul li{
+	font-weight: 300;
+	text-align: left;
+	margin-left:0px;
+}
+
+.type-box2 {
+	position: relative;
+	display: inline-block;
+	width: 100%;
+	margin: 0;
+	padding-top: 2rem;
+	text-align: left;
+}
+.type-box2 h3{
+	font-weight: 400;
+	margin-left: 2.5rem;
+	display: inline-block;
+}
+.type-box2 ul li{
+	font-weight: 400;
+	text-align: left;
+	margin-left:0px;
+}
+
+.type-box3 {
+	position: relative;
+	display: inline-block;
+	width: 100%;
+	margin: 0;
+	padding-top: 2rem;
+	text-align: left;
+
+}
+.type-box3 h3{
+	font-weight: 500;
+	margin-left: 2.5rem;
+	display: inline-block;
+}
+.type-box3 ul li{
+	font-weight: 500;
+	text-align: left;
+	margin-left:0px;
+}
+
+
+.type-box4{
+	font-family: 'Bubblegum Sans', cursive;
+	position: relative;
+	display: inline-block;
+	width: 100%;
+	margin:0px;
+	padding-top:2rem;
+	text-align: left;
+
+}
+.type-box4 h3{
+	font-family: 'Bubblegum Sans', cursive;
+	font-weight: 400;
+	margin-left: 2.5rem;
+	display: inline-block;
+	line-height: 0.5rem;
+	font-size: 4rem;
+}
+
+.type-box4 ul li{
+	font-family: 'Bubblegum Sans', cursive;
+	letter-spacing: 0.15rem;
+	font-weight: 500;
+	text-align: left;
+	margin-left:0px;
+}
+
+.type-box8{
+	font-family: "Oswald";
+	position: relative;
+	display: inline-block;
+	width: 100%;
+	margin:0px;
+	text-align: left;
+}
+
+.type-box8 h1{
+	font-family: 'Bubblegum Sans', cursive;
+	font-weight: 700;
+	padding:0px;
+	margin:0px;
+
+}
+
+.type-box8 ul li{
+	position: relative;
+	display: block;
+	font-weight: 500;
+	text-align: left;
+	padding:0px;
+	margin-left:-2.5rem;
+	
+}
+
+.type-box5{
+	position:relative;
+	display:inline-block;
+	width: 100%;
+	margin:0px;
+	padding-top: 0.8rem;
+	text-align:left;
+	
+
+}
+.type-box5 h2{
+	font-family: 'Bubblegum Sans', cursive;
+	display: block;
+	text-align: left;
+	padding:0px;
+	margin:0px;
+
+}
+
+.type-box5 ul li{
+	text-decoration: none;
+	text-align: left;
+	padding:0px;
+	margin:0px;
+	margin-left:-2.5rem;
+}
+
+.type-box6{
+	padding-top:0.8rem;
+	position:relative;
+	display:inline-block;
+	width: 100%;
+	text-align: left;
+
+	margin:0px;
+}
+.type-box6 a {
+	/*display:block;*/
+	text-align:left;
+	padding:0px;
+	margin:0px;
+}
+
+.type-box6 ul li{
+	text-decoration: none;
+	text-align: left;
+	padding:0px;
+	margin:0px;
+	margin-left:-2.5rem;
+}
+.type-box7{
+	padding-top:0.8rem;
+	position: relative;
+	display: inline-block;
+	width: 100%;
+	text-align: left;
+	margin:0px;
+}
+.type-box7 p{
+	display:block;
+	padding:0px;
+	margin:0px; 
+	
+}
+
+.type-box7 ul li{
+	text-decoration: none;
+	text-align:left;
+	padding:0px;
+	margin-left:-2.5rem; 
+}
+
+.font-combination{
+	width: 90%;
+	position:relative;
+	display: inline-block;
+	margin: 1rem;
+	padding: 1rem;
+	padding-top: 4rem;
+	padding-left: 4rem;
+}
+
+
+/*COLOR*/
+
+.colorings{
+	padding-left: 4rem;
+}
+
+.color-template{
+	width: 100%;
+	position:relative;
+	margin: 1rem;
+	padding: 1rem;
+	/*padding-left: 4rem;*/
+
+
+}
+.color-box{
+
+	font-family: "Open Sans";
+	margin: 1rem;
+	padding: 1rem;
+
+	
+}
+
+.color-box ul li{
+	text-decoration: none;
+	margin: 0;
+	padding: 0;
+	left: 50%;
+    margin-right: -50%;
+}
+
+.color-swatch1 {
+ 	border-radius: 50%;
+	position: absolute;
+	display: block;
+	width: 100px;
+	height: 100px;
+	margin: 0;
+	padding: 1rem;
+	background-color: #b52185;
+}
+
+.color-swatch2 {
+ 	border-radius: 50%;
+	position: absolute;
+	display: block;
+	width: 100px;
+	height: 100px;
+	margin: 0;
+	padding: 1rem;
+	background-color: #fed60e;
+}
+.color-swatch3 {
+ 	border-radius: 50%;
+	position: absolute;
+	display: block;
+	width: 100px;
+	height: 100px;
+	margin: 0;
+	padding: 1rem;
+	background-color: #e54724;
+
+}
+.color-swatch4 {
+ 	border-radius: 50%;
+	position: absolute;
+	display: block;
+	width: 100px;
+	height: 100px;
+	margin: 0;
+	padding: 1rem;
+	background-color: #6cc4a2;
+}
+.color-swatch5 {
+ 	border-radius: 50%;
+	position: absolute;
+	display: block;
+	width: 100px;
+	height: 100px;
+	margin: 0;
+	padding: 1rem;
+	background-color: #b51f27;
+}
+
+.color-swatch6 {
+ 	border-radius: 50%;
+	position: absolute;
+	display: block;
+	width: 100px;
+	height: 100px;
+	margin: 0;
+	padding: 1rem;
+	background-color: #000000;
+}
+
+
+/*ICON*/
+.icon-template{
+	width: 90%;
+	position:relative;
+	margin-left: 1rem;
+	padding: 1rem;
+}
+.icon-box {
+
+	font-family: "Open Sans";
+	/*border: 0.1rem solid black;*/
+	position: relative;
+	display: inline-block;
+	
+	margin: 1rem;
+	padding: 1rem;
+
+}
+
+.icon-box p{
+
+	margin: 0;
+	padding: 0;
+	left: 50%;
+    margin-right: -50%;
+}
+
+.icon-box img{
+	left: 50%;
+    margin-right: -50%;
+}
+
+/*BUTTONS*/
+
+
+
+.button-template{
+	width: 90%;
+	position:relative;
+	display: inline-block;
+	margin-left: 4rem;	
+}
+
+.button-class{
+	padding-top: 4rem;
+	padding-bottom: 10rem;
+}
+
+.booking-buttons{
+	padding: 2rem;
+}
+.booking-buttons a{
+	text-decoration: none;
+	padding-left: 6rem;
+	padding-right: 6rem;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+	color:#b52185;
+	font-size: .8rem;
+	border: 1px solid #b52185;
+	border-style: double;
+	display:inline;
+	width:50%;
+    position: relative;
+     -webkit-transition: background-color 0.2s;
+	transition: background-color 0.2s;
+}
+
+.confirm{
+	padding: 2rem;
+}
+
+.confirm a{
+	text-decoration: none;
+	padding-top: 0.4rem;
+	padding-bottom: 0.4rem;
+	padding-left: 4rem;
+	padding-right: 4rem;
+	margin-bottom: 2rem;
+	text-align: center;
+	color:#6cc4a2;
+	font-size: .8rem;
+	border: 1px solid #6cc4a2;
+	border-radius: 2rem;
+	display:inline;
+	width:50%;
+    position: relative;
+     -webkit-transition: background-color 0.2s;
+	transition: background-color 0.2s;
+    
+}
+
+.more ,.less{ 
+	padding: 2rem;
+
+}
+
+.more a, .less a{
+
+	text-decoration: none;
+	width: 25px;
+	height: 25px;
+	color:#fed60e;
+	border: 1px solid #fed60e;
+	border-radius: 10%;
+	display:inline;
+    position: relative;
+    margin: 0;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+     -webkit-transition: background-color 0.2s;
+	transition: background-color 0.2s;
+    
+}
+
+.confirm a:hover{
+	background-color: #6cc4a2;
+	color: white;
+}
+
+.booking-buttons a:hover{
+	background-color: #b52185;
+	color: white;
+}
+
+.more a:hover,.less a:hover{
+	background-color: #fed60e;
+	color: white;
+	font-weight: 700;
+}
+
+
+
+/*CALENDAR*/
+.calendar-template h5{
+
+}
+.calendar-template p,h3, code{
+	text-align:center;
+	line-height: 1.5rem;
+	margin: 2px;
+	padding: 0px;
+	display: block;
+	position: relative;
+}
+
+.calendar-template{
+	padding: 2rem;
+	margin-bottom: 10rem;
+}
+
+.calendar{
+	display: inline-block;
+	padding-bottom: 2rem;
+	margin-bottom: 3rem;
+}
+
+.calendar body {
+	padding: 1rem;
+}
+
+.calendar h5{
+	font-size: 1.5rem;
+	font-weight: 500;
+	color: #EF4564;
+}
+
+.calendar table { 
+  width: 100%; 
+  border-collapse: collapse;
+  padding: 1rem; 
+
+}
+
+
+
+.calendar td, .calendar th {  
+  color: #B52185; 
+  font-weight: 400;
+  padding: 1rem; 
+  border: 1px dotted #47B484; 
+  /*border-style: solid;*/
+
+  text-align: center; 
+  width: 14.2857%;
+}
+
+
+.calendar td{
+	font-weight: 300;
+}
+
+.calendar .old-days {
+	color: #AAA;
+}
+.calendar td:hover {
+background:rgb(181, 33,133);
+color:#ffffff;
+font-weight: 500;
+border-style: solid;
+}
+
+
+@media(max-width: 760px){
+
+.calendar table,.calendar thead, .calendar tbody, .calendar th, .calendar td, .calendar tr{
+  display:block;
+}
+.calendar thead tr{
+  display: none;
+}
+.calendar td{
+	border: none;
+	border-bottom: 1px solid #AAA;
+
+}
+}
+/*FORM*/
+
+.form-template {
+	padding: 2rem;
+	padding-bottom: 2rem;
+	margin-bottom: 1rem;
+}
+.contactyou {
+	margin-bottom: 4rem;
+}
+
+form{
+	width: 100%;
+	position:relative;
+	display: inline-block;
+	/*margin-left: 4rem;*/
+}
+.row{
+	padding-top: 2rem;
+	
+	
+}
+
+.input{
+	padding-left: 2rem;
+	padding-right: 2rem;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+	border: 1px dotted #b52185;
+	border-radius: 1rem;
+	color: #e54724;
+
+}
+
+/*NAV BAR TEMPLATE*/
+.nav-template img:hover{
+	img: 300%;
+}
+.nav-template{
+	padding: 2rem;
+	padding-bottom: 2rem;
+	margin-bottom: 1rem;
+}
+.navbar-template{
+	margin: 4rem;
+	padding-left:0;
+	position: relative;
+}
+
+.navbar-template nav a{
+	color: #e54724;
+
+}
+
+.navbar-template nav a:hover{
+	color: white;
+	/*font-size: 4rem;*/
+	font-weight: 700;
+	
+
+}
+.navbar-template nav li{
+	display: block;
+	/*background-color: white;*/
+	/*border: 1px dotted #e54724;*/
+}
+
+.navbar-template nav li:hover{
+	/*display: block;*/
+	color:white;
+	/*background-color: white;*/
+	/*border: 1px solid #e54724;*/
+}
+.navbar-template nav ul{
+	padding: 0;
+}
+
+.navbar-template nav{
+	padding: 0;
+	background-color: white;
+}
+
+
+
+
+
+/*FOOTER*/
+
+
+
+
