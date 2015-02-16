@@ -18,7 +18,6 @@
 	display: block;
 }
 .font-combination .code-discription {
-	/*margin-left: -2.5rem;*/
 	border: 0;
 	position: relative; 
 	border: 1px dotted #b52185;
@@ -33,7 +32,6 @@
 	padding: 0px;
 
 }
-
 
 
 .input .code-discription{
@@ -76,7 +74,9 @@ li{
 	font-weight: 300;
 	text-align: left;
 }
+
 p{
+
 	font-family: "Open Sans";
 	font-size : 0.9rem;
 	font-weight: 300;
@@ -85,13 +85,12 @@ p{
 }
 
 h1{
+	font-family: "Oswald";
  	position: relative;
  	display: inline-block;
 	font-weight: 700;
-	font-family: "Oswald";
 	font-size : 3rem;
 	padding: 1rem;
-
 }
 
  h2{
@@ -99,17 +98,23 @@ h1{
 	font-size : 2rem;
 }
  a{
-	font-family: "Open Sans";
+	
 	font-size : 1rem;
 	font-weight: 400;
 	margin: 2rem;
 	padding: 2rem;
 }
 
+div{
+	background-repeat: no-repeat;
+}
 
+.bgimg{
+	background-image: url("img/party_background.png");
+}
 
 body{
-
+	
 	font-family: "Open Sans",'Oswald', sans-serif;
 	color:black;
 	font-size:0.8rem;
@@ -117,8 +122,9 @@ body{
 }
 
 img{
-	height: 80px;
-	width: auto;
+	height: auto; 
+	width: 100%;
+	margin:0;
 }
 
 ul{
@@ -128,13 +134,12 @@ ul{
 
 li{
 	display: block;
-	text-decoration: none;
 	text-align: center;
 }
 
+
 /*HEADER*/
 .headerimg img{
-	/*position: fixed;*/
 	width: 100%;
 	height: auto;
 }
@@ -142,6 +147,7 @@ li{
 header{
 
 }
+
 nav{
 
 	background-color: #b52185;
@@ -158,9 +164,7 @@ nav ul:hover li:hover a:hover {
 	color: #b52185;
 }
 nav li:hover{
-	
 	color: #fed60e;
-	
 	background-color: #fed60e;
 }
 
@@ -171,9 +175,7 @@ nav ul li a {
 	text-decoration : none;
 }
 nav li{
-
 	display: inline-block;
-    /*position: relative;*/
      -webkit-transition: background-color 0.2s;
 	transition: background-color 0.2s;
 }
@@ -183,115 +185,14 @@ nav li{
 /*HEADER DONE*/
 
 
-
-
 /*TYPOGRAPHY*/
 .typography{
-	font-family: "Open Sans";
-	width: 100%;
 	position:relative;
 	margin: 1rem;
 	padding: 2rem;
 	line-height: 2rem;
 
 
-}
-.typography h3{
-	/*margin-left: 4rem;*/
-}
-.typography p{
-/*	margin-left: 2rem;
-	margin-right:0;
-	margin-top:0;
-	margin-bottom:2rem;*/
-
-}
-
-.type-box1 {
-	position: relative;
-	display: inline-block;
-	width: 100%;
-	margin: 0;
-	padding-top: 2rem;
-	text-align: left;
-}
-.type-box1 h3{
-	font-weight: 300;
-	margin-left: 2.5rem;
-	display: inline-block;
-
-}
-.type-box1 ul li{
-	font-weight: 300;
-	text-align: left;
-	margin-left:0px;
-}
-
-.type-box2 {
-	position: relative;
-	display: inline-block;
-	width: 100%;
-	margin: 0;
-	padding-top: 2rem;
-	text-align: left;
-}
-.type-box2 h3{
-	font-weight: 400;
-	margin-left: 2.5rem;
-	display: inline-block;
-}
-.type-box2 ul li{
-	font-weight: 400;
-	text-align: left;
-	margin-left:0px;
-}
-
-.type-box3 {
-	position: relative;
-	display: inline-block;
-	width: 100%;
-	margin: 0;
-	padding-top: 2rem;
-	text-align: left;
-
-}
-.type-box3 h3{
-	font-weight: 500;
-	margin-left: 2.5rem;
-	display: inline-block;
-}
-.type-box3 ul li{
-	font-weight: 500;
-	text-align: left;
-	margin-left:0px;
-}
-
-
-.type-box4{
-	font-family: 'Bubblegum Sans', cursive;
-	position: relative;
-	display: inline-block;
-	width: 100%;
-	margin:0px;
-	padding-top:2rem;
-	text-align: left;
-
-}
-.type-box4 h3{
-	font-family: 'Bubblegum Sans', cursive;
-	font-weight: 400;
-	margin-left: 2.5rem;
-	display: inline-block;
-	line-height: 0.5rem;
-	font-size: 4rem;
-}
-
-.type-box4 ul li{
-	font-family: 'Bubblegum Sans', cursive;
-	letter-spacing: 0.15rem;
-	font-weight: 500;
-	text-align: left;
-	margin-left:0px;
 }
 
 .type-box8{
@@ -301,11 +202,13 @@ nav li{
 	width: 100%;
 	margin:0px;
 	text-align: left;
+
 }
 
 .type-box8 h1{
 	font-family: 'Bubblegum Sans', cursive;
 	font-weight: 700;
+	color: #EF4564;
 	padding:0px;
 	margin:0px;
 
@@ -314,11 +217,9 @@ nav li{
 .type-box8 ul li{
 	position: relative;
 	display: block;
-	font-weight: 500;
 	text-align: left;
 	padding:0px;
 	margin-left:-2.5rem;
-	
 }
 
 .type-box5{
@@ -334,6 +235,7 @@ nav li{
 .type-box5 h2{
 	font-family: 'Bubblegum Sans', cursive;
 	display: block;
+	color: #47B484;
 	text-align: left;
 	padding:0px;
 	margin:0px;
@@ -354,11 +256,9 @@ nav li{
 	display:inline-block;
 	width: 100%;
 	text-align: left;
-
 	margin:0px;
 }
 .type-box6 a {
-	/*display:block;*/
 	text-align:left;
 	padding:0px;
 	margin:0px;
@@ -415,7 +315,7 @@ nav li{
 	position:relative;
 	margin: 1rem;
 	padding: 1rem;
-	/*padding-left: 4rem;*/
+
 
 
 }
@@ -465,7 +365,7 @@ nav li{
 	height: 100px;
 	margin: 0;
 	padding: 1rem;
-	background-color: #e54724;
+	background-color: #EF4564;
 
 }
 .color-swatch4 {
@@ -514,7 +414,6 @@ nav li{
 	/*border: 0.1rem solid black;*/
 	position: relative;
 	display: inline-block;
-	
 	margin: 1rem;
 	padding: 1rem;
 
@@ -529,6 +428,8 @@ nav li{
 }
 
 .icon-box img{
+	width: 4rem;
+	height: auto;
 	left: 50%;
     margin-right: -50%;
 }
@@ -554,6 +455,7 @@ nav li{
 }
 .booking-buttons a{
 	text-decoration: none;
+	border-radius: 1rem;
 	padding-left: 6rem;
 	padding-right: 6rem;
 	padding-top: 1rem;
@@ -581,9 +483,9 @@ nav li{
 	padding-right: 4rem;
 	margin-bottom: 2rem;
 	text-align: center;
-	color:#6cc4a2;
+	color:#b52185;
 	font-size: .8rem;
-	border: 1px solid #6cc4a2;
+	border: 1px solid #b52185;
 	border-radius: 2rem;
 	display:inline;
 	width:50%;
@@ -595,29 +497,27 @@ nav li{
 
 .more ,.less{ 
 	padding: 2rem;
-
 }
 
 .more a, .less a{
 
 	text-decoration: none;
-	width: 25px;
-	height: 25px;
-	color:#fed60e;
-	border: 1px solid #fed60e;
-	border-radius: 10%;
-	display:inline;
+	width: 50px;
+	height: 50px;
+	color:#b52185;
+	border: 1px solid #b52185;
+	border-radius: 50%;
+	padding: 1rem;
+	display:inline-block;
     position: relative;
-    margin: 0;
-	padding-top: 1rem;
-	padding-bottom: 1rem;
+    text-align: center;
      -webkit-transition: background-color 0.2s;
 	transition: background-color 0.2s;
     
 }
 
 .confirm a:hover{
-	background-color: #6cc4a2;
+	background-color: #b52185;
 	color: white;
 }
 
@@ -627,7 +527,7 @@ nav li{
 }
 
 .more a:hover,.less a:hover{
-	background-color: #fed60e;
+	background-color: #b52185;
 	color: white;
 	font-weight: 700;
 }
@@ -682,8 +582,6 @@ nav li{
   font-weight: 400;
   padding: 1rem; 
   border: 1px dotted #47B484; 
-  /*border-style: solid;*/
-
   text-align: center; 
   width: 14.2857%;
 }
@@ -697,10 +595,10 @@ nav li{
 	color: #AAA;
 }
 .calendar td:hover {
-background:rgb(181, 33,133);
-color:#ffffff;
-font-weight: 500;
-border-style: solid;
+	background:rgb(181, 33,133);
+	color:#ffffff;
+	font-weight: 500;
+	border-style: solid;
 }
 
 
@@ -757,6 +655,7 @@ form{
 	img: 300%;
 }
 .nav-template{
+	width: 100%;
 	padding: 2rem;
 	padding-bottom: 2rem;
 	margin-bottom: 1rem;
@@ -780,7 +679,7 @@ form{
 
 }
 .navbar-template nav li{
-	display: block;
+	display: inline-block;
 	/*background-color: white;*/
 	/*border: 1px dotted #e54724;*/
 }
@@ -799,6 +698,11 @@ form{
 	padding: 0;
 	background-color: white;
 }
+.navbar-template img{
+	height: 80px;
+	width: auto;
+}
+
 
 
 
