@@ -13,14 +13,14 @@
 }
 .code-discription {
 	margin-bottom: 1rem;
-	border: 1px dotted #b52185;
-	position: relative; 
-	display: block;
+	/*border: 1px dotted #b52185;*/
+	/*position: relative; */
+	/*display: block;*/
 }
 .font-combination .code-discription {
 	border: 0;
 	position: relative; 
-	border: 1px dotted #b52185;
+	/*border: 1px dotted #b52185;*/
 	display: block;
 	
 }
@@ -195,46 +195,43 @@ nav li{
 
 }
 
-.type-box8{
-	font-family: "Oswald";
-	position: relative;
-	display: inline-block;
+[class^= 'type-box-'] { 
+	padding-top:0.8rem;
+	position:relative;
+	display:inline-block;
 	width: 100%;
-	margin:0px;
 	text-align: left;
+	margin:0px;
 
 }
 
-.type-box8 h1{
+[class^= 'type-box-'] ul li{ 
+	position: relative;
+	display: block;
+	text-align: left;
+	padding:0px;
+	margin-left:-2.5rem;
+	
+}
+
+
+.type-box-8 h1{
 	font-family: 'Bubblegum Sans', cursive;
 	font-weight: 700;
+	font-size: 6em;
 	color: #EF4564;
 	padding:0px;
 	margin:0px;
 
 }
 
-.type-box8 ul li{
-	position: relative;
-	display: block;
-	text-align: left;
-	padding:0px;
-	margin-left:-2.5rem;
-}
 
-.type-box5{
-	position:relative;
-	display:inline-block;
-	width: 100%;
-	margin:0px;
-	padding-top: 0.8rem;
-	text-align:left;
-	
 
-}
-.type-box5 h2{
+
+.type-box-5 h2{
 	font-family: 'Bubblegum Sans', cursive;
 	display: block;
+	font-size: 4em;
 	color: #47B484;
 	text-align: left;
 	padding:0px;
@@ -242,56 +239,48 @@ nav li{
 
 }
 
-.type-box5 ul li{
-	text-decoration: none;
-	text-align: left;
-	padding:0px;
-	margin:0px;
-	margin-left:-2.5rem;
-}
 
-.type-box6{
-	padding-top:0.8rem;
-	position:relative;
-	display:inline-block;
-	width: 100%;
-	text-align: left;
-	margin:0px;
-}
-.type-box6 a {
+
+
+.type-box-6 a {
+	font-family: 'Bubblegum Sans', cursive;
 	text-align:left;
 	padding:0px;
 	margin:0px;
 }
 
-.type-box6 ul li{
-	text-decoration: none;
-	text-align: left;
-	padding:0px;
-	margin:0px;
-	margin-left:-2.5rem;
-}
-.type-box7{
-	padding-top:0.8rem;
-	position: relative;
-	display: inline-block;
-	width: 100%;
-	text-align: left;
-	margin:0px;
-}
-.type-box7 p{
+
+
+.type-box-7 p{
 	display:block;
 	padding:0px;
 	margin:0px; 
 	
 }
 
-.type-box7 ul li{
-	text-decoration: none;
-	text-align:left;
+
+
+.type-box-9 h3{
+	font-family: 'Bubblegum Sans', cursive;
+	display: block;
+	font-size: 3em;
+	color: #FED602;
+	text-align: left;
 	padding:0px;
-	margin-left:-2.5rem; 
+	margin:0px; 
+
 }
+
+.type-box-10 h4{
+	font-family: 'Bubblegum Sans', cursive;
+	display: block;
+	font-size: 2em;
+	color: #B52185;
+	text-align: left;
+
+	
+}
+
 
 .font-combination{
 	width: 90%;
