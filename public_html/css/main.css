@@ -1,3 +1,7 @@
+header{
+	margin-top: 5rem;
+	margin-bottom: 5rem;
+}
 .empty {
 		display:inline-block;
 		float:left;
@@ -5,12 +9,16 @@
 		text-align: center;
 }
 body{
+	/*background-color: rgba(0,0,0,1);*/
+	background-image:url(../img/party_background.png);
+	background-size: 100%;
+	background-repeat: no-repeat;
 	font-family: "Open Sans", sans-serif;
 	line-height: 2em;
 	font-size: 0.8em;
-
 }
-p{
+p{	
+	background-color: #ffffff;	
 	font-size : 1em;
 	font-weight: 300;
 	text-align: left;
@@ -39,6 +47,7 @@ h4{
 }
 
 nav{
+	background-color: #FFFFFF;
 	margin-left: -3rem;
 	display: inline-block;
 	position: fixed;
@@ -62,7 +71,10 @@ nav a {
 
 }
 
-
+img {
+	width: 5rem;
+	height: auto;
+}
 
 nav li:hover {
 	color:#b52185;
@@ -84,6 +96,20 @@ nav li{
 	transition: background-color 0.2s;
 }
 
+
+.booking_button li{
+	font-size: 1em;
+	border: 3px solid #FED602;
+}
+
+.booking_button li:hover{
+	font-weight: 700;
+	background-color: #B52185;
+	border: 3px solid #B52185;
+	
+}
+
+
 hr{
 	text-align: center;
 	border: 1px dotted #47B484;;
@@ -99,20 +125,50 @@ hr{
 	height: auto;
 }
 .bundles img{
-	width: 7rem;
+	width: 70%;
 	height: auto;
 }
-
 .bundles img:hover{
 	opacity: 0.5;
 }
-
+.bundles h1{
+	text-align: left;
+}
 .bundles h2{
-	
 	position: relative;
+}
+.bundles a{
+	text-align: right;
+}
+.booking_button_insite a{
+	display: block;
+	text-decoration: none;
 }
 
 
+.floorplan img{
+	width: 100%;
+	height: auto;
+}
+
+.floorplan li{
+	display: block;
+	text-align: left;
+	text-decoration: none;
+}
+
+.floorplan h2{
+	display: block;
+	text-align: left;
+	text-decoration: none;
+}
+
+.floorplan h3{
+	display: block;
+	text-align: left;
+	text-decoration: none;
+	font-size: 4em;
+}
 
 
 
