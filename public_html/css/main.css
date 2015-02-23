@@ -1,3 +1,4 @@
+
 .empty {
 		display:inline-block;
 		float:left;
@@ -62,7 +63,10 @@ nav a {
 
 }
 
-
+img {
+	width: 5rem;
+	height: auto;
+}
 
 nav li:hover {
 	color:#b52185;
@@ -84,6 +88,20 @@ nav li{
 	transition: background-color 0.2s;
 }
 
+
+.booking_button li{
+	font-size: 1em;
+	border: 3px solid #FED602;
+}
+
+.booking_button li:hover{
+	font-weight: 700;
+	background-color: #B52185;
+	border: 3px solid #B52185;
+	
+}
+
+
 hr{
 	text-align: center;
 	border: 1px dotted #47B484;;
@@ -101,13 +119,44 @@ hr{
 .bundles img:hover{
 	opacity: 0.5;
 }
-
+.bundles h1{
+	text-align: left;
+}
 .bundles h2{
-	
 	position: relative;
+}
+.bundles a{
+	text-align: right;
+}
+.booking_button_insite a{
+	display: block;
+	text-decoration: none;
 }
 
 
+.floorplan img{
+	width: 100%;
+	height: auto;
+}
+
+.floorplan li{
+	display: block;
+	text-align: left;
+	text-decoration: none;
+}
+
+.floorplan h2{
+	display: block;
+	text-align: left;
+	text-decoration: none;
+}
+
+.floorplan h3{
+	display: block;
+	text-align: left;
+	text-decoration: none;
+	font-size: 4em;
+}
 
 
 footer{
