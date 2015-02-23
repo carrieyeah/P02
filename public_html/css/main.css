@@ -93,10 +93,21 @@ hr{
 	width: 80%;
 	height: auto;
 }
-.contact_us img{
-	width: 5rem;
+.bundles img{
+	width: 7rem;
 	height: auto;
 }
+
+.bundles img:hover{
+	opacity: 0.5;
+}
+
+.bundles h2{
+	
+	position: relative;
+}
+
+
 
 
 footer{
