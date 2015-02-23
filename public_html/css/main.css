@@ -23,68 +23,81 @@ h1{
 }
 h2{
 	font-family: 'Bubblegum Sans', cursive;
-	font-size: 3em;
+	font-size: 2em;
 	color: #47B484;
 }
 
 h3{
 	font-family: 'Bubblegum Sans', cursive;
-	font-size: 2em;
+	font-size: 1em;
 	color: #FED602;
 }
 h4{
 	font-family: 'Bubblegum Sans', cursive;
-	font-size: 1em;
+	font-size: 0.5em;
 	color: #B52185;
 }
 
 nav{
+	margin-left: -3rem;
+	display: inline-block;
+	position: fixed;
+	z-index: 9999;
 
-	/*display: inline-block;*/
-	background-color: #b52185;
 
 }
 
 nav a {
-	
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+	margin-right: 0.5em;
+	padding: 0px;
+	display: inline-block;
 	font-family: 'Bubblegum Sans', cursive;
-	/*text-align:left;*/
+	text-align:left;
 	color: white;
-	/*margin-top: 0;
-	margin-bottom: 0;*/
+	/*margin: 0px;*/
+	/*padding: 0px;*/
 	font-size: 1.5em;
+
 }
 
 
 
 nav li:hover {
 	color:#b52185;
-	background-color: #fed60e;
+	background-color: #b52185;
+
 }
-/*nav a:hover {
-	color: #b52185;
-	background-color: #fed60e;
-}*/
 
 
-nav ul li a {
-	
-	display: inline-block;
-	color: #fed60e;
-	text-decoration : none;
+nav ul li a{
+	width: 100%;
+	color: #FED602;
+	text-decoration :none;
+	text-align: center;
 }
 nav li{
-	text-decoration: none;
-	/*display: inline-block;*/
+	display: block;
+	border: 1px dotted #b52185;
      -webkit-transition: background-color 0.2s;
 	transition: background-color 0.2s;
 }
 
+hr{
+	text-align: center;
+	border: 1px dotted #47B484;;
+}
 
+.moments img{
+	width: 80%;
+	height: auto;
+}
 .contact_us img{
 	width: 5rem;
 	height: auto;
 }
+
 
 footer{
 

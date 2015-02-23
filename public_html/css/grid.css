@@ -96,7 +96,6 @@ width : 50%;
 /*//////////RESPONSIVE GRID CODE SECTION\\\\\\\\\\\\\\*/
 
 
-
 @media (max-width: 1110px){
 
 	.col-2of10{
@@ -115,7 +114,6 @@ width : 50%;
 	.col-1of6{
 		width: 33.33333%;
 	}
-
 }
 @media (max-width: 770px) {
 
