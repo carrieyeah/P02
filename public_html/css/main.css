@@ -10,7 +10,8 @@ header{
 }
 body{
 	/*background-color: rgba(0,0,0,1);*/
-	background-image:url(../img/party_background.png);
+	background-image:url(../img/2-farm-first-birthday-smash-cake.jpg);
+	opacity:0.9;
 	background-size: 100%;
 	background-repeat: no-repeat;
 	font-family: "Open Sans", sans-serif;
@@ -81,6 +82,8 @@ nav li:hover {
 	background-color: #b52185;
 
 }
+
+
 
 
 nav ul li a{
