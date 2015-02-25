@@ -134,6 +134,11 @@ hr{
 	width: 80%;
 	height: auto;
 }
+
+.contact_us img{
+	width: 5rem;
+	height: auto;
+}
 .bundles img{
 	width: 70%;
 	height: auto;
@@ -179,6 +184,8 @@ hr{
 	text-decoration: none;
 	font-size: 4em;
 }
+
+
 
 
 footer{
