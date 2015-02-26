@@ -1,15 +1,20 @@
-.landging_page{
-	background-image:url(../img/header_background.png);
+
+.booking_button  a{
+	padding: 1rem;
+	width: 100%;
+	display: inline-block;
+	font-size: 1em;
+	border: 2px solid #FFFFFF;
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+.booking_button  a:hover {
+	background-color: #FFFFFF;
+	color: #000000;
 
 }
-.philosophy li{
-	font-size: 1.5em;
-	line-height: 3em;
-	display: block;
-	text-align: left;
-	font-weight: 300;
 
-}
 .empty {
 		display:inline-block;
 		float:left;
@@ -17,11 +22,7 @@
 		text-align: center;
 }
 body{
-	/*background-color: rgba(0,0,0,1);*/
-	background-image:url(../img/2-farm-first-birthday-smash-cake.jpg);
-	opacity:0.;
-	background-size: 100%;
-	background-repeat: no-repeat;
+	margin: 0;
 	font-family: "Open Sans", sans-serif;
 	line-height: 2em;
 	font-size: 0.8em;
@@ -56,73 +57,55 @@ h4{
 }
 
 nav{
-	background-color: #6F585E;
-	margin-left: -3rem;
+	margin: 1em;
+	background-color: #856F73;
 	width: 100%;
-	display: inline;
 	position:relative;
-	z-index: 9999;
 	margin: 0;
-	padding: 0;
-
 
 }
-
+header{
+	background-color: #856F73;
+}
+nav img{
+	width:auto;
+	height: 5em;
+}
+nav img:hover{
+	opacity: 0.5;
+}
 nav a {
-
-	margin-top: 0.5em;
-	margin-bottom: 0.5em;
-	margin-right: 0.5em;
-	padding: 0px;
-	display: inline-block;
+	width: 100%;
 	font-family: "Open Sans", sans-serif;
-	text-align:left;
-	color: white;
-	/*margin: 0px;*/
-	/*padding: 0px;*/
 	font-size: 1em;
-
-}
-
-img {
-	width: 5rem;
-	height: auto;
 }
 
 nav li:hover {
 	color:#b52185;
 	background-color: #b52185;
-
 }
 
-
-
+nav ul{
+	padding-top: 0.5em;
+	margin: 0;
+}
 
 nav ul li a{
 	width: 100%;
-	color: #FED602;
+	color: #FFFFFF;
+	font-weight: 300;
 	text-decoration :none;
 	text-align: center;
 }
 nav li{
-	display: block;
-	border: 1px dotted #b52185;
+	width: 100%;
+	display: inline-block;
+	padding: 1rem;
      -webkit-transition: background-color 0.2s;
 	transition: background-color 0.2s;
 }
 
 
-.booking_button li{
-	font-size: 1em;
-	border: 3px solid #FED602;
-}
-
-.booking_button li:hover{
-	font-weight: 700;
-	background-color: #B52185;
-	border: 3px solid #B52185;
-	
-}
 
 
 hr{
@@ -155,10 +138,7 @@ hr{
 .bundles a{
 	text-align: right;
 }
-.booking_button_insite a{
-	display: block;
-	text-decoration: none;
-}
+
 
 
 .floorplan img{
