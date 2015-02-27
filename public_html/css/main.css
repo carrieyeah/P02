@@ -1,7 +1,7 @@
 
-
-.text2 p{
-	padding-left: 2rem;
+.date_time img{
+	padding-top: 1em;
+	width: 4em;
 }
 .baby_shower,.wedding_shower,.birthday_shower{
 	/*padding-left:2rem;*/
@@ -25,11 +25,6 @@
 	padding-bottom:10rem; 
 
 }
-
-/*.bundle_description-1{
-	border:1px solid;
-}
-*/
 
 .bundle_description-1 .booking_button a{
 	
@@ -73,13 +68,10 @@
 
 .slider .text{
 	width: 100%;
-
 	padding: 4rem;
 	position:relative;
 	text-align: left;
 	
-	
-
 }
 	
 .slider {
@@ -91,12 +83,6 @@
 
 	
 }
-
-/*.slider h1{
-	padding-top: 20rem;
-	padding-bottom: 10rem;
-}*/
-	
 
 
 /*TOP PAGE ENDS*/
