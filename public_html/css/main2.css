@@ -1,0 +1,165 @@
+.baby_shower_bundle_description{
+
+}
+.baby_shower_bundle img{
+	
+	width: 100%;
+}
+.baby_shower_bundle_description h3{
+	display:block;
+	text-align: left;
+}
+.baby_shower_bundle_description h1{
+	display:block;
+	left: 10%;
+	text-align: left;
+}
+
+.baby_shower_bundle_description li{
+	display:block;
+	text-align: left;
+}
+
+.baby_shower_bundle_description .booking_button{
+	padding-top: 8rem;
+	padding-left:4rem;
+}
+.baby_shower_bundle_description .booking_button a{
+	
+	color: rgb(227,121,85);
+	border-color: rgb(227,121,85);
+}
+
+.baby_shower_bundle_description .booking_button a:hover{
+	color: #FFFFFF;
+	border-color: rgb(227,121,85);
+	background: rgb(227,121,85)
+}
+
+.booking_button a{
+	padding: 1rem;
+	width: 100%;
+	display: inline-block;
+	font-size: 1em;
+	border: 2px solid #FFFFFF;
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+.booking_button  a:hover {
+	background-color: #FFFFFF;
+	color: #000000;
+
+}
+
+/*HEADER SECTION*/
+
+.slider{
+
+	position:relative;
+	width:100%;
+
+	}
+
+
+.slider img{
+	opacity: 0.4;
+	width:100%;
+	height: 25%;	
+}
+
+	
+.slider .text{
+	position:absolute;
+	text-align: left;
+	top:10%;
+	left:10%;
+
+}
+
+.slider .text2{
+	width: 80%;
+	position:absolute;
+	text-align: left;
+	top:50%;
+	left:10%;
+	/*letter-spacing: 0.1rem;*/
+}
+/*TOP PAGE ENDS*/
+
+
+body{
+
+	margin: 0;
+	font-family: "Open Sans", sans-serif;
+	line-height: 2em;
+	font-size: 0.8em;
+}
+
+h3{
+	font-family: 'Bubblegum Sans', cursive;
+	font-weight: 700;
+	font-size: 3em;
+	color: rgb(227,121,85); /*orange*/
+}
+
+p{	
+	font-size : 1em;
+	font-weight: 300;
+	text-align: left;
+
+}
+
+nav{
+	margin: 1em;
+	background-color: #856F73;
+	width: 100%;
+	position:relative;
+	margin: 0;
+
+}
+header{
+	background-color: #856F73;
+}
+nav img{
+	width:auto;
+	height: 5em;
+}
+nav img:hover{
+	opacity: 0.5;
+}
+nav a {
+	width: 100%;
+	font-family: "Open Sans", sans-serif;
+	font-size: 1em;
+}
+
+nav li:hover {
+	color:#b52185;
+	background-color: #b52185;
+}
+
+nav ul{
+	padding-top: 0.5em;
+	margin: 0;
+}
+
+nav ul li a{
+	width: 100%;
+	color: #FFFFFF;
+	font-weight: 300;
+	text-decoration :none;
+	text-align: center;
+}
+nav li{
+	width: 100%;
+	display: inline-block;
+	padding: 1rem;
+     -webkit-transition: background-color 0.2s;
+	transition: background-color 0.2s;
+}
+
+
+
+
+
