@@ -99,17 +99,14 @@ width : 50%;
 @media (max-width: 1110px){
 
 	.col-2of10{
-	width: 20%;
-	}
-	.col-1of10{
-	width:0;
-	}
-	
-}
-@media (max-width: 965px){
-	.col-2of10{
 		width: 50%;
 	}
+
+
+.col-1of10{
+	width:0;
+}
+
 }
 
 @media (max-width: 860px) {
@@ -117,53 +114,15 @@ width : 50%;
 	.col-1of6{
 		width: 33.33333%;
 	}
-
-	.col-2of12{
-		width:10%;
-	}
-	.bundle-1 .col-2of12{
-		width: 33.3333%;
-	}
 }
 @media (max-width: 770px) {
-
-	.bundle_description-1 h3, ul{
-		padding-left: 5rem;
-	}
-
-	.bundle_description-1 .col-3of12{
-		width: 50%;
-	}
-
-	.baby_shower,.wedding_shower,.birthday_shower{
-	padding-left:2rem;
-	}
-
-	.booking_button{
-		
-		
-		width: 80%;
-	}
-
-	.bundle-1 .col-2of12{
-		width: 33.3333%;
-	}
-
-	.bundle_description-1 .col-2of12{
-		display: none;
-	}
-
 
 	.col-3of12{
 		width:100%;
 	}
 
-	.col-5of12{ 
+	.col-5of12{   /* NAHEEL */
 	width: 100%
-	}
-
-	.col-6of12{
-		width: 80%;
 	}
 
 	.col-8of12{
@@ -196,36 +155,12 @@ width : 50%;
 }
 
 @media (max-width:650px) {
-
-	.bundle_description-1 h3, ul{
-		/*padding-left: 5rem;*/
-	}
-
-	.bundle_description-1 .col-3of12{
-		width: 50%;
-	}
-
-	.baby_shower,.wedding_shower,.birthday_shower{
-	padding-left:2rem;
-	}
-
-	.booking_button{
-		
-		width: 80%;
-	}
-
-	.bundle-1 .col-2of12{
-		width: 50%;
-	}
-
-	.bundle_description-1 .col-2of12{
-		display: none;
-	}
-
 	
-	.col-6of12 {
-	width : 100%;
-	}
+.col-6of12 {
+width : 100%;
+}
+
+
 	.col-2of8{
 		width:0;
 	}
@@ -236,46 +171,12 @@ width : 50%;
 }
 
 @media (max-width: 480px) {
-	.bundle_description-1 .col-3of12{ 
-		padding:0;
-		margin: 0;
-		width: 100%;
-	}
-
-	.bundle_description-1{ 
-		padding:0px;
-		
-		
-	}
-
-	.baby_shower,.wedding_shower,.birthday_shower{
-	
-	}
-
-	.booking_button{
-		
-		
-		width: 100%;
-	}
-
-	.bundle-1 .col-2of12{
-		width: 33.3333%;
-	}
-
-	.bundle_description-1 .col-2of12{
-		display: none;
-	}
-
-
-
 
 	.col-2of12{
 		width: 100%;
 	}
 
-	.bundle-1 .col-2of12{
-		width:50%;
-	}
+
 	nav ul ul{
 	width:100%;
 	}

@@ -1,4 +1,107 @@
 
+
+.text2 p{
+	padding-left: 2rem;
+}
+.baby_shower,.wedding_shower,.birthday_shower{
+	/*padding-left:2rem;*/
+}
+.bundle_description-1{
+
+	padding-top: 4rem;
+	padding-bottom:4rem;
+}
+.bundle-1 img{
+	opacity: 0.8;
+	width: 100%;
+}
+.bundle_description-1 h3, p, h1, li{
+
+	display:block;
+	text-align: left;
+}
+
+.bundle_description-1 section{ 
+	padding-bottom:10rem; 
+
+}
+
+/*.bundle_description-1{
+	border:1px solid;
+}
+*/
+
+.bundle_description-1 .booking_button a{
+	
+	color: rgb(227,121,85);
+	border-color: rgb(227,121,85);
+}
+
+.bundle_description-1 .booking_button a:hover{
+	color: #FFFFFF;
+	border-color: rgb(227,121,85);
+	background: rgb(227,121,85)
+}
+
+.booking_button a{
+	padding: 1rem;
+	width: 100%;
+	display: inline-block;
+	font-size: 1em;
+	border: 2px solid #FFFFFF;
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+.booking_button  a:hover {
+	background-color: #FFFFFF;
+	color: #000000;
+
+}
+
+
+/*HEADER SECTION*/
+
+.slider{
+	display: inline-block;
+	position:relative;
+	width:100%;
+}
+
+
+
+
+.slider .text{
+	width: 100%;
+
+	padding: 4rem;
+	position:relative;
+	text-align: left;
+	
+	
+
+}
+	
+.slider {
+
+	background-image:url("../img/header_img(2)-02.png");
+	background-size: 100%;
+	background-repeat:none;
+	/*display: inline-block;*/
+
+	
+}
+
+/*.slider h1{
+	padding-top: 20rem;
+	padding-bottom: 10rem;
+}*/
+	
+
+
+/*TOP PAGE ENDS*/
+
+
 .booking_button  a{
 	padding: 1rem;
 	width: 100%;
@@ -28,7 +131,6 @@ body{
 	font-size: 0.8em;
 }
 p{	
-	background-color: #ffffff;	
 	font-size : 1em;
 	font-weight: 300;
 	text-align: left;
@@ -40,19 +142,20 @@ h1{
 	color: rgb(227,121,85); /*orange*/
 }
 h2{
+	text-align: left;
 	font-family: "Open Sans", sans-serif;
-	font-size: 2em;
+	font-size: 2.5em;
 	color: #000000;
 }
 
 h3{
 	font-family: "Open Sans", sans-serif;
-	font-size: 1em;
-	color: #FED602;
+	font-size: 1.5em;
+	color: #000000;
 }
 h4{
 	font-family: "Open Sans", sans-serif;
-	font-size: 0.5em;
+	font-size: 1em;
 	color: #B52185;
 }
 
@@ -95,7 +198,7 @@ nav ul li a{
 	color: #FFFFFF;
 	font-weight: 300;
 	text-decoration :none;
-	text-align: center;
+	text-align:center;
 }
 nav li{
 	width: 100%;
@@ -121,22 +224,6 @@ hr{
 .contact_us img{
 	width: 5rem;
 	height: auto;
-}
-.bundles img{
-	width: 70%;
-	height: auto;
-}
-.bundles img:hover{
-	opacity: 0.5;
-}
-.bundles h1{
-	text-align: left;
-}
-.bundles h2{
-	position: relative;
-}
-.bundles a{
-	text-align: right;
 }
 
 
@@ -169,21 +256,24 @@ hr{
 
 
 footer{
-
 	width: 100%;
-	margin: 0px;
-	padding: 0px;
-	background-color: #b52185;
+	margin: 0;
+	padding: 0;
+	background-color: #856F73;
 
 }
-footer ul{
-
+footer img{
+	width:auto;
+	height: 5em;
 }
 footer li {
-	color: #fed60e;
-	padding-right: 2rem;
+
+	color: #ffffff;
+	padding-left: 2rem;
 	display: block;
-	text-align: right;
+	text-align: left;
 	text-decoration: none;
 	font-size: 0.4em;
 }
+
+
