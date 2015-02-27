@@ -7,6 +7,7 @@
 			<link rel="stylesheet" href="css/grid.css">
 			<link rel = "stylesheet" href="css/main.css">
 			<link rel = "stylesheet" href="css/normalize.css">
+			<link rel = "stylesheet" href="css/calendar.css">
 <!-- FONTS -->
 			<link href='http://fonts.googleapis.com/css?family=Open+Sans:600italic,400,600,700,300' rel='stylesheet' type='text/css'>
 			<link href='http://fonts.googleapis.com/css?family=Oswald:400,700' rel='stylesheet' type='text/css'>
@@ -15,87 +16,128 @@
 
 		<body>
 <!-- HEADER -->
-			<header>		
-			</header>
-
-			
+		<header class="grid">
 <!-- NAVIGATION BAR -->
-			<div class = "grid">
-				<nav class = "col-2of12">
-					<ul>	
-							<div class = "col-12of12">
-				              	<li><a href = "about_us.html">About Us</a></li>
+				<nav class = "col-10of10">
+								<div class = "col-2of10">
+              	
+	              					<img  src="img/logo(white).png" alt="baby shower">
+           		            </div> <!-- div class -->
+						<ul>	
+
+							<div class = "col-2of10">
+				              	<li>
+				              		<a href = "about_us.html">About Us</a>
+				              	</li>
 				            </div> <!-- div class -->
-							<div class = "col-12of12">
+							<div class = "col-2of10">
 				              	<li><a href = "_facilities.html">Facilities</a></li>
 				            </div> <!-- div class -->
-				            <div class = "col-12of12">
+				            <div class = "col-2of10">
 				            
 				              	<li><a href = "theme_bundles.html">Theme Bundles</a></li>
 				            </div> <!-- div class -->
-				            <div class = "col-12of12">
+				            <div class = "col-2of10">
 				              	<div class = "booking_button">
-				              		<li><a href = "_booking.html">booking</a></li>
+				              		<a href = "_booking.html">Booking</a>
 				              	</div>
 				            </div> <!-- div class -->
 
-					</ul>
+						</ul>
 				</nav>
-			</div> <!-- grid close -->
+		</header>
 
+
+		<div class="slider">
+
+				<h1 class="text">Booking</h1>
+		</div>
 <!-- ABOUT US -->
 		<div class="grid">
-			<section id= "booking" class="booking_page">
-				
+			<section id= "date" class="date_time">
+
 				<div class="col-3of12">
-					<div class ="empty">
-						<p></p>
-					</div>
+					<img  src="img/Icon-01.png" alt="baby shower">
 				</div>
-					
-					<h1>Booking</h1>
-				
-				<div class="col-3of12">
-					<div class ="empty">
-						<p></p>
-					</div>
-				</div>
-				
 				<div class="col-9of12">
 					<h2>Date + Time</h2>
-				</div> 
-
-
-				<div class="col-3of12">
-					<div class ="empty">
+				</div>  
+				<div class="col-1of12">
+					<div class="empty">
 						<p></p>
 					</div>
 				</div>
-				
-				<div class="col-9of12">
-					<h2>Contact Information</h2>
-				</div> 
-
+				<div class="col-6of12">
+					<!-- CALENDAR -->
+        <section id = "calendar" class= "calendar-template">    
+                <div class ="calendar">
+                    <h5>Janurary</h5>
+                      <table id="calendars">
+                        <thead> <!-- The header for our table, listing the days of the week -->
+                          <tr>
+                            <th>Monday</th>
+                            <th>Tuesday</th>
+                            <th>Wednesday</th>
+                            <th>Thursday</th>
+                            <th>Friday</th>
+                            <th>Saturday</th>
+                            <th>Sunday</th>
+                          </tr>
+                        </thead>
+                       <tbody> <!-- The body of our table, the actual information -->
+                    <tr>
+                      <!-- We've applied a class to last month's days to make it easier to style differently -->
+                      <td class="old-days">27</td> 
+                      <td class="old-days">28</td>
+                      <td class="old-days">29</td>
+                      <td class="old-days">30</td>
+                      <td class="old-days">31</td>
+                      <td>1</td>
+                      <td>2</td>
+                    </tr>
+                    <tr>
+                      <td>3</td>
+                      <td>4</td>
+                      <td>5</td>
+                      <td>6</td>
+                      <td>7</td>
+                      <td>8</td>
+                      <td>9</td>
+                    </tr>
+                    <tr>
+                      <td>10</td>
+                      <td>11</td>
+                      <td>12</td>
+                      <td>13</td>
+                      <td>14</td>
+                      <td>15</td>
+                      <td>16</td>
+                    </tr>
+                    <tr>
+                      <td>17</td>
+                      <td>18</td>
+                      <td>19</td>
+                      <td>20</td>
+                      <td>21</td>
+                      <td>22</td>
+                      <td>23</td>
+                    </tr>
+                    <tr>
+                      <td>24</td>
+                      <td>25</td>
+                      <td>26</td>
+                      <td>27</td>
+                      <td>28</td>
+                      <td>29</td>
+                      <td>30</td>
+                    </tr>
+                  </tbody>
+                </table> <!-- CALENDAR TABLE CLOSE -->
+				</div>
 			</section>
 		</div>
+	</div>
 
-<!--PAGE BREAKER -->
-					<div class="grid">
-						<div class="col-2of12">
-							<div class ="empty">
-								<p></p>
-							</div>
-						</div>
-							<div class="col-8of12">
-								<hr></hr>
-							</div>
-						<div class="col-2of12">
-							<div class ="empty">
-								<p></p>
-							</div>
-						</div>
-					</div>
-<!-- PAGE BREAKER ENDS -->
 
 			<footer>
 				<ul>
