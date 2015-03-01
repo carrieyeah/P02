@@ -1,4 +1,6 @@
-
+html{
+	background-color: #FCFCF9;
+}
 .date_time img{
 	padding-top: 1em;
 	width: 4em;
@@ -194,14 +196,6 @@ nav li{
 	transition: background-color 0.2s;
 }
 
-
-
-
-hr{
-	text-align: center;
-	border: 1px dotted #47B484;;
-}
-
 .moments img{
 	width: 80%;
 	height: auto;
@@ -238,9 +232,6 @@ hr{
 	font-size: 4em;
 }
 
-
-
-
 footer{
 	width: 100%;
 	margin: 0;
@@ -261,5 +252,11 @@ footer li {
 	text-decoration: none;
 	font-size: 0.4em;
 }
+
+select{
+	width: 80%;
+}
+
+
 
 
