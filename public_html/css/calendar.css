@@ -1,7 +1,4 @@
 /*CALENDAR*/
-.calendar-template h5{
-
-}
 .calendar-template p,h3, code{
 	text-align:center;
 	line-height: 1.5rem;
@@ -38,9 +35,6 @@
   padding: 1rem; 
 
 }
-
-
-
 .calendar td, .calendar th {  
   color: #B52185; 
   font-weight: 400;
