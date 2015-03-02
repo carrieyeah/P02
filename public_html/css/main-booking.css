@@ -221,99 +221,6 @@ img{
 }
 
 
-.shower{
-
-	list-style: none;
-	margin: 0; 
-	display: -webkit-box;
-	display: -moz-box;
-	display: -ms-flexbox;
-	display: -webkit-flex;
-	display: flex;
-
-	padding-left: 4rem;
-	padding-right:4rem; 
-	-webkit-flex-flow: row wrap;
-	justify-content: center;
-	
-}
-
-.shower > * {
-  padding: 10px;
-  flex: 1 50%;
-}
-
-.bundle_description-1{
-
-	list-style: none;
-	margin: 0; 
-	display: -webkit-box;
-	display: -moz-box;
-	display: -ms-flexbox;
-	display: -webkit-flex;
-	display: flex;
-	padding: 2rem;
-
-	justify-content: space-around;
-
-}
-
-.bundle-1{
-
-  display: -ms-flexbox;
-  -ms-flex-wrap: wrap;
-  -ms-flex-direction: column;
-  -webkit-flex-flow: row wrap; 
-  flex-flow: row wrap; 
-  display: -webkit-box;
-  display: flex;
-}
-
-.bundle-1 .image{
-	width: 200px;
-
-  -webkit-box-flex: auto;
-  -ms-flex: auto;
-  flex: auto; 
-}
-
-.bundle-1 img{
-	opacity: 0.8;
-	width: 100%;
-}
-.bundle_description-1 li{
-
-	display:block;
-	text-align: left;
-}
-
-.bundle_description-1 section{ 
-	padding-bottom:10rem; 
-
-}
-
-.bundle_description-1 .booking_button a{
-
-	color: rgb(227,121,85);
-	border-color: rgb(227,121,85);
-}
-
-.bundle_description-1 .booking_button a:hover{
-	-webkit-transition: background-color .5s ease-out;
-	-moz-transition: background-color .5s ease-out;
-	-o-transition: background-color .5s ease-out;
-	transition: background-color .5s ease-out;
-
-
-	color: #FFFFFF;
-	border-color: rgb(227,121,85);
-	background: rgb(227,121,85)
-}
-
-.bundle_description-1c{
-	width: 20%;
-	text-align: center;
-}
 
 .booking_button a{
 	padding: 1rem;
@@ -534,24 +441,6 @@ select{
   .navigation {
     justify-content: space-around;
   }
-
-  .bundle-1{
-  	 -webkit-flex-flow: row wrap;
-  	justify-content: flex-start;
-  }
-
-  .bundle_description-1{
-   justify-content: space-around;
-  }
-  .bundle_description-1c{
-  	order:1;
-  	
-  }
-  .bundle_description-1b, .bundle_description-1a{
-  	order:2;
-  	
-
-  }
 }
 
 
@@ -580,23 +469,6 @@ select{
   
   .navigation li:last-of-type a {
     border-bottom: none;
-  }
-
-  .bundle_description-1{
-    flex-flow: column wrap
-  }
-
-  .bundle_description-1a, .bundle_description-1b{
-  	width: 100%;
-  	text-align: center;
-  }
-
-  .bundle_description-1a li, .bundle_description-1b li{
-  	flex-grow:2;
-  }
-
-  .bundle_description-1c{
-  	width: 80%;
   }
 
 
