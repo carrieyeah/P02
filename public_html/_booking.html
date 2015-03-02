@@ -2,11 +2,10 @@
 	<html lang = 'en'>
 		<head>
 			<meta charset = "utf-8">
-			<title> About PartyMoment </title>
+			<title> Booking </title>
 <!-- STYLE SHEETS -->
 			<link rel="stylesheet" href="css/grid.css">
 			<link rel = "stylesheet" href="css/main.css">
-			<link rel = "stylesheet" href="css/normalize.css">
 			<link rel = "stylesheet" href="css/calendar.css">
 <!-- FONTS -->
 			<link href='http://fonts.googleapis.com/css?family=Open+Sans:600italic,400,600,700,300' rel='stylesheet' type='text/css'>
@@ -52,26 +51,41 @@
 
 				<h1 class="text">Booking</h1>
 		</div>
-<!-- ABOUT US -->
-		<div class="grid">
-			<section id= "date" class="date_time">
-
-				<div class="col-3of12">
-					<img  src="img/Icon-01.png" alt="baby shower">
-				</div>
-				<div class="col-9of12">
-					<h2>Date + Time</h2>
-				</div>  
-				<div class="col-1of12">
-					<div class="empty">
-						<p></p>
-					</div>
-				</div>
-				<div class="col-6of12">
-					<!-- CALENDAR -->
+<!-- DATE+TIME -->
+<div class="grid">
+	<section id= "date" class="date_time">
+		<div class="col-6of12">
+			<div class="col-3of12">
+				<div class ="empty"><p></p></div>
+			</div>
+			<div class="col-3of12">
+				<img  src="img/Icon-01.png" alt="baby shower">
+			</div>
+			<div class="col-3of12">
+				<h2>Date</h2>
+			</div>  
+			<div class="col-3of12">
+				<div class ="empty"><p></p></div>
+			</div> 
+<!-- CALENDAR -->
         <section id = "calendar" class= "calendar-template">    
                 <div class ="calendar">
-                    <h5>Janurary</h5>
+                    <h5>Month</h5>
+                    <select>
+                	  <option value="Janurary">Janurary</option>
+					  <option value="Feburary">Feburary</option>
+					  <option value="March">March</option>
+					  <option value="April">April</option>
+					  <option value="May">May</option>
+					  <option value="June">June</option>
+					  <option value="July">July</option>
+					  <option value="August">August</option>
+					  <option value="September">September</option>
+					  <option value="October">October</option>
+					  <option value="November">November</option>
+					  <option value="December">December</option>
+                    </select>
+                    <h5>Date</h5>
                       <table id="calendars">
                         <thead> <!-- The header for our table, listing the days of the week -->
                           <tr>
@@ -136,17 +150,93 @@
 				</div>
 			</section>
 		</div>
+<!-- TIME SELECTIONS -->
+			<div class="col-6of12">
+				<div class="col-3of12">
+					<div class ="empty"><p></p></div>
+				</div>
+				<div class="col-3of12">
+					<img  src="img/Icon-04.png" alt="baby shower">
+				</div>
+				<div class="col-3of12">
+					<h2>Time</h2>
+				</div>  
+				<div class="col-3of12">
+					<div class ="empty"><p></p></div>
+				</div>
+
+<!-- START TIME AM -->
+					<div class="col-6of12">
+						<h5>Start</h5>
+						<section if="time" class="time-template">
+					         <h4>AM</h4>
+					            <select>
+					        	  <option value="Janurary">Janurary</option>
+								  <option value="Feburary">Feburary</option>
+								  <option value="March">March</option>
+								  <option value="April">April</option>
+								  <option value="May">May</option>
+								  <option value="June">June</option>
+								  <option value="July">July</option>
+								  <option value="August">August</option>
+								  <option value="September">September</option>
+								  <option value="October">October</option>
+								  <option value="November">November</option>
+								  <option value="December">December</option>
+					            </select>
+						</section>
+		<!-- START TIME PM -->
+						<section if="time" class="time-template">
+					         <h4>PM</h4>
+					            <select>
+					        	  <option value="Janurary">Janurary</option>
+								  <option value="Feburary">Feburary</option>
+								  <option value="March">March</option>
+								  <option value="April">April</option>
+								  <option value="May">May</option>
+								  <option value="June">June</option>
+								  <option value="July">July</option>
+								  <option value="August">August</option>
+								  <option value="September">September</option>
+								  <option value="October">October</option>
+								  <option value="November">November</option>
+								  <option value="December">December</option>
+					            </select>
+						</section>
+					</div><!-- START TIME COLUMN CLOSE -->
+
+<!-- NUMBER OF HOURS -->
+			<div class="col-6of12">
+				<section if="time" class="time-template">
+			         <h5>Number of Hours</h5>
+			            <select>
+			        	  <option value="1">1</option>
+						  <option value="2">2</option>
+						  <option value="3">3</option>
+						  <option value="3">3</option>
+
+			            </select>
+				</section>
+			</div><!-- START TIME CLOSE -->
+		</div> <!-- CLOSE TIME SECTION GRID -->
+	</section>
+</div><!--  CLOSE GRID -->
+			
+<section class="grid">
+	<div class="number_people">
+
 	</div>
-
-
+</section>	
 			<footer>
 				<ul>
 					<li>Phone number : +852 5542 5264 </li>
 					<li>Address : Room 62, 1/f, Lee On Building,  Argyle St. 56-62 Mong Kok,Kowloon, Hong Kong</li>
 					<li>Email : partyboymoment@gmail.com</li>
 				</ul>
-			</footer>
-		
+			</footer>	
+
+
+
 		</body>
 
 	</html>
