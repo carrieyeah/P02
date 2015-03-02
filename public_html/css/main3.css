@@ -6,7 +6,6 @@ html{
 	width: 4em;
 }
 
-
 .shower{
 
 
@@ -53,8 +52,6 @@ html{
 
 .bundle-1{
 
-  
-  
   display: -ms-flexbox;
   -ms-flex-wrap: wrap;
   -ms-flex-direction: column;
@@ -65,7 +62,7 @@ html{
 }
 
 .bundle-1 .image{
-	
+	width: 200px;
 
   -webkit-box-flex: auto;
   -ms-flex: auto;
@@ -145,22 +142,6 @@ html{
 
 /*TOP PAGE ENDS*/
 
-
-.booking_button  a{
-	padding: 1rem;
-	width: 100%;
-	display: inline-block;
-	font-size: 1em;
-	border: 2px solid #FFFFFF;
-	text-decoration: none;
-	color: #FFFFFF;
-}
-
-.booking_button  a:hover {
-	background-color: #FFFFFF;
-	color: #000000;
-
-}
 
 
 body{
