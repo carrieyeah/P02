@@ -47,13 +47,12 @@ html{
 }
 
 .bundle-1{
-
-  display: -ms-flexbox;
+/*  display: -ms-flexbox;
   -ms-flex-wrap: wrap;
   -ms-flex-direction: column;
   -webkit-flex-flow: row wrap; 
   flex-flow: row wrap; 
-  display: -webkit-box;
+  display: -webkit-box;*/
   display: flex;
 }
 
@@ -152,15 +151,7 @@ html{
 
 
 body{
-<<<<<<< HEAD
 	margin: 0;
-=======
-<<<<<<< Updated upstream
-=======
-	/*position: relative;*/
-	margin: 0;
->>>>>>> Stashed changes
->>>>>>> Daniel_branch
 	font-family: "Open Sans", sans-serif;
 	line-height: 2em;
 	font-size: 0.8em;
@@ -174,15 +165,7 @@ h1{
 	font-family: 'Bubblegum Sans', cursive;
 	font-weight: 700;
 	font-size: 3em;
-<<<<<<< HEAD
 	color: rgb(227,121,85); /*orange*/
-=======
-<<<<<<< Updated upstream
-	color: #EF4564;
-=======
-	color: #FFFFFF;
->>>>>>> Stashed changes
->>>>>>> Daniel_branch
 }
 h2{
 	text-align: left;
@@ -202,7 +185,6 @@ h4{
 	color: #B52185;
 }
 
-<<<<<<< Updated upstream
 nav{
 	margin: 1em;
 	background-color: #856F73;
@@ -227,48 +209,6 @@ header{
   -webkit-flex-flow: row wrap;
   justify-content: space-around;
 
-<<<<<<< HEAD
-nav li:hover {
-	color:#b52185;
-	background-color: #b52185;
-<<<<<<< HEAD
-=======
-
-=======
-header{
-	background-color: #856F73;
-}
-
-nav{
-	background-color: #FFFFFF;
-	width: 100%;
-	height: 4.5em;
-
-}
-
-nav img{
-	width: auto;
-	height: 5.5em;
-	padding-bottom: 0.5em;
-}
-
-nav img:hover{
-	opacity: 0.5;
-}
-
-nav a {
-	width: 100%;
-	font-family: "Open Sans", sans-serif;
-	font-size: 1.1em;
-}
-
-nav ul{
-	padding-top: 1.5em;
-	margin: 0;
->>>>>>> Stashed changes
->>>>>>> Daniel_branch
-=======
->>>>>>> origin/master
 }
 .navigation a {
   text-decoration: none;
@@ -276,61 +216,10 @@ nav ul{
   padding: 1em;
   color: white;
 }
-<<<<<<< HEAD
-
-nav ul li a{
-	width: 100%;
-<<<<<<< HEAD
-	color: #FFFFFF;
-	font-weight: 300;
-=======
-<<<<<<< Updated upstream
-	color: #FED602;
-=======
-	font-weight: 300;
->>>>>>> Stashed changes
->>>>>>> Daniel_branch
-	text-decoration :none;
-=======
 .navigation li{
->>>>>>> origin/master
 	text-align: center;
 	flex-grow:1;
 }
-<<<<<<< HEAD
-nav li{
-<<<<<<< HEAD
-	width: 100%;
-	display: inline-block;
-	padding: 1rem;
-=======
-<<<<<<< Updated upstream
-	display: block;
-	border: 1px dotted #b52185;
-=======
-	display: inline;
-	padding: 1rem;
->>>>>>> Stashed changes
->>>>>>> Daniel_branch
-     -webkit-transition: background-color 0.2s;
-	transition: background-color 0.2s;
-}
-
-<<<<<<< HEAD
-
-
-
-=======
-<<<<<<< Updated upstream
->>>>>>> Daniel_branch
-hr{
-	text-align: center;
-	border: 1px dotted #47B484;;
-=======
-hr {
-	border: dotted, #61B7A3;
->>>>>>> Stashed changes
-=======
 .navigation img{
 	height: 40px;
 	width: auto;
@@ -349,7 +238,6 @@ hr {
 	transition: background-color .5s ease-out;
 	background-color: #FFFFFF;
 	color: #000000;
->>>>>>> origin/master
 }
 
 
@@ -410,87 +298,6 @@ footer li {
 	font-size: 0.4em;
 }
 
-<<<<<<< HEAD
-/*__________________________________stuff I added*/
-/*nav bar color*/
-.home li a{
-	color: #E37A56;
-}
-
-.bundle li a{
-	color: #EEA35E;
-}
-
-.booking li a{
-	color: #61B7A3;
-}
-
-.navigationbar {
-	 display: flex; /* or inline-flex */
-	 /*flex-direction: row;*/
-	 flex-wrap: nowrap;
-     justify-content: space-aroud;
-}
-
-/*nav bar hovering state*/
-li:hover{
-	max-width: 40%;
-}
-
-.home li:hover {
-	border-bottom: 3px solid #E37A56;
-}
-
-.bundle li:hover {
-	border-bottom: 3px solid #EEA35E;
-}
-
-.booking li:hover {
-	border-bottom: 3px solid #458122;
-}
-
-/*fixed nav bar*/
-
-.navigationbar {
-	position: fixed;
-	width: 100%;
-	z-index: 2;
-}
-
-
-.headerimage {
-	background-image:url("../img/header_background.jpg");
-	background-repeat: no-repeat;
-	background-size: 100%;
-    position: relative;
-	padding: 21.5rem;
-}
-
-.headerimage img{
-	width: 100%;
-	height: auto;
-} /*icon on headerimage*/
-
-/*under the header image, first title now*/
-
-.home_title h1{
-	padding-top: 5rem;
-	padding-bottom: 1rem;
-	text-align: center;
-	background-color: #FFFFFF;
-    color: #E37A56;
-}
-
-.home_title p{
-	font-weight: 500;
-	text-align: center;
-	color: #E37A56;
-}
-
-.facilities_photos img{
-	width: 400px;
-	height: 400px;
-=======
 select{
 	width: 80%;
 }
@@ -563,6 +370,5 @@ select{
 	.image_1, .image_3, .image_4, .image_5, .image_6{
 		display: none;
 	}
->>>>>>> origin/master
 }
 
