@@ -1,49 +1,36 @@
 /*CALENDAR*/
-.calendar-template p,h3, code{
-	text-align:center;
-	line-height: 1.5rem;
-	margin: 2px;
-	padding: 0px;
-	display: block;
-	position: relative;
-}
-
-.calendar-template{
-	padding: 2rem;
-	margin-bottom: 10rem;
-}
-
-.calendar{
-	display: inline-block;
-	padding-bottom: 2rem;
-	margin-bottom: 3rem;
-}
-
-.calendar body {
-	padding: 1rem;
-}
-
-.calendar h5{
-	font-size: 1.5rem;
-	font-weight: 500;
-	color: #EF4564;
+.booking2 .booking-1c .calendar{
+	/*width: 500px;*/
+	list-style: none;
+	margin: 0; 
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-flow: column wrap;
+	justify-content: space-around;
+	flex-grow:1;
 }
 
 .calendar table { 
-  width: 100%; 
+  /*width: 70%; */
   border-collapse: collapse;
-  padding: 1rem; 
 
 }
-.calendar td, .calendar th {  
-  color: #B52185; 
+.calendar td, .calendar th{  
+  color: #E37955; 
   font-weight: 400;
-  padding: 1rem; 
-  border: 1px dotted #47B484; 
+  border: 1px dotted #F7DFD1; 
   text-align: center; 
-  width: 14.2857%;
+  width: 10%;
 }
 
+.calendar th{
+	font-weight: 700;
+	background-color: #E37955;
+	color:#F7DFD1;
+}
 
 .calendar td{
 	font-weight: 300;
@@ -53,24 +40,12 @@
 	color: #AAA;
 }
 .calendar td:hover {
-	background:rgb(181, 33,133);
-	color:#ffffff;
-	font-weight: 500;
-	border-style: solid;
+	-webkit-transition: background-color .5s ease-out;
+	-moz-transition: background-color .5s ease-out;
+	-o-transition: background-color .5s ease-out;
+	transition: background-color .5s ease-out;
+	background: #E37955;
+	color: #F7DFD1;
 }
 
 
-@media(max-width: 760px){
-
-.calendar table,.calendar thead, .calendar tbody, .calendar th, .calendar td, .calendar tr{
-  display:block;
-}
-.calendar thead tr{
-  display: none;
-}
-.calendar td{
-	border: none;
-	border-bottom: 1px solid #AAA;
-
-}
-}
