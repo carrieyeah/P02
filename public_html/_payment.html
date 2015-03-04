@@ -7,8 +7,7 @@
 <!-- STYLE SHEETS -->
       <link rel = "stylesheet" href="css/calendar.css">
       <link rel = "stylesheet" href="css/payment.css">
-      
-      
+
 <!-- FONTS -->
       <link href='http://fonts.googleapis.com/css?family=Open+Sans:600italic,400,600,700,300' rel='stylesheet' type='text/css'>
       <link href='http://fonts.googleapis.com/css?family=Oswald:400,700' rel='stylesheet' type='text/css'>
@@ -18,23 +17,22 @@
     <body>
 <!-- HEADER -->
   <header><!-- NAVIGATION BAR -->
-      <nav>
-        <ul class="navigation">
-                 <img  src="img/logo(white).png">    
-          
-            <li>
-                    <a href = "about_us.html">About Us</a>
-                   </li>
-                  <li>
-                    <a href = "_facilities.html">Facilities</a>
-                  </li>
-                  <li>
-                    <a href = "theme_bundles.html">Theme Bundles</a>
-                  </li>
-                  <div class = "booking_button">
+      <nav id = "navigationbar">
+            
+                    <img src="img/navbar_logo.png" href="home.html" alt="logo">
+
+            <div class = "home-bar">
+                      <a href = "home_v2.html">Home</a>
+                  </div>
+            
+                  <div class = "bundle-bar">
+                      <a href = "theme_bundles.html">Bundle</a>
+                  </div>
+
+                  <div class = "booking-bar">
                       <a href = "_booking.html">Booking</a>
-                   </div>
-              </ul>
+                    </div>
+
       </nav>
   </header>
     
@@ -42,16 +40,39 @@
         <h1 class="text">Payment</h1>
     </div>
 
-    <div class="payment">
-        <form>
-          <input id="name" name="name" type="text" palceholder="Name">
-          <input id="cardnumber" name="cardnumber" type="text" palceholder="Card Number">
-          <input id="expiration" name="expiration" type="text" palceholder="MM/YR">
+  <div class="payment">
+    <div class="payment-title">
+      <h2>Payment</h2>
+        <div class="payment-image">
+          <img src="img/american-express.png">
+          <img src="img/discover.png">
+          <img src="img/mastercard.png">
+          <img src="img/visa.png">
+        </div>
+    </div>
+        <form class="payment-input">
+          <div class ="inputs-1">
+            <p>Name: </p><input id="name" name="name" type="text" placeholder="John Doe">
+          </div>
+          <div class ="inputs-2">
+            <p>Card Number :</p> 
+            <input id="cardnumber" name="cardnumber" type="text" placeholder="XXX-XXX-XXXX">
+          </div>
+          <div class ="inputs-3">
+            <p>Expiration Date :</p>
+              <input id="expiration" name="expiration" type="text" value"" placeholder="MM/YR">
+            </div>
+
+          
+          <div class ="inputs-4">
+            <p>Security Code CVV :</p>
+            <input id="security-code" name="security-code" type="text" placeholder="- - -">
+          </div>
         </form>
     </div>
 
 
-      <footer class"footer">
+      <footer>
         <ul>
           <li>Phone number : +852 5542 5264 </li>
           <li>Address : Room 62, 1/f, Lee On Building,  Argyle St. 56-62 Mong Kok,Kowloon, Hong Kong</li>
