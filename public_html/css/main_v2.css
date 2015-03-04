@@ -140,27 +140,27 @@ footer li {
 }
 
 /*nav bar achor tag color*/
-.home a{
+.home-bar a{
 	color: #E37A56;
 }
 
-.bundle a{
+.bundle-bar a{
 	color: #EEA35E;
 }
 
-.booking a{
+.booking-bar a{
 	color: #61B7A3;
 }
 
-.home:hover {
+.home-bar:hover {
 	border-bottom: 3px solid #E37A56;
 }
 
-.bundle:hover {
+.bundle-bar:hover {
 	border-bottom: 3px solid #EEA35E;
 }
 
-.booking:hover {
+.booking-bar:hover {
 	border-bottom: 3px solid #458122;
 }
 
