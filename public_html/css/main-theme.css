@@ -1,3 +1,8 @@
+@-ms-viewport{
+  width: device-width;
+}
+
+
 html{
 	background-color: #FCF7EC;
 }
@@ -30,7 +35,6 @@ html{
   padding: 10px;
   flex: 1 50%;
 }
-
 .bundle_description-1{
 
 	list-style: none;
@@ -303,14 +307,35 @@ select{
 }
 
 
+.shower .text2{
+	padding-right: 25rem;
+
+}
+
 
 /*MEDIA QUERIES*/
+@media all and (max-width: 1000px) {
+	  .shower .text2{
+	padding-right: 20rem;
+	}
+}
+
+@media all and (max-width: 900px) {
+	  .shower .text2{
+	padding-right: 15rem;
+	}
+}
+
+
 @media all and (max-width: 800px) {
   .navigation {
     justify-content: space-around;
   }
 
+  .shower .text2{
+	padding-right: 10rem;
 
+}
   .bundle-1{
   	 -webkit-flex-flow: row wrap;
   	justify-content: flex-start;
@@ -330,6 +355,14 @@ select{
 }
 
 @media all and (max-width: 600px) {
+    .shower{
+    	padding: 1rem;
+    }
+
+    .shower .text2{
+	padding-right: 5rem;
+
+	}
   .navigation{
     -webkit-flex-flow: column wrap;
     flex-flow: column wrap;
@@ -367,8 +400,16 @@ select{
 }
 
 @media all and (max-width: 414px) {
+	.shower{
+    	padding: 0;
+    }
 	.image_1, .image_3, .image_4, .image_5, .image_6{
 		display: none;
 	}
+}
+@media all and (max-width: 414px) {
+	.shower .text2{
+    	padding:0;
+    }
 }
 

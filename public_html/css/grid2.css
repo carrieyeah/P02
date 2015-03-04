@@ -1,3 +1,6 @@
+@-ms-viewport{
+  width: device-width;
+}
 .grid:after {
 	content: "";
 	display: block;

@@ -1,7 +1,57 @@
+
+@-ms-viewport{
+  width: device-width;
+}
+
 html{
 	
 	background-color: #FCF7EC;
 }
+/*DANIEL*/
+#navigationbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+
+    position: fixed;
+    z-index: 1;  /*make it above heading img*/
+    background: #FFFFFF;
+}
+
+/*navbar achor tag*/
+/*#navigationbar a{
+	text-decoration: none;
+}
+
+/*nav bar achor tag color*/
+.home-nav a{
+	color: #E37A56;
+}
+
+.bundle-nav a{
+	color: #EEA35E;
+}
+
+.booking-nav a{
+	color: #61B7A3;
+}
+
+.home-nav:hover {
+	border-bottom: 3px solid #E37A56;
+}
+
+.bundle-nav:hover {
+	border-bottom: 3px solid #EEA35E;
+}
+
+.booking-nav:hover {
+	border-bottom: 3px solid #458122;
+}
+
+
+
+
 
 img{
 

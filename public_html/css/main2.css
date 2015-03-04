@@ -1,4 +1,6 @@
-
+@-ms-viewport{
+  width: device-width;
+}
 .baby_shower{
   display: -webkit-box;
   display: -moz-box;
