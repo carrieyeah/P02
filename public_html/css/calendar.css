@@ -1,3 +1,6 @@
+@-ms-viewport{
+  width: device-width;
+}
 /*CALENDAR*/
 .booking2 .booking-1c .calendar{
 	/*width: 500px;*/
