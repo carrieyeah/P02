@@ -234,10 +234,23 @@ header{
 	/*background-color: #000000;*/
 }
 
+.payment-title{
+	padding-top: 2rem;
+	margin: 0; 
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-flow: row wrap;
+	justify-content: space-around;
+	align-items:center ;
+}
+
 .payment-title h2{
 	text-align: center;
 	padding-right: 3rem;
-	flex-grow:2;
+	flex-grow:1;
 }
 .payment-title img{
 	padding-right:1rem; 
@@ -259,6 +272,32 @@ header{
 .inputs-1 input:hover, .inputs-2 input:hover, .inputs-3 input:hover, .inputs-4 input:hover{
 	background: transparent;
 	border-color: #F7DFD1;
+}
+.confirm{
+	padding: 2rem;
+}
+.confirm_button a{
+	padding-left: 3rem;
+	padding-right:3rem;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+	/*width: 100%;*/
+	/*display: inline-block;*/
+	font-size: 1em;
+	border: 2px solid #FFFFFF;
+	border-color: #E37955;
+	text-decoration: none;
+	color: #E37955;
+}
+
+.confirm_button  a:hover{
+	-webkit-transition: background-color .5s ease-out;
+	-moz-transition: background-color .5s ease-out;
+	-o-transition: background-color .5s ease-out;
+	transition: background-color .5s ease-out;
+	border-color: #E37955;
+	background-color: #E37955;
+	color: #ffffff;
 }
 
 

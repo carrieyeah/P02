@@ -152,8 +152,12 @@ header{
 .booking_button{
 	padding-top:15rem; 
 }
+.payment_button{
+	padding-top: 0;
+	padding-left: 6rem;
 
-.booking_button a{
+}
+.booking_button a, .payment_button a{
 	padding-left: 3rem;
 	padding-right:3rem;
 	padding-top: 1rem;
@@ -167,7 +171,7 @@ header{
 	color: #E37955;
 }
 
-.booking_button  a:hover {
+.booking_button  a:hover, .payment_button a:hover {
 	-webkit-transition: background-color .5s ease-out;
 	-moz-transition: background-color .5s ease-out;
 	-o-transition: background-color .5s ease-out;
@@ -229,7 +233,6 @@ header{
 		flex-grow:2;
 		
 	}
-
 
 .sub-title h2{
 	text-align: center;
@@ -367,7 +370,7 @@ footer li {
 /*MEDIA QUERIES*/
 @media all and (max-width: 1110px) {
 
-	.booking_button{
+	.booking_button, .payment_button{
 		padding-top:0;
 	}
 }
@@ -407,7 +410,7 @@ footer li {
 		padding: 1rem;
 		width: auto;
 	}
-	.booking-1b .booking_button{
+	.booking-1b .booking_button, .payment_button{
 		padding-top: 2rem;
 
 	}
@@ -453,6 +456,9 @@ footer li {
 	}
 	.image-icon{
 		display: none;
+	}
+	.payment_button{
+		padding: 1rem;
 	}
 }
 
