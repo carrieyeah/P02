@@ -465,6 +465,77 @@ nav img{
 	color: #FFFFFF;
 
 }
+/*FORMS*/
+.booking3{
+		display: -ms-flexbox;
+	-ms-flex-wrap: wrap;
+	-ms-flex-direction: row;
+	-webkit-flex-flow: row wrap; 
+	flex-flow: column wrap; 
+	display: -webkit-box;
+	display: flex;
+	background-color: #FCF7EC;
+	padding-right: 6rem;
+	padding-left: 5rem;
+}
+.forms{
+	display: -ms-flexbox;
+	-ms-flex-wrap: wrap;
+	-ms-flex-direction: column;
+	-webkit-flex-flow: column wrap; 
+	flex-flow: row wrap; 
+	display: -webkit-box;
+	display: flex;
+	background-color: #FCF7EC;
+	padding: 6rem;
+}
+[class^='contact-']{
+	padding: 1rem; 
+}
+
+.contact-1 input, .contact-2 input, .contact-3 input{
+	height: 20px;
+	padding: 1rem; /* If you add too much padding here, the options won't show in IE */
+	width: 400px;
+	border-radius: 20px;
+	border-color: transparent;
+	background: #F7DFD1;
+}
+
+.contact-1 input:hover, .contact-2 input:hover, .contact-3 input:hover{
+	background: transparent;
+	border-color: #F7DFD1;
+}
+
+.buttons h2{
+
+}
+
+.bundle_description-1c{
+	width: 20%;
+	text-align: center;
+}
+
+
+.booking_button a{
+	padding: 1rem;
+	width: 100%;
+	display: inline-block;
+	font-size: 1em;
+	border: 2px solid #E37955;
+	text-decoration: none;
+	color: #E37955;
+}
+
+.booking_button  a:hover {
+	-webkit-transition: background-color .5s ease-out;
+	-moz-transition: background-color .5s ease-out;
+	-o-transition: background-color .5s ease-out;
+	transition: background-color .5s ease-out;
+	background-color: #E37955;
+	color: #FFFFFF;
+
+}
 
 /*FOOTER*/
 footer{
@@ -472,7 +543,7 @@ footer{
 	margin: 0;
 	padding: 0;
 	background-color: #FCF7EC;
-	
+
 
 }
 footer img{
@@ -584,7 +655,15 @@ footer li {
 }
 
 @media all and (max-width: 600px) {
-
+	.booking3{
+		padding:0;
+	}
+	.forms{
+		padding: 1rem;
+	}
+	.buttons{
+		padding: 1rem;
+	}
 	.font-combination{
 		display: -ms-flexbox;
 		-ms-flex-wrap: wrap;
