@@ -383,6 +383,15 @@ footer li {
 }
 
 @media all and (max-width: 800px) {
+	
+	.style-select select{
+	border-color: #E37955;
+	background: transparent;
+	font-size: 14px;
+	height: 90px;
+	padding: 2rem; /* If you add too much padding here, the options won't show in IE */
+	width: 90%;
+	}
 	.booking{
 	-webkit-flex-flow: row wrap;
   	justify-content: center;
