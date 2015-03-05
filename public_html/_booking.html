@@ -17,139 +17,217 @@
 
 		<body>
 <!-- HEADER -->
-	<header><!-- NAVIGATION BAR -->
-			<nav>
-				<ul class="navigation">  
-					
-						<li>
-			              <a href = "home_v2.html">Home</a>
-			             </li>
-			            <li>
-			            	<a href = "theme_bundles.html">Theme Bundles</a>
-			            </li>
-			    </ul>
-			            <div class = "booking_button">
-			              	<a href = "_booking.html">Booking</a>
-			             </div>
-			        
-			</nav>
-	</header>
-		
+  <header><!-- NAVIGATION BAR -->
+      <nav id = "navigationbar">
+            
+                    <img src="img/navbar_logo.png" href="home.html">
 
+            <div class = "home-bar">
+                      <a href = "home_v2.html">Home</a>
+                  </div>
+            
+                  <div class = "bundle-bar">
+                      <a href = "theme_bundles.html">Bundle</a>
+                  </div>
 
-		<div class="slider">
-			<div class="text">
-				<h1>Booking</h1>
-			</div>
-		</div>
+                  <div class = "booking-bar">
+                      <a href = "_booking.html">Booking</a>
+                    </div>
 
+      </nav>
+  </header>
 
-<!-- DATE+TIME -->
-<div class="booking2">
-		<div class="booking-1a">
-			<div class="image-icon">
-				<img  src="img/Icon-01.png" alt="date">
-			</div>
-			<div class="sub-title">
-				<h2>Date</h2>
-			</div>  
-		</div> <!-- MINI HEADER CLOSE -->
-<!-- CALENDAR -->
-        <div class ="booking-1c">
-            <h5>Month</h5>
-            <div class="style-select rounded">
-	            <select>
-	        	  <option value="Janurary">Janurary</option>
-				  <option value="Feburary">Feburary</option>
-				  <option value="March">March</option>
-				  <option value="April">April</option>
-				  <option value="May">May</option>
-				  <option value="June">June</option>
-				  <option value="July">July</option>
-				  <option value="August">August</option>
-				  <option value="September">September</option>
-				  <option value="October">October</option>
-				  <option value="November">November</option>
-				  <option value="December">December</option>
-	            </select>
-	          </div>
-         </div> <!-- CLOSE MONTH -->
-           <div class ="booking-1c">
-                <div class ="calendar">
-                    <h5>Date</h5>
-                      <table id="calendars">
-                        <thead> <!-- The header for our table, listing the days of the week -->
-                          <tr class="row">
-                            <th>Monday</th>
-                            <th>Tuesday</th>
-                            <th>Wednesday</th>
-                            <th>Thursday</th>
-                            <th>Friday</th>
-                            <th>Saturday</th>
-                            <th>Sunday</th>
-                          </tr>
-                        </thead>
-                       <tbody> <!-- The body of our table, the actual information -->
-                    <tr>
-                      <!-- We've applied a class to last month's days to make it easier to style differently -->
-                      <td class="old-days">27</td> 
-                      <td class="old-days">28</td>
-                      <td class="old-days">29</td>
-                      <td class="old-days">30</td>
-                      <td class="old-days">31</td>
-                      <td>1</td>
-                      <td>2</td>
-                    </tr>
-                    <tr>
-                      <td>3</td>
-                      <td>4</td>
-                      <td>5</td>
-                      <td>6</td>
-                      <td>7</td>
-                      <td>8</td>
-                      <td>9</td>
-                    </tr>
-                    <tr>
-                      <td>10</td>
-                      <td>11</td>
-                      <td>12</td>
-                      <td>13</td>
-                      <td>14</td>
-                      <td>15</td>
-                      <td>16</td>
-                    </tr>
-                    <tr>
-                      <td>17</td>
-                      <td>18</td>
-                      <td>19</td>
-                      <td>20</td>
-                      <td>21</td>
-                      <td>22</td>
-                      <td>23</td>
-                    </tr>
-                    <tr>
-                      <td>24</td>
-                      <td>25</td>
-                      <td>26</td>
-                      <td>27</td>
-                      <td>28</td>
-                      <td>29</td>
-                      <td>30</td>
-                    </tr>
-                  </tbody>
-                </table> <!-- CALENDAR TABLE CLOSE -->
-        	</div>
-         </div>
-         <div class ="booking-1b">
-    			<div class = "booking_button">
-				  <a href = "_booking.html">Confirm</a>
-				</div><!-- CLOSE COLUMN | BOOKING BUTTON -->
-        	</div>
+<!-- CHOOSE DATES -->
+<div class="slider">
+	<div class="text">
+		<h1>Booking</h1>
+	</div>
 </div>
-<div class="booking2">
+<!-- DATE+TIME -->
+	<div class="booking-1a">
+		<div class="image-icon">
+			<img  src="img/Icon-05.png" alt="date">
+		</div>
+		<div class="sub-title">
+			<h2>Date</h2>
+		</div>  
+	</div> 
+<!-- MINI HEADER CLOSE -->
+<!-- CALENDAR -->
+<!-- CHOOSE MONTH -->
+<div class="booking">
+    <div class ="booking-1c">
+        <h5>Month</h5>
+        <div class="style-select rounded">
+            <select>
+        	  <option value="Janurary">Janurary</option>
+			  <option value="Feburary">Feburary</option>
+			  <option value="March">March</option>
+			  <option value="April">April</option>
+			  <option value="May">May</option>
+			  <option value="June">June</option>
+			  <option value="July">July</option>
+			  <option value="August">August</option>
+			  <option value="September">September</option>
+			  <option value="October">October</option>
+			  <option value="November">November</option>
+			  <option value="December">December</option>
+            </select>
+          </div>
+     </div> <!-- CLOSE MONTH -->
+    <div class ="booking-1b">
+        <div id="calendar-wrap">
+			  <div id="calendar">
+			    <ul class="weekdays">
+			      <li>Sunday</li>
+			      <li>Monday</li>
+			      <li>Tuesday</li>
+			      <li>Wednesday</li>
+			      <li>Thursday</li>
+			      <li>Friday</li>
+			      <li>Saturday</li>
+			    </ul>
+			    <ul class="days">
+			      <li class="day other-month">
+			        <div class="date">27</div>
+			      </li>
+			      <li class="day other-month">
+			        <div class="date">28</div>
+			      </li>      <li class="day other-month">
+			        <div class="date">29</div>
+			      </li>      <li class="day other-month">
+			        <div class="date">30</div>
+			      </li>      <li class="day other-month">
+			        <div class="date">31</div>
+			      </li>      
+			      <li class="day">
+			        <div class="date">1</div>
+			      </li>
+			      <li class="day">
+			        <div class="date">2</div>
+			      </li>
+			    </ul>
+			     <ul class="days">
+			      <li class="day">
+			        <div class="date">3</div>
+			      </li>
+			      <li class="day">
+			        <div class="date">4</div>
+			      </li>      <li class="day">
+			        <div class="date">5</div>
+			      </li>      <li class="day">
+			        <div class="date">6</div>
+			      </li>      <li class="day">
+			        <div class="date">7</div>
+			      </li>      
+			      <li class="day">
+			        <div class="date">8</div>
+			      </li>
+			      <li class="day">
+			        <div class="date">9</div>
+			      </li>
+			    </ul>   
+			 <ul class="days">
+			      <li class="day">
+			        <div class="date">10</div>
+			      </li>
+			      <li class="day">
+			        <div class="date">11</div>
+			      </li>      <li class="day">
+			        <div class="date">12</div>
+			      </li>      <li class="day">
+			        <div class="date">13</div>
+			      </li>      <li class="day">
+			        <div class="date">14</div>
+			  
+			      </li>      
+			      <li class="day">
+			        <div class="date">15</div>
+			      </li>
+			      <li class="day">
+			        <div class="date">16</div>
+			      </li>
+			    </ul>      
+			 <ul class="days">
+			      <li class="day">
+			        <div class="date">17</div>
+			      </li>
+			      <li class="day">
+			        <div class="date">18</div>
+			      </li>      <li class="day">
+			        <div class="date">19</div>
+			      </li>      <li class="day">
+			        <div class="date">20</div>
+			      </li>      <li class="day">
+			        <div class="date">21</div>
+			      </li>      
+			      <li class="day">
+			        <div class="date">22</div>
+			  
+			      </li>
+			      <li class="day">
+			        <div class="date">23</div>
+			      </li>
+			    </ul>
+			 <ul class="days">
+			      <li class="day">
+			        <div class="date">24</div>
+			      </li>
+			      <li class="day">
+			        <div class="date">25</div>
+			      </li>      <li class="day">
+			        <div class="date">26</div>
+			      </li>      <li class="day">
+			        <div class="date">27</div>
+			      </li>      <li class="day">
+			        <div class="date">28</div>
+			      </li>      
+			      <li class="day">
+			        <div class="date">29</div>
+			      </li>
+			      <li class="day">
+			        <div class="date">30</div>
+			  
+			      </li>
+			    </ul>
+			  
+			  <ul class="days">
+			      <li class="day">
+			        <div class="date">31</div>
+			      </li>
+			      <li class="day other-month">
+			        <div class="date">1</div>
+			      </li>      <li class="day other-month">
+			        <div class="date">2</div>
+			      </li>      <li class="day other-month">
+			        <div class="date">3</div>
+			      </li>      <li class="day other-month">
+			        <div class="date   ">4</div>
+			      </li>      
+			      <li class="day other-month">
+			        <div class="date">5</div>
+			      </li>
+			      <li class="day other-month">
+			        <div class="date">6</div>
+			      </li>
+			    </ul>
+			 </div> 
+		</div> 
+	</div>
+	<div class ="booking-1c">
+		<div class = "booking_button">
+		  <a href = "_booking.html">Confirm</a>
+		</div><!-- CLOSE COLUMN | BOOKING BUTTON -->
+     </div>
+</div>
+
+
+
+<!-- CHOOSE DATE -->
+<div class="booking">
 		<div class="booking-1a">
 			<div class="image-icon">
-				<img  src="img/Icon-04.png" alt="date">
+				<img  src="img/Icon-02.png" alt="date">
 			</div>
 			<div class="sub-title">
 				<h2>Time</h2>
@@ -158,7 +236,7 @@
 <!-- CALENDAR -->
         <div class ="booking-1c">
             <h4>Start</h4>
-            <h5>AM</h5>
+           
             <div class="style-select rounded">
 	            <select>
 	        	  <option value="12:00">12:00</option>
@@ -177,28 +255,17 @@
 	         </div>
          </div> <!-- CLOSE MONTH -->
          <div class ="booking-1c">
-            <h4>Start</h4>
-            <h5>PM</h5>
+            <h4>AM / PM</h4>
             <div class="style-select rounded">
 	            <select>
-	        	  <option value="12:00">12:00</option>
-				  <option value="1:00">1:00</option>
-				  <option value="2:00">2:00</option>
-				  <option value="3:00">3:00</option>
-				  <option value="4:00">4:00</option>
-				  <option value="5:00">5:00</option>
-				  <option value="6:00">6:00</option>
-				  <option value="7:00">7:00</option>
-				  <option value="8:00">8:00</option>
-				  <option value="9:00">9:00</option>
-				  <option value="10:00">10:00</option>
-				  <option value="11:00">11:00</option>
+	        	  <option value="AM">AM</option>
+				  <option value="PM">PM</option>
+
 	            </select>
 	         </div>
          </div> <!-- CLOSE MONTH -->
           <div class ="booking-1c">
             <h4>Number of Hours</h4>
-            <h5>1 HR -> 3 HR</h5>
             <div class="style-select rounded">
 	            <select>
 	        	  <option value="1 HR">1 HR</option>
@@ -208,17 +275,17 @@
 	            </select>
 	         </div>
          </div> <!-- CLOSE MONTH -->
-              <div class ="booking-1b">
+              <div class ="booking-1c">
     			<div class = "booking_button">
 				  <a href = "_booking.html">Confirm</a>
 				</div><!-- CLOSE COLUMN | BOOKING BUTTON -->
         	</div>
 </div>
 
-<div class="booking2">
+<div class="booking">
 		<div class="booking-1a">
 			<div class="image-icon">
-				<img  src="img/Icon-05.png" alt="date">
+				<img  src="img/Icon-04.png" alt="date">
 			</div>
 			<div class="sub-title">
 				<h2>Number of People</h2>
@@ -263,10 +330,10 @@
         	</div>
 </div>
 
-	<div class="booking2">
+	<div class="booking">
 		<div class="booking-1a">
 			<div class="image-icon">
-				<img src="img/Icon-05.png" alt="date">
+				<img src="img/Icon-01.png" alt="date">
 			</div>
 			<div class="sub-title">
 				<h2>Choose Bundle</h2>
@@ -276,17 +343,17 @@
 <!-- CALENDAR -->
        <ul class="booking-bundle">
 		  <li class="bundle-item-1">
-		  	<div class="image image_1">
+		  	<div class="image image_1a">
 				<img src= "img/services_icon-01.png" alt="Baby Shower">
 			</div>Baby Shower
 			</li>
 			<li class="bundle-item-1">
-			  	<div class="image image_1">
+			  	<div class="image image_1a">
 					<img src="img/services_icon-03.png" alt="Engagement Party">
 				</div>Engagement Shower
 			</li>
 		  <li class="bundle-item-1">
-		  	<div class="image image_1">
+		  	<div class="image image_1a">
 				<img src="img/services_icon-02.png" alt="Birthday Party">
 			</div>Birthday Party</li>
 		  
@@ -299,10 +366,10 @@
         	</div>
 	</div>
 
-	<div class="booking2">
+	<div class="booking">
 		<div class="booking-1a">
 			<div class="image-icon">
-				<img  src="img/phone.png" alt="date">
+				<img  src="img/icon-03.png" alt="date">
 			</div>
 			<div class="sub-title">
 				<h2>Contact Info</h2>
@@ -310,10 +377,11 @@
 		</div> <!-- MINI HEADER CLOSE -->
 	
 <!-- CALENDAR -->
-		 <div class="booking3">
+		<div class="booking3">
 	      <form class="booking3">
 			<div class="contact-1">
-				<input id="name"  name="name" type="text" placeholder="Name">
+				<input id="name"  name="name" type="text"  placeholder="Name">
+
 			</div>
 			<div class="contact-2">
 				<input id="email"  name="email" type="text"  placeholder="Email Address">
@@ -324,7 +392,7 @@
 	      </form>
         
                <div class ="booking-1c">
-    			<div class = "booking_button">
+    			<div class = "payment_button">
 				  <a href = "_payment.html">Payment</a>
 				</div><!-- CLOSE COLUMN | BOOKING BUTTON -->
         	</div>
