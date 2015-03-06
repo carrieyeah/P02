@@ -25,6 +25,27 @@ nav img{
 }
 
 /*navbar achor tag*/
+/*nav a, nav a:visited, #navToggle {
+	display: inline-block;
+	background-color: blue;
+	color: #FFFFFF;
+	padding: 1em 1.25em;
+	text-decoration: none;
+	-webkit-transition: background-color 0.5s;
+	transition: background-color 0.5s;
+}*/
+
+#navToggle {
+	display: none;
+	background-color:#E37A56;
+	text-decoration: none;
+
+}
+#navToggle p{
+	
+	text-align: center;
+	color:#FFFFFF;
+}
 #navigationbar a{
 	text-decoration: none;
 }

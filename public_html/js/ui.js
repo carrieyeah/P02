@@ -4,7 +4,7 @@ $(document).ready( function() {
   var width = $(window).width();
 
 
-  if (width < 350) {
+  if (width < 400) {
     $("#navToggle").css("display","block"); // Setting #navToggle to display: block;
     $("nav").hide();    // Setting nav to display: none;
   }
