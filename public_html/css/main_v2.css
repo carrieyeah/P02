@@ -1,3 +1,6 @@
+@-ms-viewport{
+  width: device-width;
+}
 body{
 	margin: 0;
 	font-family: "Open Sans", sans-serif;
@@ -124,11 +127,10 @@ footer li {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    flex-direction: row-reverse;
-
+    flex-direction: row;
     position: fixed;
     z-index: 1;  /*make it above heading img*/
-    background: #FFFFFF;
+    background: #FCFDFD;
 }
 
 /*navbar achor tag*/
@@ -137,53 +139,156 @@ footer li {
 }
 
 /*nav bar achor tag color*/
-.home a{
+.home-bar a{
 	color: #E37A56;
 }
 
-.bundle a{
+.bundle-bar a{
 	color: #EEA35E;
 }
-
-.booking a{
+.booking-bar{
+	border:1px solid #61B7A3;
+	padding-top: 0.5rem;
+	padding-bottom: 0.5rem;
+	padding-left: 5rem;
+	padding-right: 5rem;
+}
+.booking-bar a{
 	color: #61B7A3;
 }
 
-.home:hover {
+.home-bar:hover {
 	border-bottom: 3px solid #E37A56;
 }
 
-.bundle:hover {
+.bundle-bar:hover {
 	border-bottom: 3px solid #EEA35E;
 }
 
-.booking:hover {
-	border-bottom: 3px solid #458122;
+.booking-bar:hover {
+	-webkit-transition: background-color .5s ease-out;
+	-moz-transition: background-color .5s ease-out;
+	-o-transition: background-color .5s ease-out;
+	transition: background-color .5s ease-out;
+	background: #61B7A3;
+}
+.booking-bar:hover a{
+
+	color: #FFFFFF;
 }
 
 /*header image*/
-.headerimage{
-/*	background-image:url("..img/header_background.jpg");
-	background-repeat: no-repeat;
-	background-size: 100%;
-    position: relative;
-	z-index: 0;*/
-
+.header{
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
 	display: flex;
-	justify-content: center;
+	-webkit-flex-flow: column wrap;
+	justify-content: space-around;
 }
 
-.headerimage img{
-	flex: auto;
-	min-width: 1200px;
-	height: 800px;
+.header{
+	background-image:url("../img/header_background.jpg");
+	background-repeat:no-repeat;
+	background-size: 100%;
+}
+.header_icon {
+	padding-top: 10rem;
+	background-size: 100%;
+	background-repeat:no-repeat;
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-flow: row wrap;
+	justify-content: space-around;
 }
 
-/*heading icon*/
-/*.headerimage > img{
-	min-height: 50px;
-    width: 50px;
+.header_icon_1 img, .header_icon_2 img, .header_icon_3 img{
+	width: 10rem;
+	padding: 1rem;
+	/*align-self:auto;	*/
+	flex-grow:1;
+}
+.header_icon_1 p, .header_icon_2 p, .header_icon_3 p{
+	color: #FFFFFF;
+	text-align: center;
+}
+.header_icon {
+	padding: 10rem;
+	/*align-self:auto;	*/
+}
+
+
+.svg-wrapper {
+  position: relative;
+  top: 80%;
+  transform: translateY(-50%);
+margin: 0 auto;
+  /*width: 320px;  */
+}
+.shape {
+  stroke-dasharray: 140 540;
+  stroke-dashoffset: -474;
+  stroke-width: 8px;
+  fill: transparent;
+  stroke: #19f6e8;
+  border-bottom: 5px solid black;
+  transition: stroke-width 1s, stroke-dashoffset 1s, stroke-dasharray 1s;
+}
+.text {
+  	font-family: "Open Sans", sans-serif;
+  font-size: 1rem;
+  
+  letter-spacing: 0.5em;
+  color: #fff;
+  bottom: 3rem;
+  /*left: 2rem;*/
+  position: relative;
+  text-align: center;
+}
+.svg-wrapper:hover .shape {
+  stroke-width: 2px;
+  stroke-dashoffset: 0;
+  stroke-dasharray: 760;
+}
+
+
+/*.booking-express{
+	width: 50%;
+	border:1px solid #61B7A3;
+	padding-top: 0.5rem;
+	padding-bottom: 0.5rem;
+	padding-left: 5rem;
+	padding-right: 5rem;
+}
+.booking-express a{
+	color: #61B7A3;
+}
+
+.home-express:hover {
+	border-bottom: 3px solid #E37A56;
+}
+
+.bundle-express:hover {
+	border-bottom: 3px solid #EEA35E;
+}
+
+.booking-express:hover {
+	-webkit-transition: background-color .5s ease-out;
+	-moz-transition: background-color .5s ease-out;
+	-o-transition: background-color .5s ease-out;
+	transition: background-color .5s ease-out;
+	background: #61B7A3;
+}
+.booking-express:hover a{
+
+	color: #FFFFFF;
 }*/
+
+
 
 /*Hi there, welcome to...*/
 .home_title > div > h1{
@@ -223,6 +328,8 @@ footer li {
 	/*making the padding space top/down wider*/
 	padding: 3rem 0;
 
+	/*min-width: 20em;*/
+
 }
 
 .home_photo {
@@ -253,7 +360,7 @@ footer li {
 	color: #E37A56;
 }
 
-.floor_plan h2{
+.floor_plan > ul{
 	color: #E37A56;
 
 }

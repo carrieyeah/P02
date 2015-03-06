@@ -1,21 +1,174 @@
-.empty {
-		display:inline-block;
-		float:left;
-		margin: 0; 
-		text-align: center;
+@-ms-viewport{
+  width: device-width;
 }
+html{
+	background-color: #FCF7EC;
+}
+
+
+.date_time img{
+	padding-top: 1em;
+	width: 4em;
+}
+
+.shower{
+
+
+	list-style: none;
+	margin: 0; 
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+
+	padding-left: 4rem;
+	padding-right:4rem; 
+	-webkit-flex-flow: row wrap;
+	justify-content: center;
+	
+}
+
+.shower > * {
+  padding: 10px;
+  flex: 1 50%;
+}
+
+.bundle_description-1{
+
+	list-style: none;
+	margin: 0; 
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	padding: 2rem;
+
+	justify-content: space-around;
+
+}
+
+.bundle-1{
+
+  display: -ms-flexbox;
+  -ms-flex-wrap: wrap;
+  -ms-flex-direction: column;
+  -webkit-flex-flow: row wrap; 
+  flex-flow: row wrap; 
+  display: -webkit-box;
+  display: flex;
+}
+
+.bundle-1 .image{
+	width: 200px;
+
+  -webkit-box-flex: auto;
+  -ms-flex: auto;
+  flex: auto; 
+}
+
+.bundle-1 img{
+	opacity: 0.8;
+	width: 100%;
+}
+.bundle_description-1 li{
+
+	display:block;
+	text-align: left;
+}
+
+.bundle_description-1 section{ 
+	padding-bottom:10rem; 
+
+}
+
+.bundle_description-1 .booking_button a{
+
+	color: rgb(227,121,85);
+	border-color: rgb(227,121,85);
+}
+
+.bundle_description-1 .booking_button a:hover{
+	-webkit-transition: background-color .5s ease-out;
+	-moz-transition: background-color .5s ease-out;
+	-o-transition: background-color .5s ease-out;
+	transition: background-color .5s ease-out;
+
+
+	color: #FFFFFF;
+	border-color: rgb(227,121,85);
+	background: rgb(227,121,85)
+}
+
+.bundle_description-1c{
+	width: 20%;
+	text-align: center;
+}
+
+.booking_button a{
+	padding: 1rem;
+	width: 100%;
+	display: inline-block;
+	font-size: 1em;
+	border: 2px solid #FFFFFF;
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+.booking_button  a:hover {
+	background-color: #FFFFFF;
+	color: #000000;
+
+}
+
+
+/*HEADER SECTION*/
+
+.slider{
+	display: inline-block;
+	position:relative;
+	width:100%;
+}
+
+.slider .text{
+	width: 100%;
+	padding: 4rem;
+	position:relative;
+	text-align: left;
+	
+}
+	
+.slider {
+
+	background-image:url("../img/header_img(2)-02.png");
+	background-size: 100%;
+	background-repeat:no-repeat;
+	display: flex;
+
+	
+}
+
+
+
+/*TOP PAGE ENDS*/
+
+
 body{
+<<<<<<< HEAD
+	margin: 0;
+=======
 <<<<<<< Updated upstream
 =======
 	/*position: relative;*/
 	margin: 0;
 >>>>>>> Stashed changes
+>>>>>>> Daniel_branch
 	font-family: "Open Sans", sans-serif;
 	line-height: 2em;
 	font-size: 0.8em;
-
 }
-p{
+p{	
 	font-size : 1em;
 	font-weight: 300;
 	text-align: left;
@@ -24,59 +177,65 @@ h1{
 	font-family: 'Bubblegum Sans', cursive;
 	font-weight: 700;
 	font-size: 3em;
+<<<<<<< HEAD
+	color: rgb(227,121,85); /*orange*/
+=======
 <<<<<<< Updated upstream
 	color: #EF4564;
 =======
 	color: #FFFFFF;
 >>>>>>> Stashed changes
+>>>>>>> Daniel_branch
 }
 h2{
-	font-family: 'Bubblegum Sans', cursive;
-	font-size: 2em;
-	color: #47B484;
+	text-align: left;
+	font-family: "Open Sans", sans-serif;
+	font-size: 2.5em;
+	color: #000000;
 }
 
 h3{
-	font-family: 'Bubblegum Sans', cursive;
-	font-size: 1em;
-	color: #FED602;
+	font-family: "Open Sans", sans-serif;
+	font-size: 1.5em;
+	color: #000000;
 }
 h4{
-	font-family: 'Bubblegum Sans', cursive;
-	font-size: 0.5em;
+	font-family: "Open Sans", sans-serif;
+	font-size: 1em;
 	color: #B52185;
 }
 
 <<<<<<< Updated upstream
 nav{
-	margin-left: -3rem;
-	display: inline-block;
-	position: fixed;
-	z-index: 9999;
-
-
-}
-
-nav a {
-	margin-top: 0.5em;
-	margin-bottom: 0.5em;
-	margin-right: 0.5em;
-	padding: 0px;
-	display: inline-block;
-	font-family: 'Bubblegum Sans', cursive;
-	text-align:left;
-	color: white;
-	/*margin: 0px;*/
-	/*padding: 0px;*/
-	font-size: 1.5em;
+	margin: 1em;
+	background-color: #856F73;
+	width: 100%;
+	position:relative;
+	margin: 0;
 
 }
+header{
+	background-color: #856F73;
+}
+.navigation {
+  list-style: none;
+  margin: 0; 
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  color:#b52185;
+  background-color: #6F585E;
+  -webkit-flex-flow: row wrap;
+  justify-content: space-around;
 
-
-
+<<<<<<< HEAD
 nav li:hover {
 	color:#b52185;
 	background-color: #b52185;
+<<<<<<< HEAD
+=======
 
 =======
 header{
@@ -110,20 +269,44 @@ nav ul{
 	padding-top: 1.5em;
 	margin: 0;
 >>>>>>> Stashed changes
+>>>>>>> Daniel_branch
+=======
+>>>>>>> origin/master
 }
-
+.navigation a {
+  text-decoration: none;
+  display: block;
+  padding: 1em;
+  color: white;
+}
+<<<<<<< HEAD
 
 nav ul li a{
 	width: 100%;
+<<<<<<< HEAD
+	color: #FFFFFF;
+	font-weight: 300;
+=======
 <<<<<<< Updated upstream
 	color: #FED602;
 =======
 	font-weight: 300;
 >>>>>>> Stashed changes
+>>>>>>> Daniel_branch
 	text-decoration :none;
+=======
+.navigation li{
+>>>>>>> origin/master
 	text-align: center;
+	flex-grow:1;
 }
+<<<<<<< HEAD
 nav li{
+<<<<<<< HEAD
+	width: 100%;
+	display: inline-block;
+	padding: 1rem;
+=======
 <<<<<<< Updated upstream
 	display: block;
 	border: 1px dotted #b52185;
@@ -131,11 +314,18 @@ nav li{
 	display: inline;
 	padding: 1rem;
 >>>>>>> Stashed changes
+>>>>>>> Daniel_branch
      -webkit-transition: background-color 0.2s;
 	transition: background-color 0.2s;
 }
 
+<<<<<<< HEAD
+
+
+
+=======
 <<<<<<< Updated upstream
+>>>>>>> Daniel_branch
 hr{
 	text-align: center;
 	border: 1px dotted #47B484;;
@@ -143,6 +333,26 @@ hr{
 hr {
 	border: dotted, #61B7A3;
 >>>>>>> Stashed changes
+=======
+.navigation img{
+	height: 40px;
+	width: auto;
+	/*flex-grow:1;*/
+}
+
+.navigation .booking_button{
+	text-align: center;
+	flex-grow:2;
+}
+
+.navigation li:hover{
+	-webkit-transition: background-color .5s ease-out;
+	-moz-transition: background-color .5s ease-out;
+	-o-transition: background-color .5s ease-out;
+	transition: background-color .5s ease-out;
+	background-color: #FFFFFF;
+	color: #000000;
+>>>>>>> origin/master
 }
 
 
@@ -150,31 +360,60 @@ hr {
 	width: 80%;
 	height: auto;
 }
+
 .contact_us img{
 	width: 5rem;
 	height: auto;
 }
 
 
+
+.floorplan img{
+	width: 100%;
+	height: auto;
+}
+
+.floorplan li{
+	display: block;
+	text-align: left;
+	text-decoration: none;
+}
+
+.floorplan h2{
+	display: block;
+	text-align: left;
+	text-decoration: none;
+}
+
+.floorplan h3{
+	display: block;
+	text-align: left;
+	text-decoration: none;
+	font-size: 4em;
+}
+
 footer{
 	width: 100%;
-	margin: 0px;
-	padding: 0px;
-	background-color: #b52185;
+	margin: 0;
+	padding: 0;
+	background-color: #856F73;
 
 }
-footer ul{
-
+footer img{
+	width:auto;
+	height: 5em;
 }
 footer li {
-	color: #fed60e;
-	padding-right: 2rem;
+
+	color: #ffffff;
+	padding-left: 2rem;
 	display: block;
-	text-align: right;
+	text-align: left;
 	text-decoration: none;
 	font-size: 0.4em;
 }
 
+<<<<<<< HEAD
 /*__________________________________stuff I added*/
 /*nav bar color*/
 .home li a{
@@ -254,5 +493,79 @@ li:hover{
 .facilities_photos img{
 	width: 400px;
 	height: 400px;
+=======
+select{
+	width: 80%;
+}
+
+
+
+/*MEDIA QUERIES*/
+@media all and (max-width: 800px) {
+  .navigation {
+    justify-content: space-around;
+  }
+
+
+  .bundle-1{
+  	 -webkit-flex-flow: row wrap;
+  	justify-content: flex-start;
+  }
+  .bundle_description-1{
+   justify-content: space-around;
+  }
+  .bundle_description-1c{
+  	order:1;
+  	
+  }
+  .bundle_description-1b, .bundle_description-1a{
+  	order:2;
+  	
+
+  }
+}
+
+@media all and (max-width: 600px) {
+  .navigation{
+    -webkit-flex-flow: column wrap;
+    flex-flow: column wrap;
+    padding: 0;
+  }
+  
+  .navigation a { 
+    text-align: center; 
+    padding: 10px;
+    border-top: 1px solid rgba(255,255,255,0.3); 
+    border-bottom: 1px solid rgba(0,0,0,0.1); 
+  }
+
+  
+  .navigation li:last-of-type a {
+    border-bottom: none;
+  }
+
+  .bundle_description-1{
+    flex-flow: column wrap
+  }
+
+  .bundle_description-1a, .bundle_description-1b{
+  	width: 100%;
+  	text-align: center;
+  }
+
+  .bundle_description-1a li, .bundle_description-1b li{
+  	flex-grow:2;
+  }
+
+  .bundle_description-1c{
+  	width: 80%;
+  }
+}
+
+@media all and (max-width: 414px) {
+	.image_1, .image_3, .image_4, .image_5, .image_6{
+		display: none;
+	}
+>>>>>>> origin/master
 }
 

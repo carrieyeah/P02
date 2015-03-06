@@ -1,6 +1,7 @@
 <!doctype html>
 	<html lang = 'en'>
 		<head>
+			<meta name="viewport" content="width=device-width">
 			<meta charset = "utf-8">
 			<title> PartyMoment </title>
 <!-- STYLE SHEETS -->
@@ -16,32 +17,69 @@
 		<body background="img/body_background.jpg">
 
 <!-- NAVIGATION BAR -->
-			<nav id = "navigationbar">
+  <header>
+      <nav id = "navigationbar">
+            
+                    <img src="img/navbar_logo.png" href="home.html">
+
+            <div class = "home-bar">
+                      <a href = "home_v2.html">Home</a>
+                  </div>
+            
+                  <div class = "bundle-bar">
+                      <a href = "theme_bundles.html">Bundle</a>
+                  </div>
+
+                  <div class = "booking-bar">
+                      <a href = "_booking.html">Booking</a>
+                    </div>
+
+      </nav>
+  </header>
+<!-- 			<nav id = "navigationbar">
 						
 		              	<img src="img/navbar_logo.png" href="home.html">
 
-						<div class = "home">
-			              	<a href = "home.html">Home</a>
-			            </div>
+			            <div class = "booking">
+		              		<a href = "_booking.html">Booking</a>
+		              	</div>
 						
 		            	<div class = "bundle">
 			              	<a href = "theme_bundles.html">Bundle</a>
 			            </div>
 
-			            <div class = "booking">
-		              		<a href = "_booking.html">Booking</a>
-		              	</div>
+						<div class = "home">
+			              	<a href = "home.html">Home</a>
+			            </div>
 
-			</nav>
+			</nav> -->
 
 <!-- HeaderImage -->
-		<div class="headerimage">
-			<img src="img/header_background.jpg">
-<!-- 			<img src="img/headerimage_hour_icon.png">
-			<img src="img/headerimage_location_icon.png">
-			<img src="img/headerimage_phone_icon.png"> -->
 
+	<div class="header">
+		<!-- <img src="img/header_background.jpg"> -->
+		<div class="header_icon">
+			<div class="header_icon_1">
+				<img src="img/icon(1)-04.png">
+				<p>24/7</p>
+			</div>
+			<div class="header_icon_2">
+				<img src="img/icon(1)-05.png">
+				<p>24/7</p>
+			</div>
+			<div class="header_icon_3">
+				<img src="img/icon(1)-06.png">
+				<p>24/7</p>
+			</div>
 		</div>
+		<div class="svg-wrapper">
+		  <svg height="60" width="320">
+		    <rect class="shape" height="60" width="320" />
+		    <div class="text">BOOK NOW</div>
+		  </svg>
+		</div>
+	</div>
+
 
 <!-- Home -->
 			<div class="home_title">
@@ -82,7 +120,7 @@
 
 				<div class="photo">
 					<img src="img/home_photo5.jpg">
-					<p>Dinning spot</p>
+					<p>Dining spot</p>
 				</div>
 
 				<div class="photo">
@@ -96,7 +134,6 @@
 <!-- detail + floor plan -->
 
 			<div class="floor_plan">
-				<h2>Floor Plan</h2>
 				<ul>
 					<li>Average spending: $10/person</li>
 					<li>Minimum charge: $80 per booking</li>
