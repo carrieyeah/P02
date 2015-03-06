@@ -197,7 +197,6 @@ header{
 		display: -webkit-flex;
 		display: flex;
 		-webkit-flex-flow: row wrap;
-		justify-content: flex-right;	
 	}
 
 		.booking-1a .image-icon img{
@@ -226,7 +225,7 @@ header{
 	justify-content: space-around;
 }
 
-	.booking-1c,{
+	.booking-1c{
 		flex-grow:1;
 	}
 	.booking-1b{
@@ -293,8 +292,7 @@ header{
 	text-align: center;
 }
 .bundle-item-1 img:hover{
-	 opacity: 0.5;
-	 border-color: 
+	 opacity: 0.5; 
 }
 
 .bundle-item-1 img:active{
