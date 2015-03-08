@@ -123,42 +123,54 @@ footer li {
 
 /*__________________________________stuff I added*/
 /*fixed nav bar*/
-#navigationbar {
+.navigationbar, .home-bar {
     display: flex;
-    align-items: center;
-    justify-content: space-around;
     flex-direction: row;
+
     position: fixed;
     z-index: 1;  /*make it above heading img*/
-    background: #FCFDFD;
+    background: #000000;
+    opacity: 0.7;
 }
 
-/*navbar achor tag*/
-.home-bar a{
-	text-decoration: underline;
+.home-bar ul{
+	display: flex;
+	flex-: row;
+	justify-content: space-around;
+}
+
+.home-bar ul li {
+	margin: 12px 0 12px 28px;
 }
 
 /*nav bar achor tag color*/
-.home-bar a{
+.home-bar ul li a{
+	text-decoration: none;
 	color: #E37A56;
+	text-transform: uppercase;
 }
 
 .bundle-bar a{
+	text-decoration: none;
 	color: #EEA35E;
 }
+
+.booking-bar a{
+	text-decoration: none;
+	color: #61B7A3;
+}
+
 .booking-bar{
-	border: 1px solid #61B7A3;
+	border:1px solid #61B7A3;
 	padding-top: 0.5rem;
 	padding-bottom: 0.5rem;
 	padding-left: 5rem;
 	padding-right: 5rem;
 }
-.booking-bar a{
-	color: #61B7A3;
-}
 
 .home-bar:hover {
 	border-bottom: 3px solid #E37A56;
+
 }
 
 .bundle-bar:hover {
@@ -178,55 +190,85 @@ footer li {
 }
 
 /*header image*/
-
-.header_icon{
-	display: -ms-flexbox;
-	-ms-flex-wrap: wrap;
-	-ms-flex-direction: column;
-	-webkit-flex-flow: row wrap; 
-	flex-flow: row wrap; 
+.header{
 	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
 	display: flex;
-	width: 200px;
-	height: 200px;
-	position: absolute;
-	z-index: 999;
-}
-.header_icon_1 img, .header_icon_2 img, .header_icon_3 img{
-	/*position: absolute;*/
-
-	height: 6em;
-
+	-webkit-flex-flow: column wrap;
+	justify-content: space-around;
 }
 
 .header{
-	display: -ms-flexbox;
-	-ms-flex-wrap: wrap;
-	-ms-flex-direction: column;
-	-webkit-flex-flow: row wrap; 
-	flex-flow: row wrap; 
+	background-image:url("../img/header_background.jpg");
+	background-repeat: top center no-repeat;
+	background-size: cover;
+}
+.header_icon {
+	padding-top: 10rem;
+	background-size: 100%;
+	background-repeat:no-repeat;
 	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
 	display: flex;
-
-	position: relative;
+	-webkit-flex-flow: row wrap;
+	justify-content: space-around;
 }
 
-.headertext{
-	display: flex;
-	position: absolute;
-	top: 10px;
+.header_icon_1 img, .header_icon_2 img, .header_icon_3 img{
+	width: 10rem;
+	padding: 1rem;
+	/*align-self:auto;	*/
+	flex-grow:1;
+}
+.header_icon_1 p, .header_icon_2 p, .header_icon_3 p{
+	color: #FFFFFF;
+	text-align: center;
+}
+.header_icon {
+	padding: 10rem;
+	/*align-self:auto;	*/
 }
 
 
+.svg-wrapper {
+  position: relative;
+  top: 80%;
+  transform: translateY(-50%);
+  margin: 0 auto;
+  /*width: 320px;  */
+}
+.shape {
+  stroke-dasharray: 140 540;
+  stroke-dashoffset: -474;
+  stroke-width: 8px;
+  fill: transparent;
+  stroke: #19f6e8;
+  border-bottom: 5px solid black;
+  transition: stroke-width 1s, stroke-dashoffset 1s, stroke-dasharray 1s;
+}
+.text {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1rem;
+  
+  letter-spacing: 0.5em;
+  color: #fff;
+  bottom: 3rem;
+  /*left: 2rem;*/
+  position: relative;
+  text-align: center;
+}
+.svg-wrapper:hover .shape {
+  stroke-width: 2px;
+  stroke-dashoffset: 0;
+  stroke-dasharray: 760;
+}
 
-/*heading icon*/
-/*.headerimage > img{
-	min-height: 50px;
-    width: 50px;
-}*/
-
-/*Hi there, welcome to...*/
-.home_title > div > h1{
+/*Introduction*/
+.title > div > h1{
 	display: flex;
 	justify-content: center;
 
@@ -235,7 +277,7 @@ footer li {
     text-align: center;
 }
 
-.home_title > div> h3{
+.title > div> h3{
 	display: flex;
 	justify-content: center; /*content center*/
 
@@ -246,7 +288,7 @@ footer li {
 	text-align: center; /*p itself center*/
 }
 
-.home_title > div > p{
+.title > div > p{
 	display: flex;
 	justify-content: center;
 
@@ -267,27 +309,56 @@ footer li {
 
 }
 
-.home_photo {
+/*Middle part*/
+.middle{
+	display: -webkit-flex;
+	min-height: 100px;
+	flex-flow: row;
+}
+
+.description{
+	display: -webkit-flex;
+	-webkit-flex: 2 0 0;
+	flex-flow: column; /*the axis has changed 90 degree*/
+	align-items: center; /*align here function as justify*/
+	order: 1;
+}
+
+.description_button{
+	border:1px solid #61B7A3;
+	padding-top: 0.5rem;
+	padding-bottom: 0.5rem;
+	padding-left: 5rem;
+	padding-right: 5rem;
+}
+
+.description_button a{
+	text-decoration: none;
+	color: #61B7A3;
+}
+
+.middle_photo {
 	display: -webkit-flex; /*same as flex*/
+	-webkit-flex: 2.5 0 0;
 	flex-wrap: wrap; /*it moves down 1 block as shrink*/
 	align-items: center;
     flex-flow: row wrap;
+    order: 2;
+
+    align-content: flex-start;
 }
 
-.home_photo > .photo {
-	flex: auto;
-
-	width: 600px;
-	padding-top: 0.5rem;
+.middle_photo > .photo {
+	width: 300px;
+	padding-top: 1rem;
 }
 
-.home_photo > .photo > img{
+.middle_photo > .photo > img{
 	width: 100%; 
 	height: auto;
-
 }
 
-.home_photo > .photo > p{
+.middle_photo > .photo > p{
 	text-align: center;
 	margin-bottom: 4rem;
 	font-weight: 500;
@@ -295,10 +366,8 @@ footer li {
 	color: #E37A56;
 }
 
-.floor_plan > ul{
-	color: #E37A56;
-}
 
+/*footer*/
 #footer {
    display: flex;
    align-items: flex-end;
