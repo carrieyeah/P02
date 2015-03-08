@@ -22,15 +22,12 @@ $('.bundle-item-1 img').click(function(){
     $(this).toggleClass('active');
 });
 
-      $( ".tenth , .singles " )
-        .change(function () {
-          var str = "";
-          $( ".tenth select option:selected , .singles select option:selected" ).each(function() {
-            str += $( this ).text() + " ";
-          });
-          $( ".numpeople" ).text( str );
-        })
-        .change();
+     $( ".numpeople_text input" )
+  .keyup(function() {
+    var value = $( this ).val();
+    $( ".numpeople" ).text( value );
+  })
+  .keyup();
 
 
       $( ".month" )
@@ -81,5 +78,23 @@ $('.bundle-item-1 img').click(function(){
           $( ".hours" ).text( str );
         })
         .change();
+
+
+$( ".image_1a img" ).click(function() {
+  var imageId = $( ".image_1a img" ).attr("alt");
+  $( ".bundles_text input" ).val( imageId );
+
+});
+$( ".image_1b img" ).click(function() {
+  var imageId2 = $( ".image_1b img" ).attr("alt");
+  $( ".bundles_text input" ).val( imageId2 );
+
+});
+$( ".image_1c img" ).click(function() {
+  var imageId3 = $( ".image_1c img" ).attr("alt");
+  $( ".bundles_text input" ).val( imageId3 );
+
+});
+
 
 });
