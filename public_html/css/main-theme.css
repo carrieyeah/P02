@@ -1,5 +1,11 @@
 
+
+html{
+	background-color: #ffffff;
+}
+
 .shower_description{
+
 	background-color: #FCF7EC;
 }
 .shower{
@@ -39,6 +45,10 @@
 
 .bundle-1 .image{
 	width: 200px;
+
+  -webkit-box-flex: auto;
+  -ms-flex: auto;
+  flex: auto; 
 }
 
 .bundle-1 img{
@@ -133,19 +143,57 @@
 /*TOP PAGE ENDS*/
 
 
-
-
-#navToggle {
-	padding: 1.5rem;
-	display: none;
-	background-color:#E37A56;
-	text-decoration: none;
-
+body{
+	margin: 0;
+	font-family: "Open Sans", sans-serif;
+	line-height: 2em;
+	font-size: 0.8em;
 }
-#navToggle p{
-	
-	text-align: center;
-	color:#FFFFFF;
+p{	
+	font-size : 1em;
+	font-weight: 300;
+	text-align: left;
+}
+h1{
+	font-family: 'Bubblegum Sans', cursive;
+	font-weight: 700;
+	font-size: 3em;
+	color: rgb(227,121,85); /*orange*/
+}
+h2{
+	text-align: left;
+	font-family: "Open Sans", sans-serif;
+	font-size: 2.5em;
+	color: #000000;
+}
+
+h3{
+	font-family: "Open Sans", sans-serif;
+	font-size: 1.5em;
+	color: #000000;
+}
+h4{
+	font-family: "Open Sans", sans-serif;
+	font-size: 1em;
+	color: #B52185;
+}
+
+nav{
+	background-color: #FFFFFF;
+	width: 100%;
+	height: 5em;
+}
+
+header{
+	background-color: #856F73;
+}
+ul{
+ padding: 0;
+}
+
+nav img{
+	width: auto;
+	height: 6em;
 }
 
 #navigationbar {
@@ -234,11 +282,6 @@ select{
 
 /*MEDIA QUERIES*/
 @media all and (max-width: 1000px) {
-	.bundle-1 .image{
-  -webkit-box-flex: auto;
-  -ms-flex: auto;
-  flex: auto; 
-	}
 	 .shower .text2{
 	padding-right: 20rem;
 	}
