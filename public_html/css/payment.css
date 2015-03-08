@@ -36,6 +36,7 @@ nav img{
 }*/
 
 #navToggle {
+	padding: 1.5rem;
 	display: none;
 	background-color:#E37A56;
 	text-decoration: none;
@@ -97,13 +98,13 @@ nav img{
 
 .slider .text{
 	width: 100%;
-	padding: 4rem;
+	padding: 6rem;
 	align-self:auto;	
 }
 	
 .slider {
 
-	background-image:url("../img/header_img(2)-02.png");
+	/*background-image:url("../img/header_img(2)-02.png");*/
 	background-size: 100%;
 	background-repeat:no-repeat;
 	display: -webkit-box;
@@ -263,17 +264,31 @@ header{
 	display: -ms-flexbox;
 	display: -webkit-flex;
 	display: flex;
-	-webkit-flex-flow: row wrap;
+	-webkit-flex-flow: column wrap;
 	justify-content: space-around;
 	align-items:center ;
 }
 
 .payment-title h2{
 	text-align: center;
-	padding-right: 3rem;
+	/*padding-right: 3rem;*/
+	padding-top: 1rem;
+	padding-bottom: 1rem;
 	flex-grow:1;
 }
+.payment-image{
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-flow: row wrap;
+	justify-content: space-around;
+	align-items:center ;
+	padding: 2rem;
+}
 .payment-title img{
+	width: 2.5rem;
 	padding-right:1rem; 
 	flex-grow:1;
 }
@@ -389,6 +404,18 @@ footer li {
 }
 
 @media all and (max-width: 600px) {
+	.payment{
+		padding: 1rem;
+	}
+.inputs-1 input, .inputs-2 input, .inputs-3 input, .inputs-4 input{
+	height: 20px;
+	padding: 1rem; /* If you add too much padding here, the options won't show in IE */
+	width: 200px;
+	border-radius: 20px;
+	border-color: transparent;
+	background: #F7DFD1;
+}
+
     .shower{
     	padding: 1rem;
     }
