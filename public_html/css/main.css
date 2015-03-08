@@ -1,56 +1,643 @@
 @-ms-viewport{
   width: device-width;
 }
+
+
+/*NORMAL ELEMENTS*/
+
 html{
-	background-color: #FCF7EC;
+	background-color: #FFFFFF;
+}
+
+body{
+	background-image: url(../img/body_background.jpg);
+	margin: 0;
+	font-family: "Open Sans", sans-serif;
+	line-height: 2em;
+	font-size: 0.8em;
+}
+p{	
+	font-size : 1em;
+	font-weight: 300;
+	text-align: left;
+}
+h1{
+	font-family: 'Bubblegum Sans', cursive;
+	font-weight: 700;
+	font-size: 3em;
+	color: rgb(227,121,85); /*orange*/
+}
+h2{
+	text-align: left;
+	font-family: "Open Sans", sans-serif;
+	font-size: 2.5em;
+	color: #000000;
+}
+
+h3{
+	font-family: "Open Sans", sans-serif;
+	font-size: 1.5em;
+	color: #000000;
+}
+h4{
+	font-family: "Open Sans", sans-serif;
+	font-size: 1em;
+	color: #B52185;
+}
+
+nav{
+	background-color: #FFFFFF;
+	width: 100%;
+	height: 5em;
+}
+
+nav img{
+	width: auto;
+	height: 6em;
+}
+
+nav a{
+	width: 100%;
+	font-family: "Open Sans", sans-serif;
+	font-size: 1.1em;
+}
+
+header{
+	background-color: #856F73;
+}
+ul{
+ padding: 0;
 }
 
 
-.date_time img{
-	padding-top: 1em;
-	width: 4em;
-}
-
-.shower{
-
-
-	list-style: none;
-	margin: 0; 
+footer{
 	display: -webkit-box;
 	display: -moz-box;
 	display: -ms-flexbox;
 	display: -webkit-flex;
 	display: flex;
 
+	-webkit-flex-flow: row wrap;
+
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	background-color: #856F73;
+
+}
+
+footer img{
+	width:auto;
+	height: 5em;
+}
+footer li {
+
+	color: #ffffff;
+	padding-left: 2rem;
+	display: block;
+	text-align: left;
+	text-decoration: none;
+	font-size: 0.4em;
+}
+
+select{
+	width: 80%;
+}
+
+/*NAV BAR*/
+#navToggle {
+	padding: 1.5rem;
+	display: none;
+	background-color:#E37A56;
+	text-decoration: none;
+
+}
+#navToggle p{
+	
+	text-align: center;
+	color:#FFFFFF;
+}
+#navigationbar {
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    position: fixed;
+    z-index: 1;
+    background-image:url(../img/body_background.jpg);
+    background-size: 25%;
+}
+#navigationbar a{
+	text-decoration: none;
+	font-size: .8rem;
+}
+
+#navigationbar .logo{
+	display: flex;
+	flex: 3;
+    justify-content: flex-start;
+
+    margin-left: 2.5rem;
+    margin-top: 0.4rem;
+}
+#navigationbar .bar{
+	display: flex;
+	flex: 2;
+	justify-content: space-around;
+	align-items: center;
+}
+
+/*DANIEL NAV BAR UPDATES*/
+
+/*.home-bar{
+	border: 1px solid #E37A56;
+	border-color: #FFFFFF;
+	padding-top: 0.3rem;
+	padding-bottom: 0.3rem;
+	padding-left: 3rem;
+	padding-right: 3rem;
+}
+
+.bundle-bar{
+	border: 1px solid #EEA35E;
+	border-color: #FFFFFF;
+	padding-top: 0.3rem;
+	padding-bottom: 0.3rem;
+	padding-left: 3rem;
+	padding-right: 3rem;
+}
+
+.booking-bar{
+	border: 1px solid #61B7A3;
+	border-color: #FFFFFF;
+	padding-top: 0.3rem;
+	padding-bottom: 0.3rem;
+	padding-left: 3rem;
+	padding-right: 3rem;
+}
+
+.home-bar:hover {
+	transition: background-color .5s ease-out;
+	background: #E37A56;
+
+}
+
+.home-bar:hover a{
+	color: #FFFFFF;
+}
+
+
+.bundle-bar:hover {
+	transition: background-color .5s ease-out;
+	background: #EEA35E;
+}
+
+.bundle-bar:hover a{
+	color: #FFFFFF;
+}
+
+
+.booking-bar:hover {
+	-webkit-transition: background-color .5s ease-out;
+	-moz-transition: background-color .5s ease-out;
+	-o-transition: background-color .5s ease-out;
+	transition: background-color .5s ease-out;
+	background: #61B7A3;
+}
+
+.booking-bar:hover a{
+	color: #FFFFFF;
+}*/
+
+
+/*DANIEL NAV BAR UPDATES ENDS*/
+
+
+/*nav bar achor tag color*/
+.home-bar a{
+	color: #E37A56;
+}
+
+.bundle-bar a{
+	color: #EEA35E;
+}
+
+.booking-bar{
+	color: #EEA35E;
+/*	border:1px solid #61B7A3;
+	padding-top: 0.5rem;
+	padding-bottom: 0.5rem;
+	padding-left: 5rem;
+	padding-right: 5rem;*/
+}
+.booking-bar a{
+	/*border:1px solid #61B7A3;*/
+	color: #61B7A3;
+}
+
+.home-bar:hover {
+
+	border-bottom: 3px solid #E37A56;
+}
+
+.bundle-bar:hover {
+
+	border-bottom: 3px solid #EEA35E;
+}
+
+.booking-bar:hover {
+	-webkit-transition: background-color .5s ease-out;
+	-moz-transition: background-color .5s ease-out;
+	-o-transition: background-color .5s ease-out;
+	transition: background-color .5s ease-out;
+	background: #61B7A3;
+}
+.booking-bar:hover a{
+
+	color: #FFFFFF;
+}
+
+
+/*LANDING HEADER*/
+/*header image*/
+.header{
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-flow: column wrap;
+}
+
+.header{
+	background-image:url("../img/header_background.jpg");
+	background-repeat: center no-repeat;
+	background-size: cover;
+}
+.header_icon {
+	padding-top: 10rem;
+	padding: 4rem;
+	background-size: 100%;
+	background-repeat:no-repeat;
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-flow: row wrap;
+	justify-content: space-between;
+}
+
+.header_icon_1, .header_icon_2, .header_icon_3{
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-flow: column wrap;
+	}
+
+.header_icon_1 img, .header_icon_2 img, .header_icon_3 img{
+	width: 10rem;
+	padding: 3rem;
+	flex-grow:1;
+}
+.header_icon_1 p, .header_icon_2 p, .header_icon_3 p{
+	color: #FFFFFF;
+	text-align: center;
+}
+
+/*when it smaller than 600px, element remains...*/
+
+
+/*header booking button*/
+.svg-wrapper {
+  position: relative;
+  top: 80%;
+  transform: translateY(-50%);
+  margin: 0 auto;
+}
+
+.shape {
+  stroke-dasharray: 140 540;
+  stroke-dashoffset: -474;
+  stroke-width: 8px;
+  fill: transparent;
+  stroke: #19f6e8;
+  border-bottom: 5px solid black;
+  transition: stroke-width 1s, stroke-dashoffset 1s, stroke-dasharray 1s;
+}
+
+.text_super {
+  font-family: 'open sans';
+  font-size: 1rem;
+  font-weight: 300;
+  
+  letter-spacing: 0.2em;
+  color: #FFFFFF;
+  bottom: 3rem;
+  position: relative;
+  text-align: center;
+}
+.svg-wrapper:hover .shape {
+  stroke-width: 2px;
+  stroke-dashoffset: 0;
+  stroke-dasharray: 760;
+}
+
+
+/*Introduction*/
+.title_middle{
+	display: flex;
+	justify-content: center;
+	flex-flow: column wrap;
+}
+.title_middle h1{
+	line-height: 5rem;
+  	padding:1rem;
+    /*margin-top: 15rem;*/
+    color: #E37A56;
+    text-align: center;
+}
+
+.title_middle h3{
+    margin-top: 4rem;
+    margin-bottom: 3rem;
+	font-weight: 500;
+	color: #E37A56;
+	text-align: center; /*p itself center*/
+}
+
+.title_middle p{
+
+	border-top: 1px solid #E37A56;
+	color: #E37A56;
+
+	text-align: center;
+	margin-left: 20rem;
+	margin-right: 20rem;
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+}
+
+/*Middle part*/
+.middle{
+	padding-top:2rem; 
+	padding-bottom: 2rem;
+	background-color: #EEA35E;
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-flow: row wrap;
+
+}
+.middle_description{
+	padding: 2rem;
+	display: -webkit-flex;
+	-webkit-flex: 2;
+	flex-flow: column; /*the axis has changed 90 degree*/
+	align-items: center; /*align here function as justify*/
+	justify-content: center; /*align here function as justify*/
+	order: 1;
+
+   
+}
+
+.middle_description h2{
+	color: #FFFFFF;
+}
+
+.middle_description p{
+    color: #FFFFFF;
+	text-align: center;
+    border-top: 1px solid #FFFFFF;
+	/*making the border L/R shorter*/
+	margin-left: 5rem;
+	margin-right: 5rem;
+	padding-top: 3rem;
+
+}
+
+
+.middle_photo {
+	display: -webkit-flex;
+	-webkit-flex: 2;
+	flex-flow: row wrap;
+	align-content: center;
+	justify-content:space-around;
+    order: 2;
+
+}
+/******/
+
+[class^='photo-']{
+	width: 200px;
+}
+
+.middle .middle_photo img{
+	width: 100%; 
+	height: auto;
+}
+
+
+.description_button{
+	border:1px solid #FFFFFF;
+	padding-top: 0.5rem;
+	padding-bottom: 0.5rem;
+	padding-left: 3rem;
+	padding-right: 3rem;
+
+	margin-top: 3rem;
+}
+
+.description_button:hover{
+	-webkit-transition: background-color .5s ease-out;
+	-moz-transition: background-color .5s ease-out;
+	-o-transition: background-color .5s ease-out;
+	transition: background-color .5s ease-out;
+	background: #FFFFFF;
+}
+
+.description_button:hover a{
+	color: #FFA248;
+}
+
+.description_button a{
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+
+
+/*facilities*/
+
+.facilities_big{
+	padding-top: 5rem;
+	padding-bottom: 5rem;
+	display: flex;
+	flex-flow: column;
+	background: #E37A56;
+
+	
+}
+
+.facilities_intro{
+	padding-bottom: 2rem;
+	display: flex;
+	flex-flow: column;
+	align-item: center;
+}
+
+.facilities_intro h2{
+    color: #FFFFFF;
+    text-align: center;
+  
+}
+
+.facilities_intro p{
+	color: #FFFFFF;
+	text-align: center;
+    border-top: 1px solid #FFFFFF;
+	/*making the border L/R shorter*/
+	margin-left: 5rem;
+	margin-right: 5rem;
+	padding-top: 3rem;
+}
+
+/*facilities_photo*/
+.facilities{
+	display: flex;
+	flex-flow: row wrap;
+	justify-content:space-around;
+}
+
+.facilities img{ 
+    width: 100%; 
+    height: auto; 
+}
+
+
+[class^='facilities_photo-']{
+	width: 200px;
+}
+
+/*<!-- information -->*/
+.information{
+	padding-top:5rem;
+	padding-bottom: 5rem;
+	display: flex;
+	flex-flow: row;
+}
+
+.details{
+
+	display: flex;
+	flex-flow: column;
+	flex:1;
+	align-self: center;
+}
+
+.details h2, ul{
+    color: #646464;
+}
+
+.details h2{
+    margin-left: 8rem;
+}
+
+.detail_description{
+	display: flex;
+	flex-flow: row;
+	justify-content: center;
+}
+
+.detail_description1, .detail_description2{
+    margin-left: 4rem;
+    padding: 0;
+}
+
+.floor_plan{
+	flex: 1;
+	width: 15rem;
+	
+}
+
+.floor_plan img{
+
+ 	width: 80%;
+}
+
+
+
+
+/*SLIDER SECTION*/
+
+.slider{
+	background-color: #FFFFFF;
+	display: inline-block;
+	position:relative;
+	width:100%;
+}
+
+.slider .text{
+	width: 100%;
+	padding-left: 4rem;
+	padding-top: 8rem;
+	padding-bottom: 2rem;
+	position:relative;
+	text-align: left;
+	
+}
+.slider {
+
+	/*background-image:url("../img/header_img(2)-02.png");*/
+	background-size: 100%;
+	background-repeat:no-repeat;
+	display: flex;	
+}
+.image-icon img{
+	-webkit-box-flex: auto;
+	-ms-flex: auto;
+	flex: auto; 
+	width: 50px;
+	flex-grow:1;
+}
+
+/*SLIDER SECTION*/
+
+/*TOP PAGE */
+
+/*THEME BUNDLES CSS*/
+.shower{
+	list-style: none;
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
 	padding-left: 4rem;
 	padding-right:4rem; 
 	-webkit-flex-flow: row wrap;
 	justify-content: center;
 	
 }
+	.shower_description{
+	background-color: #FCF7EC;
+	}
 
-.shower > * {
-  padding: 10px;
-  flex: 1 50%;
-}
+	.shower .text2{
+		padding-right: 25rem;
 
-.bundle_description-1{
+	}
+	.shower > * {
+	  padding: 10px;
+	  flex: 1 50%;
+	}
 
-	list-style: none;
-	margin: 0; 
-	display: -webkit-box;
-	display: -moz-box;
-	display: -ms-flexbox;
-	display: -webkit-flex;
-	display: flex;
-	padding: 2rem;
-
-	justify-content: space-around;
-
-}
+/*BUNDLES*/
 
 .bundle-1{
-
   display: -ms-flexbox;
   -ms-flex-wrap: wrap;
   -ms-flex-direction: column;
@@ -62,26 +649,32 @@ html{
 
 .bundle-1 .image{
 	width: 200px;
-
-  -webkit-box-flex: auto;
-  -ms-flex: auto;
-  flex: auto; 
 }
 
 .bundle-1 img{
 	opacity: 0.8;
 	width: 100%;
 }
+
+.bundle_description-1{
+	list-style: none;
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-flow: row wrap;
+	padding: 2rem;
+	justify-content: space-around;
+
+}
+
 .bundle_description-1 li{
 
 	display:block;
 	text-align: left;
 }
 
-.bundle_description-1 section{ 
-	padding-bottom:10rem; 
-
-}
 
 .bundle_description-1 .booking_button a{
 
@@ -123,430 +716,632 @@ html{
 }
 
 
-/*HEADER SECTION*/
-
-.slider{
-	display: inline-block;
-	position:relative;
-	width:100%;
+/*BOOKING BUTTON COMMOM ELEMENTS*/
+.booking-1c{
+	align-self:flex-end;
 }
 
-.slider .text{
-	width: 100%;
-	padding: 4rem;
-	position:relative;
-	text-align: left;
-	
+.booking_button{
+	padding: 2rem;
 }
-	
-.slider {
+.payment_button{
+	padding-top: 2rem;
+	padding-left: 6rem;
 
-	background-image:url("../img/header_img(2)-02.png");
-	background-size: 100%;
-	background-repeat:no-repeat;
-	display: flex;
-
-	
 }
-
-
-
-/*TOP PAGE ENDS*/
-
-
-body{
-<<<<<<< HEAD
-	margin: 0;
-=======
-<<<<<<< Updated upstream
-=======
-	/*position: relative;*/
-	margin: 0;
->>>>>>> Stashed changes
->>>>>>> Daniel_branch
-	font-family: "Open Sans", sans-serif;
-	line-height: 2em;
-	font-size: 0.8em;
-}
-p{	
-	font-size : 1em;
-	font-weight: 300;
-	text-align: left;
-}
-h1{
-	font-family: 'Bubblegum Sans', cursive;
-	font-weight: 700;
-	font-size: 3em;
-<<<<<<< HEAD
-	color: rgb(227,121,85); /*orange*/
-=======
-<<<<<<< Updated upstream
-	color: #EF4564;
-=======
-	color: #FFFFFF;
->>>>>>> Stashed changes
->>>>>>> Daniel_branch
-}
-h2{
-	text-align: left;
-	font-family: "Open Sans", sans-serif;
-	font-size: 2.5em;
-	color: #000000;
-}
-
-h3{
-	font-family: "Open Sans", sans-serif;
-	font-size: 1.5em;
-	color: #000000;
-}
-h4{
-	font-family: "Open Sans", sans-serif;
+.booking_button a, .payment_button a{
+	padding-left: 3rem;
+	padding-right:3rem;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+	/*width: 100%;*/
+	/*display: inline-block;*/
 	font-size: 1em;
-	color: #B52185;
+	border: 2px solid #FFFFFF;
+	border-color: #E37955;
+	text-decoration: none;
+	color: #E37955;
 }
 
-<<<<<<< Updated upstream
-nav{
-	margin: 1em;
-	background-color: #856F73;
-	width: 100%;
-	position:relative;
-	margin: 0;
+.booking_button  a:hover, .payment_button a:hover {
+	-webkit-transition: background-color .5s ease-out;
+	-moz-transition: background-color .5s ease-out;
+	-o-transition: background-color .5s ease-out;
+	transition: background-color .5s ease-out;
+	border-color: #E37955;
+	background-color: #E37955;
+	color: #ffffff;
+}
 
+/*BOOKING ELEMENTS*/
+	.booking-1c{
+		padding-left: 3rem;
+		padding-right: 3rem;
+	}
+	.booking-1b{
+		padding-left: 3rem;
+		padding-right: 3rem;
+	}
+	.booking-1a{
+		padding-left: 3rem;
+		width: 100%;
+		margin: 0; 
+		display: -webkit-box;
+		display: -moz-box;
+		display: -ms-flexbox;
+		display: -webkit-flex;
+		display: flex;
+		-webkit-flex-flow: row wrap;
+	}
+
+		.booking-1a .image-icon img{
+
+			padding: 1rem;
+		}
+		.booking-1a .sub-title h2 {
+			padding-top: 1.5rem;
+			text-align: left;
+		}
+
+.choose_date, .choose_numpeople, .choose_contact{
+	background-color: #FCF7EC;
 }
-header{
-	background-color: #856F73;
+
+.booking2{
+	padding-left: 4rem;
+	padding-right:4rem; 
+	padding-bottom: 2rem;
+	-webkit-flex-flow: column wrap;
+	justify-content: space-around;
+	list-style: none;
+	margin: 0; 
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-flow: row wrap;
+	justify-content: space-around;
 }
-.navigation {
+
+.booking{
+	padding-left: 4rem;
+	padding-right:4rem; 
+	padding-bottom: 2rem;
+	-webkit-flex-flow: row wrap;
+	justify-content: space-around;
+	list-style: none;
+	margin: 0; 
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-flow: row wrap;
+	justify-content: space-around;
+}
+
+	
+	.booking-1b{
+		flex-grow:2;
+		
+	}
+
+.sub-title h2{
+	text-align: center;
+}
+/*SELECT DROPDOWN ELEMENS*/
+
+.style-select select{
+	border-color: #E37955;
+	background: transparent;
+	font-size: 14px;
+	height: 90px;
+	padding: 2rem; /* If you add too much padding here, the options won't show in IE */
+	width: 90px;
+}
+	.rounded {
+	   -webkit-border-radius: 20px;
+	   -moz-border-radius: 20px;
+	   border-radius: 20px;
+	}
+/*STYLE WHEN HOVER*/
+.style-select select:hover{
+	-webkit-transition: background-color .5s ease-out;
+	-moz-transition: background-color .5s ease-out;
+	-o-transition: background-color .5s ease-out;
+	transition: background-color .5s ease-out;
+	background: #E37955;
+	color: #ffffff;
+}
+
+.style-select input{
+	text-align: center;
+	/*color: #FFF3ff;*/
+	border-color: #E37955;
+	background: transparent;
+	font-size:14px;
+	height: 25px;
+	padding: 2rem; /* If you add too much padding here, the options won't show in IE */
+	width: 90px;
+}
+
+.style-select input:hover{
+	-webkit-transition: background-color .5s ease-out;
+	-moz-transition: background-color .5s ease-out;
+	-o-transition: background-color .5s ease-out;
+	transition: background-color .5s ease-out;
+	background: #E37955;
+	color: #ffffff;
+}
+
+
+
+
+
+/*BUNDLE CLASS*/
+
+.booking-bundle {
+  
+  padding: 0;
+  margin: 0;
   list-style: none;
-  margin: 0; 
   display: -webkit-box;
   display: -moz-box;
   display: -ms-flexbox;
   display: -webkit-flex;
   display: flex;
-  color:#b52185;
-  background-color: #6F585E;
   -webkit-flex-flow: row wrap;
   justify-content: space-around;
-
-<<<<<<< HEAD
-nav li:hover {
-	color:#b52185;
-	background-color: #b52185;
-<<<<<<< HEAD
-=======
-
-=======
-header{
-	background-color: #856F73;
 }
-
-nav{
-	background-color: #FFFFFF;
-	width: 100%;
-	height: 4.5em;
-
-}
-
-nav img{
-	width: auto;
-	height: 5.5em;
-	padding-bottom: 0.5em;
-}
-
-nav img:hover{
-	opacity: 0.5;
-}
-
-nav a {
-	width: 100%;
-	font-family: "Open Sans", sans-serif;
-	font-size: 1.1em;
-}
-
-nav ul{
-	padding-top: 1.5em;
-	margin: 0;
->>>>>>> Stashed changes
->>>>>>> Daniel_branch
-=======
->>>>>>> origin/master
-}
-.navigation a {
-  text-decoration: none;
-  display: block;
-  padding: 1em;
-  color: white;
-}
-<<<<<<< HEAD
-
-nav ul li a{
-	width: 100%;
-<<<<<<< HEAD
-	color: #FFFFFF;
-	font-weight: 300;
-=======
-<<<<<<< Updated upstream
-	color: #FED602;
-=======
-	font-weight: 300;
->>>>>>> Stashed changes
->>>>>>> Daniel_branch
-	text-decoration :none;
-=======
-.navigation li{
->>>>>>> origin/master
+[class^= 'bundle-item-']{
+	padding-left:2rem; 
+	padding-right:2rem; 
+	width: 200px;
+	height: 200px;
 	text-align: center;
+	padding-top: 2rem;
+}
+.image{
+	position: relative;
+}
+
+.bundle-item-1 img{
+ border:1px solid #E37955;
+box-shadow: 0 0 0 4px rgba(255,255,255,1);
+	transition: background 0.2s, color 0.2s;
+	width: 200px;
+	height: auto;
+	text-align: center;
+}
+.bundle-item-1 img:hover{
+	background: rgba(255,255,255,1);
+	color: #64bb5d;
+	border-radius: 3rem;
+	 /*opacity: 0.5; */
+	  border:1px solid #E37955;
+}
+
+
+
+.bundle-item-1 img.active{
+	 /*opacity: 0.5;*/
+	 border-radius: 3rem;
+	 background-color: #E37955;
+	 border:1px solid #E37955;
+	 transition: background 1s, color 1s;
+}
+
+.sub-title h2{
+	text-align: center;
+}
+/*SELECT DROPDOWN ELEMENS*/
+
+[class^='contact-']{
+	padding: 1rem; 
+}
+
+.contact-1 input, .contact-2 input, .contact-3 input{
+	height: 20px;
+	padding: 1rem; /* If you add too much padding here, the options won't show in IE */
+	width: 400px;
+	border-radius: 20px;
+	border-color: transparent;
+	background: #F7DFD1;
+}
+
+.contact-1 input:hover, .contact-2 input:hover, .contact-3 input:hover{
+	background: transparent;
+	border-color: #F7DFD1;
+}
+
+.booking3 em{
+	display: inline-block;
+	border:solid 1px rgba(109, 110, 113,0.4);
+	padding:0.5rem 1rem;
+	margin:0.5rem;
+}
+.booking3 .type{
+	background: transparent;
+	display: inline-block;
+	border:none;
+	/*padding:0.5rem 1rem;*/
+	margin:0.5rem;
+	font-style: italic;
+	font-weight: 700;
+}
+
+
+.booking4 .contact-1, .booking4 .contact-2, .booking4 .contact-3{
+	padding-left: 6rem;
+}
+.booking-1c .payment_button{
+	padding-left: 10rem;
+}
+
+
+/*PAYMENT*/
+
+.payment{
+	margin: 0; 
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-flow: column wrap;
+	justify-content: space-around;
+	align-items:center ;
+	/*background-color: #000000;*/
+}
+
+.payment-title{
+	padding-top: 2rem;
+	margin: 0; 
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-flow: column wrap;
+	justify-content: space-around;
+	align-items:center ;
+}
+
+.payment-title h2{
+	text-align: center;
+	/*padding-right: 3rem;*/
+	padding-top: 1rem;
+	padding-bottom: 1rem;
 	flex-grow:1;
 }
-<<<<<<< HEAD
-nav li{
-<<<<<<< HEAD
-	width: 100%;
-	display: inline-block;
-	padding: 1rem;
-=======
-<<<<<<< Updated upstream
-	display: block;
-	border: 1px dotted #b52185;
-=======
-	display: inline;
-	padding: 1rem;
->>>>>>> Stashed changes
->>>>>>> Daniel_branch
-     -webkit-transition: background-color 0.2s;
-	transition: background-color 0.2s;
+.payment-image{
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-flow: row wrap;
+	justify-content: space-around;
+	align-items:center ;
+	padding: 2rem;
+}
+.payment-title img{
+	width: 2.5rem;
+	padding-right:1rem; 
+	flex-grow:1;
+}
+[class^= 'inputs-']{
+	padding: 1rem; 
 }
 
-<<<<<<< HEAD
-
-
-
-=======
-<<<<<<< Updated upstream
->>>>>>> Daniel_branch
-hr{
-	text-align: center;
-	border: 1px dotted #47B484;;
-=======
-hr {
-	border: dotted, #61B7A3;
->>>>>>> Stashed changes
-=======
-.navigation img{
-	height: 40px;
-	width: auto;
-	/*flex-grow:1;*/
+.inputs-1 input, .inputs-2 input, .inputs-3 input, .inputs-4 input{
+	height: 20px;
+	padding: 1rem; /* If you add too much padding here, the options won't show in IE */
+	width: 400px;
+	border-radius: 20px;
+	border-color: transparent;
+	background: #F7DFD1;
 }
 
-.navigation .booking_button{
-	text-align: center;
-	flex-grow:2;
+.inputs-1 input:hover, .inputs-2 input:hover, .inputs-3 input:hover, .inputs-4 input:hover{
+	background: transparent;
+	border-color: #F7DFD1;
+}
+.confirm{
+	padding: 2rem;
+}
+.confirm_button a{
+	padding-left: 3rem;
+	padding-right:3rem;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+	/*width: 100%;*/
+	/*display: inline-block;*/
+	font-size: 1em;
+	border: 2px solid #FFFFFF;
+	border-color: #E37955;
+	text-decoration: none;
+	color: #E37955;
 }
 
-.navigation li:hover{
+.confirm_button  a:hover{
 	-webkit-transition: background-color .5s ease-out;
 	-moz-transition: background-color .5s ease-out;
 	-o-transition: background-color .5s ease-out;
 	transition: background-color .5s ease-out;
-	background-color: #FFFFFF;
-	color: #000000;
->>>>>>> origin/master
-}
-
-
-.moments img{
-	width: 80%;
-	height: auto;
-}
-
-.contact_us img{
-	width: 5rem;
-	height: auto;
-}
-
-
-
-.floorplan img{
-	width: 100%;
-	height: auto;
-}
-
-.floorplan li{
-	display: block;
-	text-align: left;
-	text-decoration: none;
-}
-
-.floorplan h2{
-	display: block;
-	text-align: left;
-	text-decoration: none;
-}
-
-.floorplan h3{
-	display: block;
-	text-align: left;
-	text-decoration: none;
-	font-size: 4em;
-}
-
-footer{
-	width: 100%;
-	margin: 0;
-	padding: 0;
-	background-color: #856F73;
-
-}
-footer img{
-	width:auto;
-	height: 5em;
-}
-footer li {
-
+	border-color: #E37955;
+	background-color: #E37955;
 	color: #ffffff;
+}
+
+/*@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);*/
+
+
+.form{
+	padding: 2rem;
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+
+	-webkit-flex-flow: row wrap;
+	justify-content: space-around;
+
+}
+.text_footer input{
+	width: 25rem;
+	height: 5rem;
+}
+
+.name2, .email, .text_footer, .submit{
+	flex-grow:1;
+	padding: 1rem;
+
+}
+
+.feedback-input {
+	opacity:0.9;
+	color:#0493bd;
+	border-radius: 0;
+	background-color: #fbfbfb;
+  	border: 3px solid #fbfbfb;
+	padding-top: 0.5rem;
+	padding-bottom: 0.5rem;
+	padding-left: 1rem;
+	padding-right: 1rem;
+	flex-grow:1;
+}
+
+.footer_description{
+	padding-bottom: 2.5rem;
+	align-self:flex-end;
+}
+
+input:hover, textarea:hover,
+input:focus, textarea:focus {
+	background-color:white;
+
+}
+.submit{
+	align-self:flex-end;
+}
+#button-blue{
+	
+	float:left;
+	border: #e37955 solid 2px;
+	cursor:pointer;
+	background-color: transparent;
+	color:#e37955;
 	padding-left: 2rem;
-	display: block;
-	text-align: left;
-	text-decoration: none;
-	font-size: 0.4em;
-}
-
-<<<<<<< HEAD
-/*__________________________________stuff I added*/
-/*nav bar color*/
-.home li a{
-	color: #E37A56;
-}
-
-.bundle li a{
-	color: #EEA35E;
-}
-
-.booking li a{
-	color: #61B7A3;
-}
-
-.navigationbar {
-	 display: flex; /* or inline-flex */
-	 /*flex-direction: row;*/
-	 flex-wrap: nowrap;
-     justify-content: space-aroud;
-}
-
-/*nav bar hovering state*/
-li:hover{
-	max-width: 40%;
-}
-
-.home li:hover {
-	border-bottom: 3px solid #E37A56;
-}
-
-.bundle li:hover {
-	border-bottom: 3px solid #EEA35E;
-}
-
-.booking li:hover {
-	border-bottom: 3px solid #458122;
-}
-
-/*fixed nav bar*/
-
-.navigationbar {
-	position: fixed;
-	width: 100%;
-	z-index: 2;
-}
-
-
-.headerimage {
-	background-image:url("../img/header_background.jpg");
-	background-repeat: no-repeat;
-	background-size: 100%;
-    position: relative;
-	padding: 21.5rem;
-}
-
-.headerimage img{
-	width: 100%;
-	height: auto;
-} /*icon on headerimage*/
-
-/*under the header image, first title now*/
-
-.home_title h1{
-	padding-top: 5rem;
+	padding-right: 2rem;
+	padding-top: 1rem;
 	padding-bottom: 1rem;
-	text-align: center;
-	background-color: #FFFFFF;
-    color: #E37A56;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
 }
 
-.home_title p{
-	font-weight: 500;
-	text-align: center;
-	color: #E37A56;
-}
+#button-blue:hover{
 
-.facilities_photos img{
-	width: 400px;
-	height: 400px;
-=======
-select{
-	width: 80%;
+	background-color: #e37955;
+	color: #ffffff;
 }
-
+	
 
 
 /*MEDIA QUERIES*/
-@media all and (max-width: 800px) {
-  .navigation {
+@media all and (max-width: 1000px) {
+	.bundle-1 .image{
+		-webkit-box-flex: auto;
+		-ms-flex: auto;
+		flex: auto; 
+	}
+	 .shower .text2{
+		padding-right: 20rem;
+	}
+}
+@media all and (max-width: 900px) {
+	.detail_description{
+		display: flex;
+		flex-flow: column;
+		justify-content:space-around;
+	}
+	.floor_plan img{
+		width: 100%;
+		align-self:center;
+	}
+	.details h2{
+		margin: 1rem;
+	}
+	 .title_middle p{
+	  	margin: 2rem;
+  }
+  .middle{
+  	flex-flow: column wrap;
+  }
+  .middle_photo{
+  	/*flex-flow:column wrap;*/
+  }
+  .middle_description, .facilities_intro{
+  	margin:1rem;
+  }
+	.shower .text2{
+	padding-right: 15rem;
+	}
+
+	.button{
+		order:3;
+	}
+	.booking{
+	-webkit-flex-flow: row wrap;
+  	justify-content: center;
+  	padding: 1rem;
+	}
+  	#navigation {
     justify-content: space-around;
   }
+}
 
+@media all and (max-width: 800px) {
+	.shower .text2{
+		padding-right: 10rem;
+   }
 
   .bundle-1{
   	 -webkit-flex-flow: row wrap;
   	justify-content: flex-start;
   }
+
+  .bundle_description{
+	justify-content: space-around;
+  	padding: 0.5rem;
+  	order:3;
+  }
+
   .bundle_description-1{
-   justify-content: space-around;
+  	padding: 0.5rem;
+  }
+
+  .bundle_description-1{
+	list-style: none;
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-flow: row wrap;
+	padding:0;
+	justify-content: space-around;
+}
+  .bundle-1{
+  	order:2
   }
   .bundle_description-1c{
   	order:1;
-  	
   }
   .bundle_description-1b, .bundle_description-1a{
   	order:2;
   	
 
   }
+	.style-select select{
+	border-color: #E37955;
+	background: transparent;
+	font-size: 14px;
+	height: 90px;
+	padding: 2rem; /* If you add too much padding here, the options won't show in IE */
+	width: 90%;
+	}
+	.booking{
+	-webkit-flex-flow: row wrap;
+  	justify-content: center;
+  	padding: 0;
+	}
+  #navigation {
+    justify-content: space-around;
+  }
+}
+
+@media all and (max-width: 680px) {
+	.information{
+		flex-flow: column wrap;
+	 }
+	 .header_icon_1, .header_icon_2, .header_icon_3{
+	 	display: none;
+	 }
+
+
 }
 
 @media all and (max-width: 600px) {
-  .navigation{
+
+	  .header_icon_1 p, .header_icon_2 p, .header_icon_3 p{
+	color: #000000;
+	text-align: center;
+  }
+  	.facilities .facilities_photo{
+		flex-flow: row wrap;
+		
+ }
+
+  #navigationbar{
     -webkit-flex-flow: column wrap;
     flex-flow: column wrap;
     padding: 0;
   }
-  
-  .navigation a { 
-    text-align: center; 
-    padding: 10px;
-    border-top: 1px solid rgba(255,255,255,0.3); 
-    border-bottom: 1px solid rgba(0,0,0,0.1); 
+		  #navigationbar li:last-of-type a {
+		    border-bottom: none;
+		  }
+		  .bundle-bar a, .booking-bar a, .home-bar a { 
+		    text-align: center; 
+		    padding: 10px;
+		   
+		  }
+
+
+	.slider .text{
+		padding: 1rem;
+		width: auto;
+	}
+	.booking-1b .booking_button, .payment_button{
+		padding-top: 2rem;
+
+	}
+
+  .booking, .booking, #navigationbar, .booking-1a, .booking-1c, .booking-1c .calendar{
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+    padding: 1rem;
   }
 
-  
-  .navigation li:last-of-type a {
-    border-bottom: none;
-  }
+    .shower{
+    	padding: 1rem;
+    }
 
+	    .shower .text2{
+		padding-right: 5rem;
+
+		}
+		.shower{
+			display: -ms-flexbox;
+			-ms-flex-wrap: wrap;
+			-ms-flex-direction: column;
+			-webkit-flex-flow: row wrap; 
+			flex-flow: row wrap; 
+			display: -webkit-box;
+			display: flex;
+		}
+	  
   .bundle_description-1{
-    flex-flow: column wrap
+    flex-flow: column wrap;
+    padding:1rem;
   }
+  .bundle_description-1 h3{
+  	text-align: left;
+  }
+
 
   .bundle_description-1a, .bundle_description-1b{
   	width: 100%;
@@ -560,12 +1355,130 @@ select{
   .bundle_description-1c{
   	width: 80%;
   }
+/*PAYMENT*/
+	  	.text input{
+			width: 20rem;
+		}
+		.text_footer{
+			padding: 0;
+		}
+		.payment{
+			padding: 1rem;
+		}
+
+		.inputs-1 input, .inputs-2 input, .inputs-3 input, .inputs-4 input{
+			height: 20px;
+			padding: 1rem; /* If you add too much padding here, the options won't show in IE */
+			width: 200px;
+			border-radius: 20px;
+			border-color: transparent;
+			background: #F7DFD1;
+		}
+
+
 }
 
-@media all and (max-width: 414px) {
+@media all and (max-width: 500px) {
+	.contact-1 input, .contact-2 input, .contact-3 input{
+	
+	height: 10px;
+	padding: 1rem; /* If you add too much padding here, the options won't show in IE */
+	width: 300px;
+	border-radius: 20px;
+	border-color: transparent;
+	background: #F7DFD1;
+	}
+	
 	.image_1, .image_3, .image_4, .image_5, .image_6{
 		display: none;
 	}
->>>>>>> origin/master
+	.image-icon{
+		display: none;
+	}
+	.payment_button{
+		padding: 1rem;
+	}
+
 }
+
+@media all and (max-width: 430px) {
+    .text input{
+		width: 15rem;
+	}
+		
+}
+
+@media all and (max-width: 414px) {
+	.middle_description p, .facilities_intro p{
+  	display: none;
+  }
+  .photo-2, .photo-3, .photo-4, .photo-5, .facilities_photo-1, .facilities_photo-2, .facilities_photo-3,  .facilities_photo-4 {
+  	display: none;
+  } 
+	.shower{
+    	padding: 0;
+    }
+	.image_1, .image_3, .image_4, .image_5, .image_6{
+		display: none;
+	}
+	.shower .text2{
+    	padding:1rem;
+    }
+    
+}
+
+@media all and (max-width: 400px) {
+	
+	.contact-1 input, .contact-2 input, .contact-3 input{
+	
+	height: 10px;
+	padding: 1rem; /* If you add too much padding here, the options won't show in IE */
+	width: 100px;
+	border-radius: 20px;
+	border-color: transparent;
+	background: #F7DFD1;
+	}
+	.booking{
+		padding: 1rem;
+	}
+	.booking_button{
+		padding-right: 3rem;
+
+	}
+}
+
+/*DANIEL'S FOOTER*/
+/*footer*/
+/*#footer{
+   display: flex;
+   flex-flow: row;
+   width:100%;
+   background-color: #61B7A3;
+}
+
+.footer_left{
+	display: flex;
+	flex: 1 0 0;
+
+}
+.footer_left p{
+    font-size: .5em;
+    padding-left: 3rem;
+    color: #FFFFFF;
+}
+
+.footer_right{
+	display: flex;
+	flex: 1 0 0;
+	justify-content: flex-end;
+}
+
+.footer_right ul{
+    font-size: .5rem;
+    padding-right: 2rem;
+    text-align: right;
+    list-style-type: none;
+    color: #FFFFFF;
+}*/
+
 
