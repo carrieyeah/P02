@@ -25,6 +25,28 @@ nav img{
 }
 
 /*navbar achor tag*/
+/*nav a, nav a:visited, #navToggle {
+	display: inline-block;
+	background-color: blue;
+	color: #FFFFFF;
+	padding: 1em 1.25em;
+	text-decoration: none;
+	-webkit-transition: background-color 0.5s;
+	transition: background-color 0.5s;
+}*/
+
+#navToggle {
+	padding: 1.5rem;
+	display: none;
+	background-color:#E37A56;
+	text-decoration: none;
+
+}
+#navToggle p{
+	
+	text-align: center;
+	color:#FFFFFF;
+}
 #navigationbar a{
 	text-decoration: none;
 }
@@ -76,13 +98,13 @@ nav img{
 
 .slider .text{
 	width: 100%;
-	padding: 4rem;
+	padding: 6rem;
 	align-self:auto;	
 }
 	
 .slider {
 
-	background-image:url("../img/header_img(2)-02.png");
+	/*background-image:url("../img/header_img(2)-02.png");*/
 	background-size: 100%;
 	background-repeat:no-repeat;
 	display: -webkit-box;
@@ -242,17 +264,31 @@ header{
 	display: -ms-flexbox;
 	display: -webkit-flex;
 	display: flex;
-	-webkit-flex-flow: row wrap;
+	-webkit-flex-flow: column wrap;
 	justify-content: space-around;
 	align-items:center ;
 }
 
 .payment-title h2{
 	text-align: center;
-	padding-right: 3rem;
+	/*padding-right: 3rem;*/
+	padding-top: 1rem;
+	padding-bottom: 1rem;
 	flex-grow:1;
 }
+.payment-image{
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-flow: row wrap;
+	justify-content: space-around;
+	align-items:center ;
+	padding: 2rem;
+}
 .payment-title img{
+	width: 2.5rem;
 	padding-right:1rem; 
 	flex-grow:1;
 }
@@ -300,9 +336,91 @@ header{
 	color: #ffffff;
 }
 
+/*@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);*/
+
+
+.form{
+	padding: 2rem;
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+
+	-webkit-flex-flow: row wrap;
+	justify-content: space-around;
+
+}
+.text_footer input{
+	width: 25rem;
+	height: 5rem;
+}
+
+.name2, .email, .text_footer, .submit{
+	flex-grow:1;
+	padding: 1rem;
+
+}
+
+.feedback-input {
+	opacity:0.9;
+	color:#0493bd;
+	border-radius: 0;
+	background-color: #fbfbfb;
+  	border: 3px solid #fbfbfb;
+	padding-top: 0.5rem;
+	padding-bottom: 0.5rem;
+	padding-left: 1rem;
+	padding-right: 1rem;
+	flex-grow:1;
+}
+
+.footer_description{
+	padding-bottom: 2.5rem;
+	align-self:flex-end;
+}
+
+input:hover, textarea:hover,
+input:focus, textarea:focus {
+	background-color:white;
+
+}
+.submit{
+	align-self:flex-end;
+}
+#button-blue{
+	
+	float:left;
+	border: #e37955 solid 2px;
+	cursor:pointer;
+	background-color: transparent;
+	color:#e37955;
+	padding-left: 2rem;
+	padding-right: 2rem;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+#button-blue:hover{
+
+	background-color: #e37955;
+	color: #ffffff;
+}
+	
 
 /*FOOTER*/
 footer{
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+
+	-webkit-flex-flow: row wrap;
+
 	width: 100%;
 	margin: 0;
 	padding: 0;
@@ -368,6 +486,24 @@ footer li {
 }
 
 @media all and (max-width: 600px) {
+	.text input{
+		width: 20rem;
+	}
+	.text_footer{
+		padding: 0;
+	}
+	.payment{
+		padding: 1rem;
+	}
+.inputs-1 input, .inputs-2 input, .inputs-3 input, .inputs-4 input{
+	height: 20px;
+	padding: 1rem; /* If you add too much padding here, the options won't show in IE */
+	width: 200px;
+	border-radius: 20px;
+	border-color: transparent;
+	background: #F7DFD1;
+}
+
     .shower{
     	padding: 1rem;
     }
@@ -412,6 +548,13 @@ footer li {
   }
 }
 
+@media all and (max-width: 430px) {
+    .text input{
+		width: 15rem;
+	}
+		
+}
+
 @media all and (max-width: 414px) {
 	.shower{
     	padding: 0;
@@ -425,5 +568,6 @@ footer li {
     	padding:0;
     }
 }
+
 
 
