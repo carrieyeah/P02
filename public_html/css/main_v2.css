@@ -504,26 +504,7 @@ footer li {
 	font-weight: 500;
 }
 */
-@media all and (max-width: 900px) {
-  .middle{
-  	flex-flow: column wrap;
-  }
-  .middle_photo{
-  	/*flex-flow:column wrap;*/
-  }
-  .middle_description{
-  	margin:1rem;
-  }
-}
 
-@media all and (max-width: 414px) {
-  .middle_description p{
-  	display: none;
-  }
-  .photo-2, .photo-3, .photo-4, .photo-5{
-  	display: none;
-  } 
-}
 
 .description_button{
 	border:1px solid #FFFFFF;
@@ -560,7 +541,6 @@ footer li {
 .facilities_big{
 	display: flex;
 	flex-flow: column;
-
 	background: #E37A56;
 	
 }
@@ -569,6 +549,7 @@ footer li {
 	display: flex;
 	flex-flow: column;
 	align-item: center;
+	padding: 1rem;
 }
 
 .facilities_intro h2{
@@ -578,14 +559,12 @@ footer li {
 }
 
 .facilities_intro p{
-	color: #FFFFFF;
+    color: #FFFFFF;
 	text-align: center;
-
-	border-top: 1px solid #FFFFFF;
+    border-top: 1px solid #FFFFFF;
 	/*making the border L/R shorter*/
-	margin-left: 20rem;
-	margin-right: 20rem;
-	/*making the padding space top/down wider*/
+	margin-left: 5rem;
+	margin-right: 5rem;
 	padding-top: 3rem;
 }
 
@@ -603,10 +582,33 @@ footer li {
     margin-top: 5rem;
 }
 @media all and (max-width: 900px) {
-  .title p{
+	.facilities_intro{
+		margin:1rem;
+	}
+	.title p{
   	margin: 2rem;
   }
+  .middle{
+  	flex-flow: column wrap;
+  }
+  .middle_photo{
+  	/*flex-flow:column wrap;*/
+  }
+  .middle_description{
+  	margin:1rem;
+  }
 }
+
+@media all and (max-width: 414px) {
+  .middle_description p, .facilities_intro p{
+  	display: none;
+  }
+  .photo-2, .photo-3, .photo-4, .photo-5{
+  	display: none;
+  } 
+}
+
+
 @media all and (max-width: 600px) {
 	.facilities .facilities_photo{
 		flex-flow: row wrap;

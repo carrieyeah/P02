@@ -1,0 +1,387 @@
+.header{
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-flow: column wrap;
+}
+
+.header{
+	background-image:url(../img/header_background.jpg);
+	background-repeat:no-repeat;
+	background-size: cover;
+}
+.header_icon {
+	padding-top: 10rem;
+	padding: 4rem;
+	background-size: 100%;
+	background-repeat:no-repeat;
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-flow: row wrap;
+	justify-content: space-between;
+}
+
+.header_icon_1, .header_icon_2, .header_icon_3{
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-flow: column wrap;
+	}
+
+.header_icon_1 img, .header_icon_2 img, .header_icon_3 img{
+	width: 10rem;
+	padding: 3rem;
+	flex-grow:1;
+}
+.header_icon_1 p, .header_icon_2 p, .header_icon_3 p{
+	color: #FFFFFF;
+	text-align: center;
+}
+
+/*when it smaller than 600px, element remains...*/
+
+
+			/*header booking button*/
+/*			.svg-wrapper {
+			  position: relative;
+			  top: 80%;
+			  transform: translateY(-50%);
+			  margin: 0 auto;
+			}
+
+			.shape {
+			  stroke-dasharray: 140 540;
+			  stroke-dashoffset: -474;
+			  stroke-width: 8px;
+			  fill: transparent;
+			  stroke: #19f6e8;
+			  border-bottom: 5px solid black;
+			  transition: stroke-width 1s, stroke-dashoffset 1s, stroke-dasharray 1s;
+			}
+
+			.text_super {
+			  font-family: 'open sans';
+			  font-size: 1rem;
+			  font-weight: 300;
+			  
+			  letter-spacing: 0.2em;
+			  color: #FFFFFF;
+			  bottom: 3rem;
+			  position: relative;
+			  text-align: center;
+			}
+			.svg-wrapper:hover .shape {
+			  stroke-width: 2px;
+			  stroke-dashoffset: 0;
+			  stroke-dasharray: 760;
+			}*/
+
+			/* Reset Styles */
+/**{
+	margin: 0;
+	padding: 0;
+	font-weight: 400;
+	font-family: Arial, Helvetica, sans-serif;
+	text-decoration:none;
+}
+
+body{
+	background-color: #0493bd;
+}*/
+
+#wrapper{
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+/* Floats button in the middle */
+section{
+	margin: 50px 0;
+	max-width: 500px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* The button */
+#button-orange{
+	float:left;
+	width: 100%;
+	max-width:500px;
+	border: #e37955 solid 4px;
+	cursor: pointer;
+	background-color: transparent;
+	margin-top: -4px;
+	color: #e37955;
+	/*font-size: 20px;*/
+	letter-spacing: .1em;
+	padding-top: 22px;
+	padding-bottom: 22px;
+	font-weight: 500;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	-ms-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+/* Change text color & background opacity on hover*/
+#button-orange:hover{
+	
+	background-color: transparent;
+	color: #e37955;
+
+}
+
+/* The white hover effect */
+.ease {
+	width: 0px;
+	height: 4rem;
+	background-color: #fcf7ec;
+	-webkit-transition: .3s ease;
+	-moz-transition: .3s ease;
+	-o-transition: .3s ease;
+	-ms-transition: .3s ease;
+	transition: .3s ease;
+}
+
+ /*Make visable when hover */
+.btn-container:hover .ease{
+	width: 100%;
+	max-width: 500px;
+	background-color: white;
+	border: 0;
+}
+
+
+
+/*Introduction*/
+.title_middle{
+	display: flex;
+	justify-content: center;
+	flex-flow: column wrap;
+}
+.title_middle h1{
+	line-height: 5rem;
+  	padding:1rem;
+    /*margin-top: 15rem;*/
+    color: #E37A56;
+    text-align: center;
+}
+
+.title_middle h3{
+    margin-top: 4rem;
+    margin-bottom: 3rem;
+	font-weight: 500;
+	color: #E37A56;
+	text-align: center; /*p itself center*/
+}
+
+.title_middle p{
+
+	border-top: 1px solid #E37A56;
+	color: #E37A56;
+
+	text-align: center;
+	margin-left: 20rem;
+	margin-right: 20rem;
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+}
+
+/*Middle part*/
+.middle{
+	padding-top:2rem; 
+	padding-bottom: 2rem;
+	background-color: #EEA35E;
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-flow: row wrap;
+
+}
+.middle_description{
+	padding: 2rem;
+	display: -webkit-flex;
+	-webkit-flex: 2;
+	flex-flow: column; /*the axis has changed 90 degree*/
+	align-items: center; /*align here function as justify*/
+	justify-content: center; /*align here function as justify*/
+	order: 1;
+
+   
+}
+
+.middle_description h2{
+	color: #FFFFFF;
+}
+
+.middle_description p{
+    color: #FFFFFF;
+	text-align: center;
+    border-top: 1px solid #FFFFFF;
+	/*making the border L/R shorter*/
+	margin-left: 5rem;
+	margin-right: 5rem;
+	padding-top: 3rem;
+
+}
+
+
+.middle_photo {
+	display: -webkit-flex;
+	-webkit-flex: 2;
+	flex-flow: row wrap;
+	align-content: center;
+	justify-content:space-around;
+    order: 2;
+
+}
+/******/
+
+[class^='photo-']{
+	width: 200px;
+}
+
+.middle .middle_photo img{
+	width: 100%; 
+	height: auto;
+}
+
+
+.description_button{
+	border:1px solid #FFFFFF;
+	padding-top: 0.5rem;
+	padding-bottom: 0.5rem;
+	padding-left: 3rem;
+	padding-right: 3rem;
+
+	margin-top: 3rem;
+}
+
+.description_button:hover{
+	-webkit-transition: background-color .5s ease-out;
+	-moz-transition: background-color .5s ease-out;
+	-o-transition: background-color .5s ease-out;
+	transition: background-color .5s ease-out;
+	background: #FFFFFF;
+}
+
+.description_button:hover a{
+	color: #FFA248;
+}
+
+.description_button a{
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+
+
+/*facilities*/
+
+.facilities_big{
+	padding-top: 5rem;
+	padding-bottom: 5rem;
+	display: flex;
+	flex-flow: column;
+	background: #E37A56;
+
+	
+}
+
+.facilities_intro{
+	padding-bottom: 2rem;
+	display: flex;
+	flex-flow: column;
+	
+}
+
+.facilities_intro h2{
+    color: #FFFFFF;
+    text-align:center;
+  
+}
+
+.facilities_intro p{
+	color: #FFFFFF;
+	text-align: center;
+    border-top: 1px solid #FFFFFF;
+	/*making the border L/R shorter*/
+	margin-left: 5rem;
+	margin-right: 5rem;
+	padding-top: 3rem;
+}
+
+/*facilities_photo*/
+.facilities{
+	display: flex;
+	flex-flow: row wrap;
+	justify-content:space-around;
+}
+
+.facilities img{ 
+    width: 100%; 
+    height: auto; 
+}
+
+
+[class^='facilities_photo-']{
+	width: 200px;
+}
+
+/*<!-- information -->*/
+.information{
+	padding-top:5rem;
+	padding-bottom: 5rem;
+	display: flex;
+	flex-flow: row;
+}
+
+.details{
+
+	display: flex;
+	flex-flow: column;
+	flex:1;
+	align-self: center;
+}
+
+.details h2, ul{
+    color: #646464;
+}
+
+.details h2{
+    margin-left: 8rem;
+}
+
+.detail_description{
+	display: flex;
+	flex-flow: row;
+	justify-content: center;
+}
+
+.detail_description1, .detail_description2{
+    margin-left: 4rem;
+    padding: 0;
+}
+
+.floor_plan{
+	flex: 1;
+	width: 15rem;
+	
+}
+
+.floor_plan img{
+
+ 	width: 80%;
+}
+
+
