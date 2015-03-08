@@ -197,6 +197,7 @@ nav img{
 }
 
 #navToggle {
+	padding: 1.5rem;
 	display: none;
 	background-color:#E37A56;
 	text-decoration: none;

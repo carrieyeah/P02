@@ -83,10 +83,15 @@
   width: 17px;
 }
 
+#calendar .days li.active{
+  background: #fed50f;
+  
+}
 
 #calendar .other-month {
   background: lightgrey;
 }
+
 
 @media(max-width:800px) {
   #calendar .weekdays, #calendar .other-month {
