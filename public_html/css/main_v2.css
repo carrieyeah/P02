@@ -102,21 +102,134 @@ nav a{
 	font-size: 4em;
 }
 
-footer{
-	width: 100%;
-	margin: 0px;
-	padding: 0px;
-	background-color: #b52185;
+
+
+
+/*fOOTER*/
+
+/*@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);*/
+
+
+.form{
+	padding: 2rem;
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+
+	-webkit-flex-flow: row wrap;
+	justify-content: space-around;
+	/*width:100%;*/
+	/*float:left;*/
+	/*padding-top:30px;*/
+}
+.text_footer input{
+	width: 25rem;
+	height: 5rem;
+}
+#form1{
 
 }
-footer ul{
 
+#form-div {
+	/*padding-top: 3rem;*/
+	/*background-color:#3c3c3c;*/
+
+	/*padding-bottom:50px;*/
+	/*width: 450px;*/
+	/*float: left;*/
+	/*left: 50%;*/
+	/*position: absolute;*/
+	/*margin-left: -260px;*/
+}
+.name2, .email, .text_footer, .submit{
+	flex-grow:1;
+	padding: 1rem;
+
+}
+
+.feedback-input {
+	opacity:0.9;
+	color:#0493bd;
+	border-radius: 0;
+	background-color: #fbfbfb;
+  	border: 3px solid #fbfbfb;
+	padding-top: 0.5rem;
+	padding-bottom: 0.5rem;
+	padding-left: 1rem;
+	padding-right: 1rem;
+	/*margin-bottom: 0.5rem;*/
+	/*width:100%;*/
+	flex-grow:1;
+}
+
+.footer_description{
+	padding-bottom: 2.5rem;
+	align-self:flex-end;
+}
+
+
+
+
+input:hover, textarea:hover,
+input:focus, textarea:focus {
+	background-color:white;
+
+}
+.submit{
+	align-self:flex-end;
+}
+#button-blue{
+	
+	float:left;
+	/*width: 100%;*/
+	border: #e37955 solid 2px;
+	cursor:pointer;
+	background-color: transparent;
+	color:#e37955;
+	/*font-size:24px;*/
+	padding-left: 2rem;
+	padding-right: 2rem;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+#button-blue:hover{
+
+	background-color: #e37955;
+	color: #ffffff;
+}
+
+/*FOOTER*/
+footer{
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+
+	-webkit-flex-flow: row wrap;
+
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	background-color: #856F73;
+
+}
+footer img{
+	width:auto;
+	height: 5em;
 }
 footer li {
-	color: #fed60e;
-	padding-right: 2rem;
+
+	color: #ffffff;
+	padding-left: 2rem;
 	display: block;
-	text-align: right;
+	text-align: left;
 	text-decoration: none;
 	font-size: 0.4em;
 }
@@ -249,7 +362,7 @@ margin: 0 auto;
   transition: stroke-width 1s, stroke-dashoffset 1s, stroke-dasharray 1s;
 }
 .text {
-  	font-family: "Open Sans", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 1rem;
   
   letter-spacing: 0.5em;
@@ -265,38 +378,6 @@ margin: 0 auto;
   stroke-dasharray: 760;
 }
 
-
-/*.booking-express{
-	width: 50%;
-	border:1px solid #61B7A3;
-	padding-top: 0.5rem;
-	padding-bottom: 0.5rem;
-	padding-left: 5rem;
-	padding-right: 5rem;
-}
-.booking-express a{
-	color: #61B7A3;
-}
-
-.home-express:hover {
-	border-bottom: 3px solid #E37A56;
-}
-
-.bundle-express:hover {
-	border-bottom: 3px solid #EEA35E;
-}
-
-.booking-express:hover {
-	-webkit-transition: background-color .5s ease-out;
-	-moz-transition: background-color .5s ease-out;
-	-o-transition: background-color .5s ease-out;
-	transition: background-color .5s ease-out;
-	background: #61B7A3;
-}
-.booking-express:hover a{
-
-	color: #FFFFFF;
-}*/
 
 
 
@@ -381,11 +462,19 @@ margin: 0 auto;
 	
 }
 
-#footer {
-   display: flex;
-   align-items: flex-end;
+/*MEDIA QUERIES*/
 
-   width:100%;
-   height:60px;   /* Height of the footer */
-   background:#000000;
+@media all and (max-width: 600px) {
+	.text input{
+		width: 20rem;
+	}
+	.text_footer{
+		padding: 0;
+	}
+}
+@media all and (max-width: 430px) {
+    .text input{
+		width: 10rem;
+	}
+		
 }

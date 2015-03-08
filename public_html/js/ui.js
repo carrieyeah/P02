@@ -80,21 +80,31 @@ $('.bundle-item-1 img').click(function(){
         .change();
 
 
-$( ".image_1a img" ).click(function() {
-  var imageId = $( ".image_1a img" ).attr("alt");
-  $( ".bundles_text input" ).val( imageId );
+    
+// BUNDLE IMAGES AND CLICK AND CHOOSE THE BUNDLE AND SHOW IN DESCIPTION
 
-});
-$( ".image_1b img" ).click(function() {
-  var imageId2 = $( ".image_1b img" ).attr("alt");
-  $( ".bundles_text input" ).val( imageId2 );
+    $( ".image_1a img" ).click(function() {
+      var imageId = $( ".image_1a img" ).attr("alt");
+      $( ".bundles_text input" ).val( imageId );
 
-});
-$( ".image_1c img" ).click(function() {
-  var imageId3 = $( ".image_1c img" ).attr("alt");
-  $( ".bundles_text input" ).val( imageId3 );
+    });
+    $( ".image_1b img" ).click(function() {
+      var imageId2 = $( ".image_1b img" ).attr("alt");
+      $( ".bundles_text input" ).val( imageId2 );
 
-});
+    });
+    $( ".image_1c img" ).click(function() {
+      var imageId3 = $( ".image_1c img" ).attr("alt");
+      $( ".bundles_text input" ).val( imageId3 );
+
+    });
+
+
+
+
+
+
+
 
 
 });
