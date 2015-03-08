@@ -15,9 +15,10 @@ p{
 	text-align: left;
 }
 h1{
+	line-height: 2em;
 	font-family: 'Bubblegum Sans', cursive;
 	font-weight: 700;
-	font-size: 3em;
+	font-size: 4em;
 	color: rgb(227,121,85); /*orange*/
 }
 h2{
