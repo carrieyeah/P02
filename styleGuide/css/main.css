@@ -218,7 +218,7 @@ nav img{
 	/*padding-top:0.8rem;*/
 	position:relative;
 	display:inline-block;
-	align-self:flex-end;
+	align-self:flex-start;
 
 }
 
@@ -246,7 +246,6 @@ nav img{
 	color: #EF4564;
 	padding:0px;
 	margin:0px;
-	color: #e17955;
 
 }
 
@@ -289,7 +288,7 @@ nav img{
 
 
 .type-box-5 a {
-	font-family: 'Open Sans';
+	font-family: 'Bubblegum Sans', cursive;
 	text-align:left;
 	padding:0px;
 	margin:0px;

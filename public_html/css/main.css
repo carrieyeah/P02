@@ -5,55 +5,34 @@
 
 /*NAV BAR*/
 #navToggle {
-
-	padding-left: 4rem;
-	padding-right: 4rem;
+	padding: 1.5rem;
 	display: none;
 	background-color:#E37A56;
 	text-decoration: none;
-	position: fixed;
-	z-index: 9999;
 
 }
 #navToggle p{
-	margin: 0;
-	font-size: 0.5em;
+	
 	text-align: center;
 	color:#FFFFFF;
 }
 #navigationbar {
-	display: -webkit-box;
-	display: -moz-box;
-	display: -ms-flexbox;
-	display: -webkit-flex;
-	display: flex;
-	-webkit-flex-flow: row wrap;
-	justify-content: space-around;
+    display: flex;
+    flex-flow: row;
     align-items: center;
     position: fixed;
-<<<<<<< HEAD
     z-index: 1;
 /*    background-image:url(../img/body_background.jpg);
     background-size: 25%;*/
     background-color: #FAFAFA;
-=======
-    z-index: 999;
-/*    background-image:url(../img/body_background.jpg);*/
-    background-size: 25%;
->>>>>>> origin/master
 }
 #navigationbar a{
 	text-decoration: none;
 	font-size: .8rem;
 }
 
-<<<<<<< HEAD
 #navigationbar img{
 /*	display: flex;
-=======
-#navigationbar .logo{
-	/*display: flex;*/
->>>>>>> origin/master
 	flex: 3;
     justify-content: flex-start;*/
 
@@ -70,8 +49,70 @@
 	align-items: center;
 }
 
+/*DANIEL NAV BAR UPDATES*/
+
+/*.home-bar{
+	border: 1px solid #E37A56;
+	border-color: #FFFFFF;
+	padding-top: 0.3rem;
+	padding-bottom: 0.3rem;
+	padding-left: 3rem;
+	padding-right: 3rem;
+}
+
+.bundle-bar{
+	border: 1px solid #EEA35E;
+	border-color: #FFFFFF;
+	padding-top: 0.3rem;
+	padding-bottom: 0.3rem;
+	padding-left: 3rem;
+	padding-right: 3rem;
+}
+
+.booking-bar{
+	border: 1px solid #61B7A3;
+	border-color: #FFFFFF;
+	padding-top: 0.3rem;
+	padding-bottom: 0.3rem;
+	padding-left: 3rem;
+	padding-right: 3rem;
+}
+
+.home-bar:hover {
+	transition: background-color .5s ease-out;
+	background: #E37A56;
+
+}
+
+.home-bar:hover a{
+	color: #FFFFFF;
+}
 
 
+.bundle-bar:hover {
+	transition: background-color .5s ease-out;
+	background: #EEA35E;
+}
+
+.bundle-bar:hover a{
+	color: #FFFFFF;
+}
+
+
+.booking-bar:hover {
+	-webkit-transition: background-color .5s ease-out;
+	-moz-transition: background-color .5s ease-out;
+	-o-transition: background-color .5s ease-out;
+	transition: background-color .5s ease-out;
+	background: #61B7A3;
+}
+
+.booking-bar:hover a{
+	color: #FFFFFF;
+}*/
+
+
+/*DANIEL NAV BAR UPDATES ENDS*/
 
 
 			/*nav bar achor tag color*/
@@ -85,11 +126,11 @@
 
 			.booking-bar{
 				color: #EEA35E;
-				border:1px solid #61B7A3;
+			/*	border:1px solid #61B7A3;
 				padding-top: 0.5rem;
 				padding-bottom: 0.5rem;
 				padding-left: 5rem;
-				padding-right: 5rem;
+				padding-right: 5rem;*/
 			}
 			.booking-bar a{
 				/*border:1px solid #61B7A3;*/
@@ -114,6 +155,7 @@
 				background: #61B7A3;
 			}
 			.booking-bar:hover a{
+
 				color: #FFFFFF;
 			}
 
@@ -134,8 +176,8 @@
 .slider .text{
 	width: 100%;
 	padding-left: 4rem;
-	padding-top: 3rem;
-	padding-bottom:0.5rem;
+	padding-top: 8rem;
+	padding-bottom: 2rem;
 	position:relative;
 	text-align: left;
 	color: #FFFFFF;
@@ -146,17 +188,12 @@
 }
 
 .slider {
-<<<<<<< HEAD
 
 	/*background-image:url("../img/header_img(2)-02.png");*/
 	background-size: 100%;
 	background-repeat:no-repeat;
 	display: flex;
 
-=======
- background-image:url(../img/body_background.jpg);
-	display: flex;	
->>>>>>> origin/master
 }
 .image-icon img{
 	-webkit-box-flex: auto;
@@ -265,7 +302,7 @@
 
 .booking_button a{
 	padding: 1rem;
-	/*width: 100%;*/
+	width: 100%;
 	display: inline-block;
 	font-size: 1em;
 	border: 2px solid #FFFFFF;
@@ -324,12 +361,10 @@
 	.booking-1c{
 		padding-left: 3rem;
 		padding-right: 3rem;
-		self-align:center;
 	}
 	.booking-1b{
 		padding-left: 3rem;
 		padding-right: 3rem;
-		self-align:center;
 	}
 	.booking-1a{
 		padding-left: 3rem;
@@ -341,7 +376,6 @@
 		display: -webkit-flex;
 		display: flex;
 		-webkit-flex-flow: row wrap;
-		self-align:center;
 	}
 
 		.booking-1a .image-icon img{
@@ -353,23 +387,16 @@
 			text-align: left;
 		}
 
-<<<<<<< HEAD
 .choose_time{
 	background-color: #FCF7EC;
 }
 
 }
 .choose_date, .choose_bundle{
-=======
-.choose_date, .choose_numpeople, .choose_contact{
-	    /*background-image:url(../img/body_background.jpg);*/
->>>>>>> origin/master
 	background-color: #FCF7EC;
-	align-items:center;
 }
 
 .booking2{
-	background-color: #FCF7EC;
 	padding-left: 4rem;
 	padding-right:4rem; 
 	padding-bottom: 2rem;
@@ -384,15 +411,10 @@
 	display: flex;
 	-webkit-flex-flow: row wrap;
 	justify-content: space-around;
-	align-items:center;
 }
 
 .booking{
-<<<<<<< HEAD
 	
-=======
-	background-color: #FCF7EC;
->>>>>>> origin/master
 	padding-left: 4rem;
 	padding-right:4rem; 
 	padding-bottom: 2rem;
@@ -407,13 +429,11 @@
 	display: flex;
 	-webkit-flex-flow: row wrap;
 	justify-content: space-around;
-	align-items:center;
 }
 
 	
 	.booking-1b{
 		flex-grow:2;
-
 		
 	}
 
@@ -425,11 +445,10 @@
 .style-select select{
 	border-color: #E37955;
 	background: transparent;
-	font-size:1.5rem;
-	font-weight: 300;
-	/*height: 2rem;*/
+	font-size: 14px;
+	height: 90px;
 	padding: 2rem; /* If you add too much padding here, the options won't show in IE */
-	/*width: 2rem;*/
+	width: 90px;
 }
 	.rounded {
 	   -webkit-border-radius: 20px;
@@ -445,38 +464,16 @@
 	background: #E37955;
 	color: #ffffff;
 }
-input[type="text"]{
-	font-family: "Open Sans", sans-serif;
-}
-.style-select select{
-	font-family: "Open Sans", sans-serif;
-	text-align: center;
-	font-weight: 500;
-	/*color: #FFF3ff;*/
-	border-color: #E37955;
-	background: transparent;
-	font-size:1rem;
-	height: 40px;
-	 /* If you add too much padding here, the options won't show in IE */
-	/*width: auto;*/
-	width: 150px;
-	border-radius: 1em;
-
-}
 
 .style-select input{
-	width: 90px;
-	font-family: "Open Sans", sans-serif;
 	text-align: center;
-	font-weight: 500;
 	/*color: #FFF3ff;*/
 	border-color: #E37955;
 	background: transparent;
-	font-size:1rem;
-	/*height: 25px;*/
+	font-size:14px;
+	height: 25px;
 	padding: 2rem; /* If you add too much padding here, the options won't show in IE */
-	/*width: auto;*/
-	border-radius: 1em;
+	width: 90px;
 }
 
 .style-select input:hover{
@@ -520,26 +517,26 @@ input[type="text"]{
 }
 
 .bundle-item-1 img{
-	 border:1px solid #E37955;
+ border:1px solid #E37955;
+box-shadow: 0 0 0 4px rgba(255,255,255,1);
 	transition: background 0.2s, color 0.2s;
 	width: 200px;
 	height: auto;
 	text-align: center;
 }
 .bundle-item-1 img:hover{
-	background-color: #f4c9bb;
+	background: rgba(255,255,255,1);
 	color: #64bb5d;
-	/*border-radius: 3rem;*/
+	border-radius: 3rem;
 	 /*opacity: 0.5; */
 	  border:1px solid #E37955;
-	  /*background-color: #E37955;*/
 }
 
 
 
 .bundle-item-1 img.active{
 	 /*opacity: 0.5;*/
-	 /*border-radius: 3rem;*/
+	 border-radius: 3rem;
 	 background-color: #E37955;
 	 border:1px solid #E37955;
 	 transition: background 1s, color 1s;
@@ -564,17 +561,13 @@ input[type="text"]{
 }
 
 .contact-1 input:hover, .contact-2 input:hover, .contact-3 input:hover{
-	background: #E37955;
-	/*border-color: #F7DFD1;*/
-	color: white;
-}
-.contact-1 .placeholder{
-	color: white;
+	background: transparent;
+	border-color: #F7DFD1;
 }
 
 .booking3 em{
 	display: inline-block;
-	border:solid 1px #E37955;
+	border:solid 1px rgba(109, 110, 113,0.4);
 	padding:0.5rem 1rem;
 	margin:0.5rem;
 }
@@ -594,11 +587,6 @@ input[type="text"]{
 }
 .booking-1c .payment_button{
 	padding-left: 10rem;
-
-}
-
-.payment_button a{
-	display: inline-block;
 }
 
 
@@ -760,7 +748,7 @@ footer{
     align-items: flex-start;
 
 	width: 100%;
-	background-color: #e4d3b8;
+	background-color: #61B7A3;
 }
 
 #form1{
@@ -774,17 +762,16 @@ footer{
 }
 
 .footer_description{
-	align-self:flex-end;
+	align-items: flex-start;
 	flex: 1;
 }
 
 .footer_description li{
-	color: #999999;
+	color: #FFFFFF;
 	font-size: 0.7rem;
 	padding-left: 2rem;
 	text-align: right;
 	list-style-type: none;
-
 }
 
 /*flex-boxing personal info, comment box, button*/
@@ -794,7 +781,7 @@ footer{
 	display: -ms-flexbox;
 	display: -webkit-flex;
 	display: flex;
-    -webkit-flex-flow: row;
+    -webkit-flex-flow: column;
 }
 
 /*flex-boxing name, email*/
@@ -804,13 +791,12 @@ footer{
 	display: -ms-flexbox;
 	display: -webkit-flex;
 	display: flex;
-    -webkit-flex-flow: column wrap;
+    -webkit-flex-flow: row wrap;
 }
 
 .submit{
 	align-self:flex-end;
 }
-
 
 .feedback-input {
 
@@ -842,21 +828,13 @@ footer{
 	transition: all 0.3s;
 }
 
-#submit_button:hover{
+#button-blue:hover{
 
 	background-color: #e37955;
 	color: #ffffff;
 }
 	
 /*MEDIA QUERIES*/
-@media all and (max-width: 1100px) {
-	 footer{
-	 	flex-flow:column;
-	 }
-	 	  .middle_description p, .facilities_intro p{
-  	margin:2rem;
-  }
-	}
 @media all and (max-width: 1000px) {
 	.bundle-1 .image{
 		-webkit-box-flex: auto;
@@ -866,9 +844,6 @@ footer{
 	 .shower .text2{
 		padding-right: 20rem;
 	}
-	  .middle_description p, .facilities_intro p{
-  	margin:2rem;
-  }
 }
 @media all and (max-width: 900px) {
 	.floor_plan img{
@@ -893,11 +868,11 @@ footer{
   	flex-flow: column wrap;
   }
   .middle_photo{
-  	margin: 0;
-  	padding: 0;
+  	/*flex-flow:column wrap;*/
   }
-
-  
+  .middle_description, .facilities_intro{
+  	margin:1rem;
+  }
 	.shower .text2{
 	padding-right: 15rem;
 	}
@@ -912,21 +887,7 @@ footer{
     justify-content: space-around;
   }
 }
-@media all and (max-width: 800px) {
-	#form1{
-		/*padding: 1rem;*/
-		margin: 0;
-		flex-flow:column;
-		justify-content:center;
-	}
-	.form-main{
-		width: 100%;
-	}
-	.form2{
-			padding: 0;
-		margin: 0;
-	}
-	}
+
 @media all and (max-width: 800px) {
 	.shower .text2{
 		padding-right: 10rem;
@@ -1017,18 +978,13 @@ footer{
     flex-flow: column wrap;
     padding: 0;
   }
-
-  		#navigationbar img{
-  			display: none;
-  		}
 		  #navigationbar li:last-of-type a {
 		    border-bottom: none;
 		  }
 		  .bundle-bar a, .booking-bar a, .home-bar a { 
 		    text-align: center; 
-		    padding: 0;
-		   	display: inline-block;
-		 
+		    padding: 10px;
+		   
 		  }
 
 
@@ -1045,14 +1001,7 @@ footer{
     -webkit-flex-flow: row wrap;
     flex-flow: row wrap;
     padding: 1rem;
-
   }
-
-  .choose_numpeople .booking_button{
-  		padding-left: 4rem;
-  		padding-right: 4rem;
-  		
-  	}
 
     .shower{
     	padding: 1rem;
@@ -1141,31 +1090,12 @@ footer{
 	.payment_button{
 		padding: 1rem;
 	}
-	.payment-image{
-		display: none;
-	}
 
 }
 
 @media all and (max-width: 430px) {
     .text input{
 		width: 15rem;
-	}
-	#wrapper{
-		order:1;
-		padding: 0;
-	}
-	.title_middle{
-		order:2;
-	}
-	.title_middle h1{
-		font-size: 4em;
-		padding: 0;
-		margin: 0;
-		padding-bottom: 2rem;
-	}
-	.title_middle h3{
-		display: none;
 	}
 		
 }
@@ -1193,9 +1123,9 @@ footer{
 	
 	.contact-1 input, .contact-2 input, .contact-3 input{
 	
-	/*height: 10px;*/
-	 /* If you add too much padding here, the options won't show in IE */
-	width: 100%;
+	height: 10px;
+	padding: 1rem; /* If you add too much padding here, the options won't show in IE */
+	width: 100px;
 	border-radius: 20px;
 	border-color: transparent;
 	background: #F7DFD1;
@@ -1219,7 +1149,7 @@ footer{
 	
 	height: 10px;
 	padding: 1rem; /* If you add too much padding here, the options won't show in IE */
-	width: 100%;
+	width: 100px;
 	border-radius: 20px;
 	border-color: transparent;
 	background: #F7DFD1;

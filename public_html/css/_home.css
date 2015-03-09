@@ -13,7 +13,7 @@
 	background-size: cover;
 }
 .header_icon {
-	/*padding-top: 15rem;*/
+	padding-top: 15rem;
 /*	background-size: 100%;
 	background-repeat:no-repeat;*/
 	display: -webkit-box;
@@ -32,12 +32,10 @@
 	flex-grow:1;
 }
 .header_icon_1 p, .header_icon_2 p, .header_icon_3 p{
-	color: #e37955;
+	color: #FFFFFF;
 	text-align: center;
 	margin: 0;
-	font-size: 1rem;
-	font-weight: 500;
-	letter-spacing: 0.1em;
+	font-size: 0.8rem;
 }
 
 #wrapper{
@@ -261,9 +259,9 @@ section{
     border-top: 1px solid #FFFFFF;
 
 	/*making the border L/R shorter*/
-	margin-left: 22rem;
+/*	margin-left: 22rem;
 	margin-right: 22rem;
-	padding: 3rem 0;
+*/	padding: 3rem 0;
 }
 
 /*facilities_photo*/
@@ -327,3 +325,4 @@ section{
 	margin-left: 3rem;
 	width: 70%;
 }
+
