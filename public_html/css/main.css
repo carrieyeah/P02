@@ -122,11 +122,11 @@
 
 			.booking-bar{
 				color: #EEA35E;
-			/*	border:1px solid #61B7A3;
+				border:1px solid #61B7A3;
 				padding-top: 0.5rem;
 				padding-bottom: 0.5rem;
 				padding-left: 5rem;
-				padding-right: 5rem;*/
+				padding-right: 5rem;
 			}
 			.booking-bar a{
 				/*border:1px solid #61B7A3;*/
@@ -151,7 +151,6 @@
 				background: #61B7A3;
 			}
 			.booking-bar:hover a{
-
 				color: #FFFFFF;
 			}
 
@@ -568,6 +567,11 @@ box-shadow: 0 0 0 4px rgba(255,255,255,1);
 }
 .booking-1c .payment_button{
 	padding-left: 10rem;
+
+}
+
+.payment_button a{
+	display: inline-block;
 }
 
 
@@ -762,7 +766,7 @@ footer{
 	display: -ms-flexbox;
 	display: -webkit-flex;
 	display: flex;
-    -webkit-flex-flow: column;
+    -webkit-flex-flow: row;
 }
 
 /*flex-boxing name, email*/
@@ -772,12 +776,13 @@ footer{
 	display: -ms-flexbox;
 	display: -webkit-flex;
 	display: flex;
-    -webkit-flex-flow: row wrap;
+    -webkit-flex-flow: column wrap;
 }
 
 .submit{
 	align-self:flex-end;
 }
+
 
 .feedback-input {
 
@@ -809,13 +814,18 @@ footer{
 	transition: all 0.3s;
 }
 
-#button-blue:hover{
+#submit_button:hover{
 
 	background-color: #e37955;
 	color: #ffffff;
 }
 	
 /*MEDIA QUERIES*/
+@media all and (max-width: 1100px) {
+	 footer{
+	 	flex-flow:column;
+	 }
+	}
 @media all and (max-width: 1000px) {
 	.bundle-1 .image{
 		-webkit-box-flex: auto;
@@ -868,7 +878,21 @@ footer{
     justify-content: space-around;
   }
 }
-
+@media all and (max-width: 800px) {
+	#form1{
+		/*padding: 1rem;*/
+		margin: 0;
+		flex-flow:column;
+		justify-content:center;
+	}
+	.form-main{
+		width: 100%;
+	}
+	.form2{
+			padding: 0;
+		margin: 0;
+	}
+	}
 @media all and (max-width: 800px) {
 	.shower .text2{
 		padding-right: 10rem;
@@ -1104,9 +1128,9 @@ footer{
 	
 	.contact-1 input, .contact-2 input, .contact-3 input{
 	
-	height: 10px;
-	padding: 1rem; /* If you add too much padding here, the options won't show in IE */
-	width: 100px;
+	/*height: 10px;*/
+	 /* If you add too much padding here, the options won't show in IE */
+	width: 100%;
 	border-radius: 20px;
 	border-color: transparent;
 	background: #F7DFD1;
@@ -1130,7 +1154,7 @@ footer{
 	
 	height: 10px;
 	padding: 1rem; /* If you add too much padding here, the options won't show in IE */
-	width: 100px;
+	width: 100%;
 	border-radius: 20px;
 	border-color: transparent;
 	background: #F7DFD1;
