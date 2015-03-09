@@ -14,7 +14,7 @@
 }
 .header_icon {
 	padding-top: 10rem;
-	padding: 4rem;
+	padding: 6rem;
 	background-size: 100%;
 	background-repeat:no-repeat;
 	display: -webkit-box;
@@ -23,21 +23,27 @@
 	display: -webkit-flex;
 	display: flex;
 	-webkit-flex-flow: row wrap;
-	justify-content: space-between;
+	justify-content: space-around;
 }
-
-.header_icon_1, .header_icon_2, .header_icon_3{
+/*reason icon shrink a bit*/
+/*.header_icon_1, .header_icon_2, .header_icon_3{
 	display: -webkit-box;
 	display: -moz-box;
 	display: -ms-flexbox;
 	display: -webkit-flex;
 	display: flex;
 	-webkit-flex-flow: column wrap;
-	}
+	}*/
+
+.header_icon_1{
+	display: flex;
+	
+	justify-content: center;
+}
 
 .header_icon_1 img, .header_icon_2 img, .header_icon_3 img{
 	width: 10rem;
-	padding: 3rem;
+/*	padding: 3rem;*/
 	flex-grow:1;
 }
 .header_icon_1 p, .header_icon_2 p, .header_icon_3 p{
@@ -103,7 +109,7 @@ body{
 }
 /* Floats button in the middle */
 section{
-	margin: 50px 0;
+	margin: 100px 0;
 	max-width: 500px;
 	margin-left: auto;
 	margin-right: auto;
