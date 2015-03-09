@@ -870,9 +870,10 @@ footer{
   	margin: 0;
   	padding: 0;
   }
-  .middle_description, .facilities_intro{
-  	margin:1rem;
+  .middle_description p, .facilities_intro p{
+  	margin:2rem;
   }
+  
 	.shower .text2{
 	padding-right: 15rem;
 	}
