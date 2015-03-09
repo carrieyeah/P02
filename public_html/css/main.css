@@ -5,23 +5,33 @@
 
 /*NAV BAR*/
 #navToggle {
-	padding: 1.5rem;
+
+	padding-left: 4rem;
+	padding-right: 4rem;
 	display: none;
 	background-color:#E37A56;
 	text-decoration: none;
+	position: fixed;
+	z-index: 9999;
 
 }
 #navToggle p{
-	
+	margin: 0;
+	font-size: 0.5em;
 	text-align: center;
 	color:#FFFFFF;
 }
 #navigationbar {
-    display: flex;
-    flex-flow: row;
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-flow: row wrap;
+	justify-content: space-around;
     align-items: center;
     position: fixed;
-    z-index: 1;
+    z-index: 999;
     background-image:url(../img/body_background.jpg);
     background-size: 25%;
 }
@@ -31,7 +41,7 @@
 }
 
 #navigationbar .logo{
-	display: flex;
+	/*display: flex;*/
 	flex: 3;
     justify-content: flex-start;
 
@@ -171,17 +181,14 @@
 .slider .text{
 	width: 100%;
 	padding-left: 4rem;
-	padding-top: 8rem;
-	padding-bottom: 2rem;
+	padding-top: 3rem;
+	padding-bottom:0.5rem;
 	position:relative;
 	text-align: left;
 	
 }
 .slider {
 
-	/*background-image:url("../img/header_img(2)-02.png");*/
-	background-size: 100%;
-	background-repeat:no-repeat;
 	display: flex;	
 }
 .image-icon img{
@@ -290,7 +297,7 @@
 
 .booking_button a{
 	padding: 1rem;
-	width: 100%;
+	/*width: 100%;*/
 	display: inline-block;
 	font-size: 1em;
 	border: 2px solid #FFFFFF;
@@ -733,7 +740,7 @@ footer{
     align-items: flex-start;
 
 	width: 100%;
-	background-color: #61B7A3;
+	background-color: #e4d3b8;
 }
 
 #form1{
@@ -747,16 +754,17 @@ footer{
 }
 
 .footer_description{
-	align-items: flex-start;
+	align-self:flex-end;
 	flex: 1;
 }
 
 .footer_description li{
-	color: #FFFFFF;
+	color: #999999;
 	font-size: 0.7rem;
 	padding-left: 2rem;
 	text-align: right;
 	list-style-type: none;
+
 }
 
 /*flex-boxing personal info, comment box, button*/
@@ -859,7 +867,8 @@ footer{
   	flex-flow: column wrap;
   }
   .middle_photo{
-  	/*flex-flow:column wrap;*/
+  	margin: 0;
+  	padding: 0;
   }
   .middle_description, .facilities_intro{
   	margin:1rem;
@@ -983,13 +992,18 @@ footer{
     flex-flow: column wrap;
     padding: 0;
   }
+
+  		#navigationbar img{
+  			display: none;
+  		}
 		  #navigationbar li:last-of-type a {
 		    border-bottom: none;
 		  }
 		  .bundle-bar a, .booking-bar a, .home-bar a { 
 		    text-align: center; 
-		    padding: 10px;
-		   
+		    padding: 0;
+		   	display: inline-block;
+		 
 		  }
 
 
@@ -1006,7 +1020,14 @@ footer{
     -webkit-flex-flow: row wrap;
     flex-flow: row wrap;
     padding: 1rem;
+
   }
+
+  .choose_numpeople .booking_button{
+  		padding-left: 4rem;
+  		padding-right: 4rem;
+  		
+  	}
 
     .shower{
     	padding: 1rem;
@@ -1095,12 +1116,31 @@ footer{
 	.payment_button{
 		padding: 1rem;
 	}
+	.payment-image{
+		display: none;
+	}
 
 }
 
 @media all and (max-width: 430px) {
     .text input{
 		width: 15rem;
+	}
+	#wrapper{
+		order:1;
+		padding: 0;
+	}
+	.title_middle{
+		order:2;
+	}
+	.title_middle h1{
+		font-size: 4em;
+		padding: 0;
+		margin: 0;
+		padding-bottom: 2rem;
+	}
+	.title_middle h3{
+		display: none;
 	}
 		
 }

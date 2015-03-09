@@ -13,7 +13,7 @@
 	background-size: cover;
 }
 .header_icon {
-	padding-top: 15rem;
+	/*padding-top: 15rem;*/
 /*	background-size: 100%;
 	background-repeat:no-repeat;*/
 	display: -webkit-box;
@@ -32,10 +32,12 @@
 	flex-grow:1;
 }
 .header_icon_1 p, .header_icon_2 p, .header_icon_3 p{
-	color: #FFFFFF;
+	color: #e17955;
 	text-align: center;
 	margin: 0;
 	font-size: 0.8rem;
+	font-weight: 700;
+	letter-spacing: 0.1em;
 }
 
 #wrapper{
