@@ -22,22 +22,26 @@
     align-items: center;
     position: fixed;
     z-index: 1;
-    background-image:url(../img/body_background.jpg);
-    background-size: 25%;
+/*    background-image:url(../img/body_background.jpg);
+    background-size: 25%;*/
+    background-color: #FAFAFA;
 }
 #navigationbar a{
 	text-decoration: none;
 	font-size: .8rem;
 }
 
-#navigationbar .logo{
-	display: flex;
+#navigationbar img{
+/*	display: flex;
 	flex: 3;
-    justify-content: flex-start;
+    justify-content: flex-start;*/
 
-    margin-left: 2.5rem;
-    margin-top: 0.4rem;
+/*    margin-left: 2.5rem;*/
+    width: 6em;
+    height: auto;
+    margin-top: -0.2em;
 }
+
 #navigationbar{
 	display: flex;
 	flex: 2;
@@ -163,7 +167,7 @@
 /*SLIDER SECTION*/
 
 .slider{
-	background-color: #FFFFFF;
+	background-color: #EEA35E;
 	display: inline-block;
 	position:relative;
 	width:100%;
@@ -176,14 +180,20 @@
 	padding-bottom: 2rem;
 	position:relative;
 	text-align: left;
+	color: #FFFFFF;
 	
 }
+.booking_slider h1{
+	color: #FFFFFF;
+}
+
 .slider {
 
 	/*background-image:url("../img/header_img(2)-02.png");*/
 	background-size: 100%;
 	background-repeat:no-repeat;
-	display: flex;	
+	display: flex;
+
 }
 .image-icon img{
 	-webkit-box-flex: auto;
@@ -213,7 +223,6 @@
 }
 	.shower_description{
 
-	background-color: #FCF7EC;
 	}
 
 	.shower .text2{
@@ -224,7 +233,9 @@
 	  padding: 10px;
 	  flex: 1 50%;
 	}
-
+.birthday_shower{
+	background-color: #FCF7EC;
+}
 /*BUNDLES*/
 
 .bundle-1{
@@ -305,7 +316,9 @@
 
 }
 
-
+.booking_slider{
+	background: #61B7A3;
+}
 /*BOOKING BUTTON COMMOM ELEMENTS*/
 .booking-1c{
 	align-self:flex-end;
@@ -374,7 +387,12 @@
 			text-align: left;
 		}
 
-.choose_date, .choose_numpeople, .choose_contact{
+.choose_time{
+	background-color: #FCF7EC;
+}
+
+}
+.choose_date, .choose_bundle{
 	background-color: #FCF7EC;
 }
 
@@ -396,6 +414,7 @@
 }
 
 .booking{
+	
 	padding-left: 4rem;
 	padding-right:4rem; 
 	padding-bottom: 2rem;
