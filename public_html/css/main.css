@@ -1,11 +1,7 @@
-
-
 /*NORMAL ELEMENTS*/
-
 
 /*NAV BAR*/
 #navToggle {
-
 	padding-left: 4rem;
 	padding-right: 4rem;
 	display: none;
@@ -39,12 +35,14 @@
 	text-decoration: none;
 	font-size: .8rem;
 }
-
+#navigationbar img{
+    width: 6em;
+    height: auto;
+    margin-top: -0.2em;
+}
 #navigationbar .logo{
-	/*display: flex;*/
 	flex: 3;
     justify-content: flex-start;
-
     margin-left: 2.5rem;
     margin-top: 0.4rem;
 }
@@ -54,10 +52,6 @@
 	justify-content: space-around;
 	align-items: center;
 }
-
-
-
-
 
 			/*nav bar achor tag color*/
 			.home-bar a{
@@ -105,8 +99,6 @@
 
 /*LANDING HEADER*/
 /*header image*/
-
-
 /*SLIDER SECTION*/
 
 .slider{
@@ -123,11 +115,25 @@
 	padding-bottom:0.5rem;
 	position:relative;
 	text-align: left;
+	color: white;
 	
 }
 .slider {
- background-image:url(../img/body_background.jpg);
+	background-color: #EEA35E;
 	display: flex;	
+}
+.booking_slider{
+		background-color: #61B7A3;
+}
+.booking_slider .text h1{
+	width: 100%;
+	padding-left: 4rem;
+	padding-top: 3rem;
+	padding-bottom:0.5rem;
+	position:relative;
+	text-align: left;
+	color: white;
+	
 }
 .image-icon img{
 	-webkit-box-flex: auto;
@@ -341,7 +347,7 @@
 	display: -ms-flexbox;
 	display: -webkit-flex;
 	display: flex;
-	-webkit-flex-flow: row wrap;
+	-webkit-flex-flow: column wrap;
 	justify-content: space-around;
 	align-items:center;
 }
@@ -351,7 +357,7 @@
 	padding-left: 4rem;
 	padding-right:4rem; 
 	padding-bottom: 2rem;
-	-webkit-flex-flow: row wrap;
+	-webkit-flex-flow: column wrap;
 	justify-content: space-around;
 	list-style: none;
 	margin: 0; 
@@ -365,8 +371,12 @@
 	align-items:center;
 }
 
+.date{
+padding: 3rem;
+}
 	
 	.booking-1b{
+		
 		flex-grow:2;
 
 		
@@ -444,13 +454,9 @@ input[type="text"]{
 }
 
 
-
-
-
 /*BUNDLE CLASS*/
 
-.booking-bundle {
-  
+.booking-bundle {  
   padding: 0;
   margin: 0;
   list-style: none;
@@ -490,8 +496,6 @@ input[type="text"]{
 	  /*background-color: #E37955;*/
 }
 
-
-
 .bundle-item-1 img.active{
 	 /*opacity: 0.5;*/
 	 /*border-radius: 3rem;*/
@@ -527,33 +531,46 @@ input[type="text"]{
 	color: white;
 }
 
+.booking3{
+
+  list-style: none;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-flow: column wrap;
+  justify-content: center;
+  align-items:center;
+}
+
 .booking3 em{
 	display: inline-block;
 	border:solid 1px #E37955;
 	padding:0.5rem 1rem;
 	margin:0.5rem;
 }
+
 .booking3 .type{
 	background: transparent;
 	display: inline-block;
 	border:none;
 	/*padding:0.5rem 1rem;*/
-	margin:0.5rem;
+	/*margin:0.5rem;*/
 	font-style: italic;
 	font-weight: 700;
 }
 
-
 .booking4 .contact-1, .booking4 .contact-2, .booking4 .contact-3{
-	padding-left: 6rem;
+	/*padding-left: 6rem;*/
 }
 .booking-1c .payment_button{
-	padding-left: 10rem;
+	/*padding-left: 10rem;*/
 
 }
 
 .payment_button a{
-	display: inline-block;
+	/*display: inline-block;*/
 }
 
 
