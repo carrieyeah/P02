@@ -671,36 +671,112 @@ box-shadow: 0 0 0 4px rgba(255,255,255,1);
 
 
 .form{
-
-	padding: 2rem;
 	display: -webkit-box;
 	display: -moz-box;
 	display: -ms-flexbox;
 	display: -webkit-flex;
 	display: flex;
 
-	-webkit-flex-flow: row wrap;
-	justify-content: space-around;
+	padding: 10rem;
+
+/*	-webkit-flex-flow: row wrap;
+	justify-content: space-around;*/
 
 }
 
-.form2 .name2 input, .form2 .email input{
-	border:1px solid #e37955;
-	background-color: #fcf7ec; /*MILKY YELLOw*/
+.form2 .name2 input{
+	background-color: #FFFFFF; 
+}
+
+.form2 .email input{
+	background-color: #FFFFFF; 
+	margin-left: 0.5rem;
 }
 
 .text_footer textarea{
-	background-color: #fcf7ec; /*MILKY YELLOw*/
-	border:1px solid #e37955;
-	width: 25rem;
-	height: 5rem;
+	background-color: #FFFFFF; 
+
+	width: 20rem;
+	height: 7rem;
 }
 
 .name2, .email, .text_footer, .submit{
-
 	flex-grow:1;
-	padding: 1rem;
+	padding-left: 2.5rem;
+	margin: 1rem;
+}
 
+.footer_description{
+	padding-right: 2.5rem;
+	align-self:flex-start;
+}
+
+.form-main input:hover, .form-main textarea:hover,
+.form-main input:focus, .form-main textarea:focus {
+	/*border:transparent;*/
+
+}
+
+/*footer*/
+/*flex-boxing main form, (address number email)*/
+footer{
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+    -webkit-flex-flow: row;
+    align-items: flex-start;
+
+	width: 100%;
+	background-color: #61B7A3;
+}
+
+#form1{
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	justify-content: flex-start;
+	flex: 1;
+}
+
+.footer_description{
+	align-items: flex-start;
+	flex: 1;
+}
+
+.footer_description li{
+	color: #FFFFFF;
+	font-size: 0.7rem;
+	padding-left: 2rem;
+	text-align: right;
+	list-style-type: none;
+}
+
+/*flex-boxing personal info, comment box, button*/
+#form1{
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+    -webkit-flex-flow: column;
+}
+
+/*flex-boxing name, email*/
+.form2{
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+    -webkit-flex-flow: row wrap;
+}
+
+.submit{
+	align-self:flex-end;
 }
 
 .feedback-input {
@@ -717,21 +793,7 @@ box-shadow: 0 0 0 4px rgba(255,255,255,1);
 	flex-grow:1;
 }
 
-.footer_description{
-	padding-bottom: 2.5rem;
-	align-self:flex-end;
-}
-
-.form-main input:hover, .form-main textarea:hover,
-.form-main input:focus, .form-main textarea:focus {
-	/*background-color:white;*/
-	border:transparent;
-
-}
-.submit{
-	align-self:flex-end;
-}
-#button-blue{
+#submit_button{
 	
 	float:left;
 	border: #e37955 solid 2px;
@@ -753,8 +815,6 @@ box-shadow: 0 0 0 4px rgba(255,255,255,1);
 	color: #ffffff;
 }
 	
-
-
 /*MEDIA QUERIES*/
 @media all and (max-width: 1000px) {
 	.bundle-1 .image{
@@ -767,6 +827,9 @@ box-shadow: 0 0 0 4px rgba(255,255,255,1);
 	}
 }
 @media all and (max-width: 900px) {
+	.floor_plan img{
+		margin: 0;
+	}
 	.detail_description{
 		display: flex;
 		flex-flow: column;
@@ -795,9 +858,7 @@ box-shadow: 0 0 0 4px rgba(255,255,255,1);
 	padding-right: 15rem;
 	}
 
-	.button{
-		order:3;
-	}
+
 	.booking{
 	-webkit-flex-flow: row wrap;
   	justify-content: center;
@@ -869,6 +930,9 @@ box-shadow: 0 0 0 4px rgba(255,255,255,1);
 }
 
 @media all and (max-width: 680px) {
+	footer{
+		flex-flow:column;
+	}
 	.information{
 		flex-flow: column wrap;
 	 }
@@ -1083,38 +1147,5 @@ box-shadow: 0 0 0 4px rgba(255,255,255,1);
 	}
 }
 
-/*DANIEL'S FOOTER*/
-/*footer*/
-/*#footer{
-   display: flex;
-   flex-flow: row;
-   width:100%;
-   background-color: #61B7A3;
-}
-
-.footer_left{
-	display: flex;
-	flex: 1 0 0;
-
-}
-.footer_left p{
-    font-size: .5em;
-    padding-left: 3rem;
-    color: #FFFFFF;
-}
-
-.footer_right{
-	display: flex;
-	flex: 1 0 0;
-	justify-content: flex-end;
-}
-
-.footer_right ul{
-    font-size: .5rem;
-    padding-right: 2rem;
-    text-align: right;
-    list-style-type: none;
-    color: #FFFFFF;
-}*/
 
 
