@@ -100,7 +100,9 @@ $('.bundle-item-1 img').click(function(){
     });
 
 
-
+$('#wrapper .btn-container').click(function(){
+   window.location.href='_booking.html';
+})
 
 
 
