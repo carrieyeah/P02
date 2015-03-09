@@ -99,6 +99,162 @@ nav a{
 	color: #61B7A3;
 }
 
+<<<<<<< HEAD
+
+
+
+/*fOOTER*/
+
+/*@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);*/
+
+
+.form{
+	padding: 2rem;
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+
+	-webkit-flex-flow: row wrap;
+	justify-content: space-around;
+	/*width:100%;*/
+	/*float:left;*/
+	/*padding-top:30px;*/
+}
+.text_footer input{
+	width: 25rem;
+	height: 5rem;
+}
+#form1{
+
+}
+
+#form-div {
+	/*padding-top: 3rem;*/
+	/*background-color:#3c3c3c;*/
+
+	/*padding-bottom:50px;*/
+	/*width: 450px;*/
+	/*float: left;*/
+	/*left: 50%;*/
+	/*position: absolute;*/
+	/*margin-left: -260px;*/
+}
+.name2, .email, .text_footer, .submit{
+	flex-grow:1;
+	padding: 1rem;
+
+}
+
+.feedback-input {
+	opacity:0.9;
+	color:#0493bd;
+	border-radius: 0;
+	background-color: #fbfbfb;
+  	border: 3px solid #fbfbfb;
+	padding-top: 0.5rem;
+	padding-bottom: 0.5rem;
+	padding-left: 1rem;
+	padding-right: 1rem;
+	/*margin-bottom: 0.5rem;*/
+	/*width:100%;*/
+	flex-grow:1;
+}
+
+.footer_description{
+	padding-bottom: 2.5rem;
+	align-self:flex-end;
+}
+
+
+
+
+input:hover, textarea:hover,
+input:focus, textarea:focus {
+	background-color:white;
+
+}
+.submit{
+	align-self:flex-end;
+}
+#button-blue{
+	
+	float:left;
+	/*width: 100%;*/
+	border: #e37955 solid 2px;
+	cursor:pointer;
+	background-color: transparent;
+	color:#e37955;
+	/*font-size:24px;*/
+	padding-left: 2rem;
+	padding-right: 2rem;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+#button-blue:hover{
+
+	background-color: #e37955;
+	color: #ffffff;
+}
+
+/*FOOTER*/
+footer{
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+
+	-webkit-flex-flow: row wrap;
+
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	background-color: #856F73;
+
+}
+footer img{
+	width:auto;
+	height: 5em;
+}
+footer li {
+
+	color: #ffffff;
+	padding-left: 2rem;
+	display: block;
+	text-align: left;
+	text-decoration: none;
+	font-size: 0.4em;
+}
+
+/*__________________________________stuff I added*/
+/*fixed nav bar*/
+
+#navToggle {
+	display: none;
+	background-color:#E37A56;
+	text-decoration: none;
+
+}
+#navToggle p{
+	
+	text-align: center;
+	color:#FFFFFF;
+}
+#navigationbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    position: fixed;
+    z-index: 1;  /*make it above heading img*/
+    background: #FFFFFF;
+=======
 .home-bar{
 	border: 1px solid #E37A56;
 	border-color: #FFFFFF;
@@ -124,6 +280,7 @@ nav a{
 	padding-bottom: 0.3rem;
 	padding-left: 3rem;
 	padding-right: 3rem;
+>>>>>>> origin/master
 }
 
 .home-bar:hover {
@@ -225,7 +382,11 @@ nav a{
 }
 
 .text {
+<<<<<<< HEAD
+  font-family: "Open Sans", sans-serif;
+=======
   font-family: 'open sans';
+>>>>>>> origin/master
   font-size: 1rem;
   font-weight: 300;
   
@@ -255,6 +416,8 @@ nav a{
     text-align: center;
 }
 
+<<<<<<< HEAD
+=======
 .title h3{
     margin-top: 4rem;
     margin-bottom: 3rem;
@@ -341,26 +504,7 @@ nav a{
 	font-weight: 500;
 }
 */
-@media all and (max-width: 900px) {
-  .middle{
-  	flex-flow: column wrap;
-  }
-  .middle_photo{
-  	/*flex-flow:column wrap;*/
-  }
-  .middle_description{
-  	margin:1rem;
-  }
-}
 
-@media all and (max-width: 414px) {
-  .middle_description p{
-  	display: none;
-  }
-  .photo-2, .photo-3, .photo-4, .photo-5{
-  	display: none;
-  } 
-}
 
 .description_button{
 	border:1px solid #FFFFFF;
@@ -390,13 +534,13 @@ nav a{
 }
 
 
+>>>>>>> origin/master
 
 /*facilities*/
 
 .facilities_big{
 	display: flex;
 	flex-flow: column;
-
 	background: #E37A56;
 	
 }
@@ -405,6 +549,7 @@ nav a{
 	display: flex;
 	flex-flow: column;
 	align-item: center;
+	padding: 1rem;
 }
 
 .facilities_intro h2{
@@ -414,14 +559,12 @@ nav a{
 }
 
 .facilities_intro p{
-	color: #FFFFFF;
+    color: #FFFFFF;
 	text-align: center;
-
-	border-top: 1px solid #FFFFFF;
+    border-top: 1px solid #FFFFFF;
 	/*making the border L/R shorter*/
-	margin-left: 20rem;
-	margin-right: 20rem;
-	/*making the padding space top/down wider*/
+	margin-left: 5rem;
+	margin-right: 5rem;
 	padding-top: 3rem;
 }
 
@@ -439,10 +582,33 @@ nav a{
     margin-top: 5rem;
 }
 @media all and (max-width: 900px) {
-  .title p{
+	.facilities_intro{
+		margin:1rem;
+	}
+	.title p{
   	margin: 2rem;
   }
+  .middle{
+  	flex-flow: column wrap;
+  }
+  .middle_photo{
+  	/*flex-flow:column wrap;*/
+  }
+  .middle_description{
+  	margin:1rem;
+  }
 }
+
+@media all and (max-width: 414px) {
+  .middle_description p, .facilities_intro p{
+  	display: none;
+  }
+  .photo-2, .photo-3, .photo-4, .photo-5{
+  	display: none;
+  } 
+}
+
+
 @media all and (max-width: 600px) {
 	.facilities .facilities_photo{
 		flex-flow: row wrap;
@@ -492,6 +658,23 @@ nav a{
 	
 }
 
+<<<<<<< HEAD
+/*MEDIA QUERIES*/
+
+@media all and (max-width: 600px) {
+	.text input{
+		width: 20rem;
+	}
+	.text_footer{
+		padding: 0;
+	}
+}
+@media all and (max-width: 430px) {
+    .text input{
+		width: 10rem;
+	}
+		
+=======
 .floor_plan img{
 	padding-top: 10rem;
 	padding-left: 2rem;
@@ -533,4 +716,5 @@ nav a{
     list-style-type: none;
 /*    color: #646464;*/
     color: #FFFFFF;
+>>>>>>> origin/master
 }

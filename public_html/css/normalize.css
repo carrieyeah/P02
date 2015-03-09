@@ -1,0 +1,93 @@
+html{
+	background-color: #FFFFFF;
+}
+
+body{
+	background-image: url(../img/body_background.jpg);
+	margin: 0;
+	font-family: "Open Sans", sans-serif;
+	line-height: 2em;
+	font-size: 0.8em;
+}
+p{	
+	font-size : 1em;
+	font-weight: 300;
+	text-align: left;
+}
+h1{
+	line-height: 2em;
+	font-family: 'Bubblegum Sans', cursive;
+	font-weight: 700;
+	font-size: 4em;
+	color: rgb(227,121,85); /*orange*/
+}
+h2{
+	text-align: left;
+	font-family: "Open Sans", sans-serif;
+	font-size: 2.5em;
+	color: #000000;
+}
+
+h3{
+	font-family: "Open Sans", sans-serif;
+	font-size: 1.5em;
+	color: #000000;
+}
+h4{
+	font-family: "Open Sans", sans-serif;
+	font-size: 1em;
+	color: #B52185;
+}
+
+nav{
+	background-color: #FFFFFF;
+	width: 100%;
+	height: 5em;
+}
+
+nav img{
+	width: auto;
+	height: 6em;
+}
+
+nav a{
+	width: 100%;
+	font-family: "Open Sans", sans-serif;
+	font-size: 1.1em;
+}
+
+header{
+	background-color: #FFFFFF;
+}
+ul{
+ padding: 0;
+}
+
+
+/*footer{
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+    -webkit-flex-flow: row wrap;
+
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	background-color: #61B7A3;
+}
+
+footer img{}
+
+footer li{
+	color: #FFFFFF;
+	font-size: 0.5rem;
+	padding-left: 2rem;
+	text-align: right;
+	list-style-type: none;
+}
+
+select{
+	width: 80%;
+}*/
