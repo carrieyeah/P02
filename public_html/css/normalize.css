@@ -1,9 +1,107 @@
 html{
 	background-color: #FFFFFF;
 }
+/*NORMAL ELEMENTS*/
+
+/*NAV BAR*/
+#navToggle {
+	padding-left: 4rem;
+	padding-right: 4rem;
+	display: none;
+	background-color:#E37A56;
+	text-decoration: none;
+	position: fixed;
+	z-index: 9999;
+
+}
+#navToggle p{
+	margin: 0;
+	font-size: 0.5em;
+	text-align: center;
+	color:#FFFFFF;
+}
+#navigationbar {
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-flow: row wrap;
+	justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    z-index: 999;
+/*    background-image:url(../img/body_background.jpg);*/
+    background-size: 25%;
+}
+#navigationbar a{
+	text-decoration: none;
+	font-size: .8rem;
+}
+#navigationbar img{
+    width: 6em;
+    height: auto;
+    margin-top: -0.2em;
+}
+#navigationbar .logo{
+	flex: 3;
+    justify-content: flex-start;
+    margin-left: 2.5rem;
+    margin-top: 0.4rem;
+}
+#navigationbar{
+	display: flex;
+	flex: 2;
+	justify-content: space-around;
+	align-items: center;
+}
+
+			/*nav bar achor tag color*/
+			.home-bar a{
+				color: #E37A56;
+			}
+
+			.bundle-bar a{
+				color: #EEA35E;
+			}
+
+			.booking-bar{
+				color: #6e8d9b;
+				border:1px solid #6e8d9b;
+				padding-top: 0.5rem;
+				padding-bottom: 0.5rem;
+				padding-left: 5rem;
+				padding-right: 5rem;
+			}
+			.booking-bar a{
+				/*border:1px solid #61B7A3;*/
+				color: #6e8d9b;
+			}
+
+			.home-bar:hover {
+
+				border-bottom: 3px solid #E37A56;
+			}
+
+			.bundle-bar:hover {
+
+				border-bottom: 3px solid #EEA35E;
+			}
+
+			.booking-bar:hover {
+				-webkit-transition: background-color .5s ease-out;
+				-moz-transition: background-color .5s ease-out;
+				-o-transition: background-color .5s ease-out;
+				transition: background-color .5s ease-out;
+				background: #6e8d9b;
+			}
+			.booking-bar:hover a{
+				color: #FFFFFF;
+			}
+
 
 body{
-	background-image: url(../img/body_background.jpg);
+	/*background-image: url(../img/body_background.jpg);*/
 	margin: 0;
 	font-family: "Open Sans", sans-serif;
 	line-height: 2em;
@@ -36,7 +134,7 @@ h3{
 h4{
 	font-family: "Open Sans", sans-serif;
 	font-size: 1em;
-	color: #B52185;
+	color: #c86b84;
 }
 
 nav{
@@ -63,31 +161,3 @@ ul{
  padding: 0;
 }
 
-
-/*footer{
-	display: -webkit-box;
-	display: -moz-box;
-	display: -ms-flexbox;
-	display: -webkit-flex;
-	display: flex;
-    -webkit-flex-flow: row wrap;
-
-	width: 100%;
-	margin: 0;
-	padding: 0;
-	background-color: #61B7A3;
-}
-
-footer img{}
-
-footer li{
-	color: #FFFFFF;
-	font-size: 0.5rem;
-	padding-left: 2rem;
-	text-align: right;
-	list-style-type: none;
-}
-
-select{
-	width: 80%;
-}*/
