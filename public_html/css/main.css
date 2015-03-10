@@ -1,4 +1,5 @@
 
+<<<<<<< HEAD
 
 /*NORMAL ELEMENTS*/
 
@@ -160,27 +161,37 @@
 			}
 
 
+=======
+>>>>>>> origin/master
 /*LANDING HEADER*/
 /*header image*/
-
-
 /*SLIDER SECTION*/
 
 .slider{
+<<<<<<< HEAD
 	background-color: #EEA35E;
+=======
+
+	background-color: #FFFFFF;
+>>>>>>> origin/master
 	display: inline-block;
 	position:relative;
 	width:100%;
 }
 
 .slider .text{
+
 	width: 100%;
 	padding-left: 4rem;
 	padding-top: 8rem;
 	padding-bottom: 2rem;
 	position:relative;
 	text-align: left;
+<<<<<<< HEAD
 	color: #FFFFFF;
+=======
+	color: white;
+>>>>>>> origin/master
 	
 }
 .booking_slider h1{
@@ -188,12 +199,30 @@
 }
 
 .slider {
+<<<<<<< HEAD
 
 	/*background-image:url("../img/header_img(2)-02.png");*/
 	background-size: 100%;
 	background-repeat:no-repeat;
 	display: flex;
 
+=======
+	background-color: #EEA35E;
+	display: flex;	
+>>>>>>> origin/master
+}
+.booking_slider, .payment_slider{
+		background-color: #6e8d9b;
+}
+.booking_slider .text h1{
+	width: 100%;
+	padding-left: 4rem;
+	padding-top: 3rem;
+	padding-bottom:0.5rem;
+	position:relative;
+	text-align: left;
+	color: white;
+	
 }
 .image-icon img{
 	-webkit-box-flex: auto;
@@ -320,9 +349,7 @@
 	background: #61B7A3;
 }
 /*BOOKING BUTTON COMMOM ELEMENTS*/
-.booking-1c{
-	align-self:flex-end;
-}
+
 
 .booking_button{
 	text-align: center;
@@ -330,7 +357,7 @@
 }
 .payment_button{
 	padding-top: 2rem;
-	padding-left: 6rem;
+
 
 }
 .booking_button a, .payment_button a{
@@ -358,6 +385,7 @@
 }
 
 /*BOOKING ELEMENTS*/
+<<<<<<< HEAD
 	.booking-1c{
 		padding-left: 3rem;
 		padding-right: 3rem;
@@ -366,8 +394,11 @@
 		padding-left: 3rem;
 		padding-right: 3rem;
 	}
+=======
+	
+>>>>>>> origin/master
 	.booking-1a{
-		padding-left: 3rem;
+		/*padding-left: 3rem;*/
 		width: 100%;
 		margin: 0; 
 		display: -webkit-box;
@@ -377,22 +408,74 @@
 		display: flex;
 		-webkit-flex-flow: row wrap;
 	}
+	
+	 .start_time{
+	  		display: -webkit-box;
+			display: -moz-box;
+			display: -ms-flexbox;
+			display: -webkit-flex;
+			display: flex;
+			-webkit-flex-flow: row wrap;
+	  }
 
-		.booking-1a .image-icon img{
+	  .time1, .time2{
+	  	padding: 0.5rem;
+	  }
 
-			padding: 1rem;
-		}
-		.booking-1a .sub-title h2 {
-			padding-top: 1.5rem;
-			text-align: left;
-		}
+	  .booking_title{
+			padding-top: 2rem;
+			margin: 0; 
+			display: -webkit-box;
+			display: -moz-box;
+			display: -ms-flexbox;
+			display: -webkit-flex;
+			display: flex;
+			-webkit-flex-flow: row wrap;
+			justify-content: center;
+			align-items:center ;
+	  }
 
+
+.booking_title h2{
+	text-align: center;
+	/*padding-right: 3rem;*/
+/*	padding-top: 1rem;
+	padding-bottom: 1rem;*/
+	/*flex-grow:1;*/
+}
+
+	  
+				.booking-1a .image-icon img{
+
+					padding: 1rem;
+				}
+				.booking-1a .sub-title h2 {
+					/*padding-top: 1.5rem;*/
+					text-align: center;
+					font-weight: 700;
+					font-size: 1.5rem;
+					padding:2rem; 
+				}
+
+
+<<<<<<< HEAD
 .choose_time{
 	background-color: #FCF7EC;
 }
 
 }
 .choose_date, .choose_bundle{
+=======
+.choose_date, .choose_numpeople, .choose_contact{
+	background-color: #FCF7EC;
+	align-items:center;
+
+}
+
+
+.booking2{
+	text-align: center;
+>>>>>>> origin/master
 	background-color: #FCF7EC;
 }
 
@@ -400,8 +483,37 @@
 	padding-left: 4rem;
 	padding-right:4rem; 
 	padding-bottom: 2rem;
+	list-style: none;
+	margin: 0; 
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-flow: row wrap;
+	justify-content: space-around;
+	align-items:center;
+}
+
+.choose_date{
+	text-align: center;
+	background-color: #FCF7EC;
+	padding-bottom: 2rem;
+	list-style: none;
+	margin: 0; 
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
 	-webkit-flex-flow: column wrap;
 	justify-content: space-around;
+	align-items:center;
+}
+.choose_time{
+		text-align: center;
+	background-color: #FCF7EC;
+	padding-bottom: 2rem;
 	list-style: none;
 	margin: 0; 
 	display: -webkit-box;
@@ -413,12 +525,32 @@
 	justify-content: space-around;
 }
 
-.booking{
-	
+.booking3{
+	text-align: center;
+	background-color: #FCF7EC;
 	padding-left: 4rem;
 	padding-right:4rem; 
 	padding-bottom: 2rem;
-	-webkit-flex-flow: row wrap;
+	-webkit-flex-flow: column wrap;
+	justify-content: space-around; 
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	align-items:center;
+}
+.booking{
+<<<<<<< HEAD
+	
+=======
+	text-align: center;
+	background-color: #FCF7EC;
+>>>>>>> origin/master
+	padding-left: 4rem;
+	padding-right:4rem; 
+	padding-bottom: 2rem;
+	
 	justify-content: space-around;
 	list-style: none;
 	margin: 0; 
@@ -428,20 +560,24 @@
 	display: -webkit-flex;
 	display: flex;
 	-webkit-flex-flow: row wrap;
+<<<<<<< HEAD
 	justify-content: space-around;
+=======
+	/*justify-content: space-around;*/
+	align-items:center;
+>>>>>>> origin/master
 }
 
-	
+
 	.booking-1b{
+		padding: 2rem;
+
 		flex-grow:2;
 		
 	}
 
-.sub-title h2{
-	text-align: center;
-}
-/*SELECT DROPDOWN ELEMENS*/
 
+<<<<<<< HEAD
 .style-select select{
 	border-color: #E37955;
 	background: transparent;
@@ -451,6 +587,10 @@
 	width: 90px;
 }
 	.rounded {
+=======
+/*SELECT DROPDOWN ELEMENS*/
+.rounded {
+>>>>>>> origin/master
 	   -webkit-border-radius: 20px;
 	   -moz-border-radius: 20px;
 	   border-radius: 20px;
@@ -464,16 +604,43 @@
 	background: #E37955;
 	color: #ffffff;
 }
+<<<<<<< HEAD
+=======
+input[type="text"]{
+	font-family: "Open Sans", sans-serif;
+}
+.style-select select{
+	font-family: "Open Sans", sans-serif;
+	text-align: center;
+	font-weight: 500;
+	border-color: #E37955;
+	background: transparent;
+	font-size:1rem;
+	height: 50px;
+	border-radius: 1em;
+
+}
+>>>>>>> origin/master
 
 .style-select input{
 	text-align: center;
 	/*color: #FFF3ff;*/
-	border-color: #E37955;
+	/*border-color: transparent;*/
 	background: transparent;
+<<<<<<< HEAD
 	font-size:14px;
 	height: 25px;
 	padding: 2rem; /* If you add too much padding here, the options won't show in IE */
 	width: 90px;
+=======
+	border: 1px solid #E37955;
+	font-size:1rem;
+	/*height: 25px;*/
+	padding: 2rem; /* If you add too much padding here, the options won't show in IE */
+	/*width: auto;*/
+	border-radius: 1em;
+	/*border: none;*/
+>>>>>>> origin/master
 }
 
 .style-select input:hover{
@@ -481,18 +648,16 @@
 	-moz-transition: background-color .5s ease-out;
 	-o-transition: background-color .5s ease-out;
 	transition: background-color .5s ease-out;
-	background: #E37955;
-	color: #ffffff;
+	/*background: #E37955;*/
+	border: 1px solid #E37955;
+	border-radius: 1em;
+	color: #E37955;
 }
-
-
-
 
 
 /*BUNDLE CLASS*/
 
-.booking-bundle {
-  
+.booking-bundle {  
   padding: 0;
   margin: 0;
   list-style: none;
@@ -532,8 +697,6 @@ box-shadow: 0 0 0 4px rgba(255,255,255,1);
 	  border:1px solid #E37955;
 }
 
-
-
 .bundle-item-1 img.active{
 	 /*opacity: 0.5;*/
 	 border-radius: 3rem;
@@ -542,9 +705,7 @@ box-shadow: 0 0 0 4px rgba(255,255,255,1);
 	 transition: background 1s, color 1s;
 }
 
-.sub-title h2{
-	text-align: center;
-}
+
 /*SELECT DROPDOWN ELEMENS*/
 
 [class^='contact-']{
@@ -565,23 +726,38 @@ box-shadow: 0 0 0 4px rgba(255,255,255,1);
 	border-color: #F7DFD1;
 }
 
+.booking3{
+
+  list-style: none;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-flow: column wrap;
+  justify-content: center;
+  align-items:center;
+}
+
 .booking3 em{
 	display: inline-block;
 	border:solid 1px rgba(109, 110, 113,0.4);
 	padding:0.5rem 1rem;
 	margin:0.5rem;
 }
+
 .booking3 .type{
 	background: transparent;
 	display: inline-block;
 	border:none;
 	/*padding:0.5rem 1rem;*/
-	margin:0.5rem;
+	/*margin:0.5rem;*/
 	font-style: italic;
 	font-weight: 700;
 }
 
 
+<<<<<<< HEAD
 .booking4 .contact-1, .booking4 .contact-2, .booking4 .contact-3{
 	padding-left: 6rem;
 }
@@ -589,11 +765,13 @@ box-shadow: 0 0 0 4px rgba(255,255,255,1);
 	padding-left: 10rem;
 }
 
+=======
+>>>>>>> origin/master
 
 /*PAYMENT*/
 
 .payment{
-
+	background-color: #fcf7ec;
 	margin: 0; 
 	display: -webkit-box;
 	display: -moz-box;
@@ -636,6 +814,11 @@ box-shadow: 0 0 0 4px rgba(255,255,255,1);
 	justify-content: space-around;
 	align-items:center ;
 	padding: 2rem;
+}
+.payment-input{
+	background-color: #e4d3b8;
+	border: 1px solid #e4d3b8;
+	border-radius: 1em;
 }
 .payment-title img{
 	width: 2.5rem;
@@ -709,7 +892,6 @@ box-shadow: 0 0 0 4px rgba(255,255,255,1);
 
 .form2 .email input{
 	background-color: #FFFFFF; 
-	margin-left: 0.5rem;
 }
 
 .text_footer textarea{
@@ -719,9 +901,12 @@ box-shadow: 0 0 0 4px rgba(255,255,255,1);
 	height: 7rem;
 }
 
-.name2, .email, .text_footer, .submit{
-	flex-grow:1;
+.name2, .email, .text_footer{
+	/*flex-grow:1;*/
 	padding-left: 2.5rem;
+	margin: 1rem;
+}
+.submit{
 	margin: 1rem;
 }
 
@@ -739,31 +924,18 @@ box-shadow: 0 0 0 4px rgba(255,255,255,1);
 /*footer*/
 /*flex-boxing main form, (address number email)*/
 footer{
-	display: -webkit-box;
-	display: -moz-box;
-	display: -ms-flexbox;
-	display: -webkit-flex;
-	display: flex;
-    -webkit-flex-flow: row;
-    align-items: flex-start;
-
 	width: 100%;
 	background-color: #61B7A3;
 }
 
-#form1{
-	display: -webkit-box;
-	display: -moz-box;
-	display: -ms-flexbox;
-	display: -webkit-flex;
-	display: flex;
-	justify-content: flex-start;
-	flex: 1;
-}
 
 .footer_description{
+<<<<<<< HEAD
 	align-items: flex-start;
 	flex: 1;
+=======
+	align-self:flex-end;
+>>>>>>> origin/master
 }
 
 .footer_description li{
@@ -794,9 +966,7 @@ footer{
     -webkit-flex-flow: row wrap;
 }
 
-.submit{
-	align-self:flex-end;
-}
+
 
 .feedback-input {
 
@@ -809,14 +979,22 @@ footer{
 	padding-bottom: 0.5rem;
 	padding-left: 1rem;
 	padding-right: 1rem;
-	flex-grow:1;
+	/*flex-grow:1;*/
 }
+
+.disp{
+
+	align-self:start;
+	font-size: 1.5em;
+	padding: 3.5rem;
+	color: #70655e;
+	font-weight: 500;
+}
+
 
 #submit_button{
 	
-	float:left;
 	border: #e37955 solid 2px;
-	cursor:pointer;
 	background-color: transparent;
 	color:#e37955;
 	padding-left: 2rem;
@@ -887,7 +1065,31 @@ footer{
     justify-content: space-around;
   }
 }
+<<<<<<< HEAD
 
+=======
+@media all and (max-width: 800px) {
+	#form1{
+		/*padding: 1rem;*/
+		margin: 0;
+		flex-flow:column;
+		justify-content:center;
+	}
+	.form-main{
+		width: 100%;
+	}
+	.submit{
+	padding-left: 4rem;
+}
+	.form2{
+		padding: 0;
+		margin: 0;
+	}
+	.booking2{
+		flex-flow:column;
+	}
+	}
+>>>>>>> origin/master
 @media all and (max-width: 800px) {
 	.shower .text2{
 		padding-right: 10rem;
@@ -992,10 +1194,7 @@ footer{
 		padding: 1rem;
 		width: auto;
 	}
-	.booking-1b .booking_button, .payment_button{
-		padding-top: 2rem;
 
-	}
 
   .booking, .booking, #navigationbar, .booking-1a, .booking-1c, .booking-1c .calendar{
     -webkit-flex-flow: row wrap;
@@ -1003,6 +1202,16 @@ footer{
     padding: 1rem;
   }
 
+<<<<<<< HEAD
+=======
+
+  .choose_numpeople .booking_button{
+  		padding-left: 4rem;
+  		padding-right: 4rem;
+  		
+  	}
+
+>>>>>>> origin/master
     .shower{
     	padding: 1rem;
     }
@@ -1050,7 +1259,6 @@ footer{
 			padding: 0;
 		}
 		.payment{
-
 			padding: 1rem;
 		}
 
@@ -1115,6 +1323,9 @@ footer{
 	}
 	.shower .text2{
     	padding:1rem;
+    }
+    .booking3{
+    	padding: 1rem;
     }
     
 }
