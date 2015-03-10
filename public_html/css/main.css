@@ -183,18 +183,25 @@
 	padding-bottom:0.5rem;
 	position:relative;
 	text-align: left;
-	color: white;
 	
 }
+
 .slider {
 	background-color: #EEA35E;
 	display: flex;	
 }
+
+.theme_slider{
+	background-image:url(../img/booking_slider_image.jpg); 
+	background-size: 100%;
+}
+
+
 .booking_slider, .payment_slider{
 	background-image:url(../img/slider_image.jpg); 
 	background-size: 100%;
-		background-color: #6e8d9b;
 }
+
 .booking_slider .text h1{
 	width: 100%;
 	padding-left: 4rem;
@@ -203,8 +210,18 @@
 	position:relative;
 	text-align: left;
 	color: white;
-	
 }
+.theme_slider .text h1{
+	width: 100%;
+	padding-left: 5rem;
+	padding-top: 4rem;
+	padding-bottom: 1rem;
+	position:relative;
+	text-align: left;
+	color: white;
+	margin: 0;
+}
+
 .image-icon img{
 	-webkit-box-flex: auto;
 	-ms-flex: auto;
@@ -219,6 +236,7 @@
 
 /*THEME BUNDLES CSS*/
 .shower{
+	background-color: #FCF7EC;
 	list-style: none;
 	display: -webkit-box;
 	display: -moz-box;
@@ -227,17 +245,28 @@
 	display: flex;
 	padding-left: 4rem;
 	padding-right:4rem; 
-	-webkit-flex-flow: row wrap;
-	justify-content: center;
+	/*-webkit-flex-flow: row wrap;*/
 	
 }
-	.shower_description{
 
-	background-color: #FCF7EC;
+	.text_big{
+	    list-style: none;
+	    display: -webkit-box;
+	    display: -moz-box;
+	    display: -ms-flexbox;
+	    display: -webkit-flex;
+	    display: flex;
+		-webkit-flex-flow: column wrap;
+	    justify-content: center;
+	    align-items:center;
+	    padding: 4rem;
+
 	}
-
-	.shower .text2{
-		padding-right: 25rem;
+	.text2{
+		width: 80%;
+		/*padding-right: 25rem;*/
+		text-align: center;
+		/*self-align:center;*/
 
 	}
 	.shower > * {
@@ -274,9 +303,8 @@
 	display: -webkit-flex;
 	display: flex;
 	-webkit-flex-flow: row wrap;
-	padding: 2rem;
-	justify-content: space-around;
-
+	padding: 4rem;
+	/*justify-content: flex-start;*/
 }
 
 .bundle_description-1 li{
@@ -328,7 +356,6 @@
 
 /*BOOKING BUTTON COMMOM ELEMENTS*/
 
-
 .booking_button{
 	text-align: center;
 	padding: 2rem;
@@ -343,8 +370,6 @@
 	padding-right:3rem;
 	padding-top: 1rem;
 	padding-bottom: 1rem;
-	/*width: 100%;*/
-	/*display: inline-block;*/
 	font-size: 1em;
 	border: 2px solid #FFFFFF;
 	border-color: #E37955;
@@ -589,7 +614,9 @@ input[type="text"]{
 
 
 /*BUNDLE CLASS*/
-
+.bundle_description-1a, .bundle_description-1b{
+	padding: 2rem;
+}
 .booking-bundle {  
   padding: 0;
   margin: 0;
@@ -603,12 +630,12 @@ input[type="text"]{
   justify-content: space-around;
 }
 [class^= 'bundle-item-']{
-	padding-left:2rem; 
+/*	padding-left:2rem; 
 	padding-right:2rem; 
 	width: 200px;
 	height: 200px;
 	text-align: center;
-	padding-top: 2rem;
+	padding-top: 2rem;*/
 }
 .image{
 	position: relative;
