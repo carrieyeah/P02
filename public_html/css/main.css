@@ -212,6 +212,8 @@
 >>>>>>> origin/master
 }
 .booking_slider, .payment_slider{
+	background-image:url(../img/slider_image.jpg); 
+	background-size: 100%;
 		background-color: #6e8d9b;
 }
 .booking_slider .text h1{
@@ -459,6 +461,7 @@
 
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 .choose_time{
 	background-color: #FCF7EC;
 }
@@ -467,9 +470,14 @@
 .choose_date, .choose_bundle{
 =======
 .choose_date, .choose_numpeople, .choose_contact{
+=======
+.choose_date, .choose_contact{
+>>>>>>> origin/master
 	background-color: #FCF7EC;
 	align-items:center;
-
+}
+.choose_numpeople{
+	background-color: #FFFFFF;
 }
 
 
@@ -490,7 +498,7 @@
 	display: -ms-flexbox;
 	display: -webkit-flex;
 	display: flex;
-	-webkit-flex-flow: row wrap;
+	-webkit-flex-flow: column wrap;
 	justify-content: space-around;
 	align-items:center;
 }
