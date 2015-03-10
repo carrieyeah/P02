@@ -168,12 +168,8 @@
 /*SLIDER SECTION*/
 
 .slider{
-<<<<<<< HEAD
-	background-color: #EEA35E;
-=======
 
 	background-color: #FFFFFF;
->>>>>>> origin/master
 	display: inline-block;
 	position:relative;
 	width:100%;
@@ -183,35 +179,20 @@
 
 	width: 100%;
 	padding-left: 4rem;
-	padding-top: 8rem;
-	padding-bottom: 2rem;
+	padding-top: 3rem;
+	padding-bottom:0.5rem;
 	position:relative;
 	text-align: left;
-<<<<<<< HEAD
-	color: #FFFFFF;
-=======
 	color: white;
->>>>>>> origin/master
 	
 }
-.booking_slider h1{
-	color: #FFFFFF;
-}
-
 .slider {
-<<<<<<< HEAD
-
-	/*background-image:url("../img/header_img(2)-02.png");*/
-	background-size: 100%;
-	background-repeat:no-repeat;
-	display: flex;
-
-=======
 	background-color: #EEA35E;
 	display: flex;	
->>>>>>> origin/master
 }
 .booking_slider, .payment_slider{
+	background-image:url(../img/slider_image.jpg); 
+	background-size: 100%;
 		background-color: #6e8d9b;
 }
 .booking_slider .text h1{
@@ -252,6 +233,7 @@
 }
 	.shower_description{
 
+	background-color: #FCF7EC;
 	}
 
 	.shower .text2{
@@ -262,9 +244,7 @@
 	  padding: 10px;
 	  flex: 1 50%;
 	}
-.birthday_shower{
-	background-color: #FCF7EC;
-}
+
 /*BUNDLES*/
 
 .bundle-1{
@@ -331,7 +311,7 @@
 
 .booking_button a{
 	padding: 1rem;
-	width: 100%;
+	/*width: 100%;*/
 	display: inline-block;
 	font-size: 1em;
 	border: 2px solid #FFFFFF;
@@ -345,9 +325,7 @@
 
 }
 
-.booking_slider{
-	background: #61B7A3;
-}
+
 /*BOOKING BUTTON COMMOM ELEMENTS*/
 
 
@@ -385,18 +363,7 @@
 }
 
 /*BOOKING ELEMENTS*/
-<<<<<<< HEAD
-	.booking-1c{
-		padding-left: 3rem;
-		padding-right: 3rem;
-	}
-	.booking-1b{
-		padding-left: 3rem;
-		padding-right: 3rem;
-	}
-=======
 	
->>>>>>> origin/master
 	.booking-1a{
 		/*padding-left: 3rem;*/
 		width: 100%;
@@ -407,6 +374,7 @@
 		display: -webkit-flex;
 		display: flex;
 		-webkit-flex-flow: row wrap;
+		self-align:center;
 	}
 	
 	 .start_time{
@@ -458,28 +426,18 @@
 				}
 
 
-<<<<<<< HEAD
-.choose_time{
-	background-color: #FCF7EC;
-}
-
-}
-.choose_date, .choose_bundle{
-=======
-.choose_date, .choose_numpeople, .choose_contact{
+.choose_date, .choose_contact{
 	background-color: #FCF7EC;
 	align-items:center;
-
+}
+.choose_numpeople{
+	background-color: #FFFFFF;
 }
 
 
 .booking2{
 	text-align: center;
->>>>>>> origin/master
 	background-color: #FCF7EC;
-}
-
-.booking2{
 	padding-left: 4rem;
 	padding-right:4rem; 
 	padding-bottom: 2rem;
@@ -490,7 +448,7 @@
 	display: -ms-flexbox;
 	display: -webkit-flex;
 	display: flex;
-	-webkit-flex-flow: row wrap;
+	-webkit-flex-flow: column wrap;
 	justify-content: space-around;
 	align-items:center;
 }
@@ -523,6 +481,7 @@
 	display: flex;
 	-webkit-flex-flow: row wrap;
 	justify-content: space-around;
+	align-items:center;
 }
 
 .booking3{
@@ -541,12 +500,8 @@
 	align-items:center;
 }
 .booking{
-<<<<<<< HEAD
-	
-=======
 	text-align: center;
 	background-color: #FCF7EC;
->>>>>>> origin/master
 	padding-left: 4rem;
 	padding-right:4rem; 
 	padding-bottom: 2rem;
@@ -560,12 +515,8 @@
 	display: -webkit-flex;
 	display: flex;
 	-webkit-flex-flow: row wrap;
-<<<<<<< HEAD
-	justify-content: space-around;
-=======
 	/*justify-content: space-around;*/
 	align-items:center;
->>>>>>> origin/master
 }
 
 
@@ -573,24 +524,13 @@
 		padding: 2rem;
 
 		flex-grow:2;
+
 		
 	}
 
 
-<<<<<<< HEAD
-.style-select select{
-	border-color: #E37955;
-	background: transparent;
-	font-size: 14px;
-	height: 90px;
-	padding: 2rem; /* If you add too much padding here, the options won't show in IE */
-	width: 90px;
-}
-	.rounded {
-=======
 /*SELECT DROPDOWN ELEMENS*/
 .rounded {
->>>>>>> origin/master
 	   -webkit-border-radius: 20px;
 	   -moz-border-radius: 20px;
 	   border-radius: 20px;
@@ -604,8 +544,6 @@
 	background: #E37955;
 	color: #ffffff;
 }
-<<<<<<< HEAD
-=======
 input[type="text"]{
 	font-family: "Open Sans", sans-serif;
 }
@@ -620,19 +558,15 @@ input[type="text"]{
 	border-radius: 1em;
 
 }
->>>>>>> origin/master
 
 .style-select input{
+	width: 90px;
+	font-family: "Open Sans", sans-serif;
 	text-align: center;
+	font-weight: 500;
 	/*color: #FFF3ff;*/
 	/*border-color: transparent;*/
 	background: transparent;
-<<<<<<< HEAD
-	font-size:14px;
-	height: 25px;
-	padding: 2rem; /* If you add too much padding here, the options won't show in IE */
-	width: 90px;
-=======
 	border: 1px solid #E37955;
 	font-size:1rem;
 	/*height: 25px;*/
@@ -640,7 +574,6 @@ input[type="text"]{
 	/*width: auto;*/
 	border-radius: 1em;
 	/*border: none;*/
->>>>>>> origin/master
 }
 
 .style-select input:hover{
@@ -682,24 +615,24 @@ input[type="text"]{
 }
 
 .bundle-item-1 img{
- border:1px solid #E37955;
-box-shadow: 0 0 0 4px rgba(255,255,255,1);
+	 border:1px solid #E37955;
 	transition: background 0.2s, color 0.2s;
 	width: 200px;
 	height: auto;
 	text-align: center;
 }
 .bundle-item-1 img:hover{
-	background: rgba(255,255,255,1);
+	background-color: #f4c9bb;
 	color: #64bb5d;
-	border-radius: 3rem;
+	/*border-radius: 3rem;*/
 	 /*opacity: 0.5; */
 	  border:1px solid #E37955;
+	  /*background-color: #E37955;*/
 }
 
 .bundle-item-1 img.active{
 	 /*opacity: 0.5;*/
-	 border-radius: 3rem;
+	 /*border-radius: 3rem;*/
 	 background-color: #E37955;
 	 border:1px solid #E37955;
 	 transition: background 1s, color 1s;
@@ -722,8 +655,12 @@ box-shadow: 0 0 0 4px rgba(255,255,255,1);
 }
 
 .contact-1 input:hover, .contact-2 input:hover, .contact-3 input:hover{
-	background: transparent;
-	border-color: #F7DFD1;
+	background: #E37955;
+	/*border-color: #F7DFD1;*/
+	color: white;
+}
+.contact-1 .placeholder{
+	color: white;
 }
 
 .booking3{
@@ -741,7 +678,7 @@ box-shadow: 0 0 0 4px rgba(255,255,255,1);
 
 .booking3 em{
 	display: inline-block;
-	border:solid 1px rgba(109, 110, 113,0.4);
+	border:solid 1px #E37955;
 	padding:0.5rem 1rem;
 	margin:0.5rem;
 }
@@ -757,16 +694,6 @@ box-shadow: 0 0 0 4px rgba(255,255,255,1);
 }
 
 
-<<<<<<< HEAD
-.booking4 .contact-1, .booking4 .contact-2, .booking4 .contact-3{
-	padding-left: 6rem;
-}
-.booking-1c .payment_button{
-	padding-left: 10rem;
-}
-
-=======
->>>>>>> origin/master
 
 /*PAYMENT*/
 
@@ -783,7 +710,6 @@ box-shadow: 0 0 0 4px rgba(255,255,255,1);
 	align-items:center ;
 	/*background-color: #000000;*/
 }
-
 .payment-title{
 	padding-top: 2rem;
 	margin: 0; 
@@ -925,25 +851,21 @@ box-shadow: 0 0 0 4px rgba(255,255,255,1);
 /*flex-boxing main form, (address number email)*/
 footer{
 	width: 100%;
-	background-color: #61B7A3;
+	background-color: #e4d3b8;
 }
 
 
 .footer_description{
-<<<<<<< HEAD
-	align-items: flex-start;
-	flex: 1;
-=======
 	align-self:flex-end;
->>>>>>> origin/master
 }
 
 .footer_description li{
-	color: #FFFFFF;
+	color: #999999;
 	font-size: 0.7rem;
 	padding-left: 2rem;
 	text-align: right;
 	list-style-type: none;
+
 }
 
 /*flex-boxing personal info, comment box, button*/
@@ -953,7 +875,7 @@ footer{
 	display: -ms-flexbox;
 	display: -webkit-flex;
 	display: flex;
-    -webkit-flex-flow: column;
+    -webkit-flex-flow: row;
 }
 
 /*flex-boxing name, email*/
@@ -963,8 +885,9 @@ footer{
 	display: -ms-flexbox;
 	display: -webkit-flex;
 	display: flex;
-    -webkit-flex-flow: row wrap;
+    -webkit-flex-flow: column wrap;
 }
+
 
 
 
@@ -1006,13 +929,21 @@ footer{
 	transition: all 0.3s;
 }
 
-#button-blue:hover{
+#submit_button:hover{
 
 	background-color: #e37955;
 	color: #ffffff;
 }
 	
 /*MEDIA QUERIES*/
+@media all and (max-width: 1100px) {
+	 footer{
+	 	flex-flow:column;
+	 }
+	 	  .middle_description p, .facilities_intro p{
+  	margin:2rem;
+  }
+	}
 @media all and (max-width: 1000px) {
 	.bundle-1 .image{
 		-webkit-box-flex: auto;
@@ -1022,6 +953,9 @@ footer{
 	 .shower .text2{
 		padding-right: 20rem;
 	}
+	  .middle_description p, .facilities_intro p{
+  	margin:2rem;
+  }
 }
 @media all and (max-width: 900px) {
 	.floor_plan img{
@@ -1046,11 +980,11 @@ footer{
   	flex-flow: column wrap;
   }
   .middle_photo{
-  	/*flex-flow:column wrap;*/
+  	margin: 0;
+  	padding: 0;
   }
-  .middle_description, .facilities_intro{
-  	margin:1rem;
-  }
+
+  
 	.shower .text2{
 	padding-right: 15rem;
 	}
@@ -1065,9 +999,6 @@ footer{
     justify-content: space-around;
   }
 }
-<<<<<<< HEAD
-
-=======
 @media all and (max-width: 800px) {
 	#form1{
 		/*padding: 1rem;*/
@@ -1089,7 +1020,6 @@ footer{
 		flex-flow:column;
 	}
 	}
->>>>>>> origin/master
 @media all and (max-width: 800px) {
 	.shower .text2{
 		padding-right: 10rem;
@@ -1180,13 +1110,18 @@ footer{
     flex-flow: column wrap;
     padding: 0;
   }
+
+  		#navigationbar img{
+  			display: none;
+  		}
 		  #navigationbar li:last-of-type a {
 		    border-bottom: none;
 		  }
 		  .bundle-bar a, .booking-bar a, .home-bar a { 
 		    text-align: center; 
-		    padding: 10px;
-		   
+		    padding: 0;
+		   	display: inline-block;
+		 
 		  }
 
 
@@ -1200,10 +1135,9 @@ footer{
     -webkit-flex-flow: row wrap;
     flex-flow: row wrap;
     padding: 1rem;
+
   }
 
-<<<<<<< HEAD
-=======
 
   .choose_numpeople .booking_button{
   		padding-left: 4rem;
@@ -1211,7 +1145,6 @@ footer{
   		
   	}
 
->>>>>>> origin/master
     .shower{
     	padding: 1rem;
     }
@@ -1298,12 +1231,31 @@ footer{
 	.payment_button{
 		padding: 1rem;
 	}
+	.payment-image{
+		display: none;
+	}
 
 }
 
 @media all and (max-width: 430px) {
     .text input{
 		width: 15rem;
+	}
+	#wrapper{
+		order:1;
+		padding: 0;
+	}
+	.title_middle{
+		order:2;
+	}
+	.title_middle h1{
+		font-size: 4em;
+		padding: 0;
+		margin: 0;
+		padding-bottom: 2rem;
+	}
+	.title_middle h3{
+		display: none;
 	}
 		
 }
@@ -1334,9 +1286,9 @@ footer{
 	
 	.contact-1 input, .contact-2 input, .contact-3 input{
 	
-	height: 10px;
-	padding: 1rem; /* If you add too much padding here, the options won't show in IE */
-	width: 100px;
+	/*height: 10px;*/
+	 /* If you add too much padding here, the options won't show in IE */
+	width: 100%;
 	border-radius: 20px;
 	border-color: transparent;
 	background: #F7DFD1;
@@ -1360,7 +1312,7 @@ footer{
 	
 	height: 10px;
 	padding: 1rem; /* If you add too much padding here, the options won't show in IE */
-	width: 100px;
+	width: 100%;
 	border-radius: 20px;
 	border-color: transparent;
 	background: #F7DFD1;
@@ -1376,6 +1328,3 @@ footer{
 
 	}
 }
-
-
-
